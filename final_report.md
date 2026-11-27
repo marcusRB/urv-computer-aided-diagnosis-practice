@@ -4,8 +4,8 @@
 - **Author:** Marco Russo
 - **E-Mail:** marco.russo@estudiants.urv.cat
 - **Delivery deadline:** 27 November 2026
-
-- **GitHub repository:** https://github.com/marcusRB/urv-computer-aided-diagnosis-practice 
+- **GitHub repository:** [https://github.com/marcusRB/urv-computer-aided-diagnosis-practice]
+  
 ---
 
 ## 1. Setup and methods
@@ -273,55 +273,41 @@ Load time 87.0 s.
 
 **System: generic · Prompt: flu_brief** (35.8 s, 142 tokens, 3.97 tokens/s)
 
-~~~text
-The symptoms you describe are consistent with the flu, commonly referred to as influenza or the "flu." The flu usually lasts for about 1-2 weeks, and it can cause severe symptoms, such as fever, body aches, a dry cough, a sore throat, and tiredness. The flu can be caused by various strains of influenza virus, which includes the H1N1, H3N2, and H9N2 strains. If you have any of these symptoms, it's essential to get medical attention as soon as possible, especially if you have underlying health conditions or you are at high risk of complications.
-~~~
+> The symptoms you describe are consistent with the flu, commonly referred to as influenza or the "flu." The flu usually lasts for about 1-2 weeks, and it can cause severe symptoms, such as fever, body aches, a dry cough, a sore throat, and tiredness. The flu can be caused by various strains of influenza virus, which includes the H1N1, H3N2, and H9N2 strains. If you have any of these symptoms, it's essential to get medical attention as soon as possible, especially if you have underlying health conditions or you are at high risk of complications.
 
 **System: generic · Prompt: flu_detailed** (41.3 s, 167 tokens, 4.04 tokens/s)
 
-~~~text
-I don't have access to any specific medical records, but based on your symptoms, I can suggest the most likely diagnosis as COVID-19 infection. Here are the possible differential diagnoses:
+> I don't have access to any specific medical records, but based on your symptoms, I can suggest the most likely diagnosis as COVID-19 infection. Here are the possible differential diagnoses:
 
-1. Flu
-2. Common cold
-3. SARS-CoV-2 infection (the virus that causes COVID-19)
-4. Infection with another respiratory virus
-5. Infection with a bacteria or parasite (such as pneumonia, meningitis, or malaria)
+> 1. Flu
+> 2. Common cold
+> 3. SARS-CoV-2 infection (the virus that causes COVID-19)
+> 4. Infection with another respiratory virus
+> 5. Infection with a bacteria or parasite (such as pneumonia, meningitis, or malaria)
 
-I recommend getting a COVID-19 test as soon as possible to confirm your diagnosis and receive the appropriate treatment. If you have any concerns or questions, please do not hesitate to seek medical advice from a healthcare provider.
-~~~
+> I recommend getting a COVID-19 test as soon as possible to confirm your diagnosis and receive the appropriate treatment. If you have any concerns or questions, please do not hesitate to seek medical advice from a healthcare provider.
 
 **System: physician · Prompt: flu_brief** (64.2 s, 257 tokens, 4.00 tokens/s)
 
-~~~text
-I do not have you as a patient. However, based on the symptoms you provided, here's what I would recommend:
+> I do not have you as a patient. However, based on the symptoms you provided, here's what I would recommend:
 
-1. Fever: this is a high-pitched temperature that exceeds 38 degrees celsius (100 degrees fahrenheit) for 24 hours or more. A fever can be caused by infections such as the flu, chickenpox, or measles. A doctor should perform a diagnostic test such as a temperature check or blood test to confirm the diagnosis.
+> 1. Fever: this is a high-pitched temperature that exceeds 38 degrees celsius (100 degrees fahrenheit) for 24 hours or more. A fever can be caused by infections such as the flu, chickenpox, or measles. A doctor should perform a diagnostic test such as a temperature check or blood test to confirm the diagnosis.
+> 2. Body aches: this can be caused by various conditions such as a viral infection, rheumatic fever, or a bone or joint infection. The doctor may ask you about your symptoms and ask you to describe any pain or discomfort you are experiencing.
+> 3. Dry cough: this can be caused by a severe viral infection, bronchitis, or a bacterial infection. The doctor may ask you about your cough, whether it's persistent or not, and ask you to describe any other symptoms you may be experiencing.
+> 4. Sore throat: this
 
-2. Body aches: this can be caused by various conditions such as a viral infection, rheumatic fever, or a bone or joint infection. The doctor may ask you about your symptoms and ask you to describe any pain or discomfort you are experiencing.
-
-3. Dry cough: this can be caused by a severe viral infection, bronchitis, or a bacterial infection. The doctor may ask you about your cough, whether it's persistent or not, and ask you to describe any other symptoms you may be experiencing.
-
-4. Sore throat: this
-~~~
 
 **System: physician · Prompt: flu_detailed** (64.6 s, 256 tokens, 3.96 tokens/s)
 
-~~~text
-Congratulations on your return to work! Here's your most likely diagnosis for your sudden onset of symptoms:
+> Congratulations on your return to work! Here's your most likely diagnosis for your sudden onset of symptoms:
 
-1. COVID-19 infection
-
-Symptoms: Fever, muscle and joint aches, headache, dry cough, sore throat, extreme fatigue
-
+> 1. COVID-19 infection
+> Symptoms: Fever, muscle and joint aches, headache, dry cough, sore throat, extreme fatigue
 Causes: COVID-19 is a respiratory illness caused by a new coronavirus discovered in 2019. Symptoms can be mild or severe, including pneumonia and acute bronchitis. The virus can be transmitted through respiratory droplets in close contact with someone with COVID-19, or through touching a surface or object contaminated with the virus and then touching your mouth, nose, or eyes.
+> 2. Chickenpox
+> Symptoms: Fever, muscle and joint aches, headache, dry cough, sore throat, and shivering
+> Causes: Chickenpox is a viral illness caused by the varicella-zoster virus. The virus can be transmitted through close contact with an infected person, through respir
 
-2. Chickenpox
-
-Symptoms: Fever, muscle and joint aches, headache, dry cough, sore throat, and shivering
-
-Causes: Chickenpox is a viral illness caused by the varicella-zoster virus. The virus can be transmitted through close contact with an infected person, through respir
-~~~
 
 ### HuggingFaceTB/SmolLM2-1.7B-Instruct
 
@@ -329,43 +315,38 @@ Load time 138.8 s.
 
 **System: generic · Prompt: flu_brief** (55.7 s, 58 tokens, 1.04 tokens/s)
 
-~~~text
-Based on your symptoms, it's possible that you may have Influenza, commonly referred to as the flu. These symptoms are typical of the flu, but it's also important to note that other conditions can cause similar symptoms, so it's important to consult a healthcare professional for an accurate diagnosis.
-~~~
+> Based on your symptoms, it's possible that you may have Influenza, commonly referred to as the flu. These symptoms are typical of the flu, but it's also important to note that other conditions can cause similar symptoms, so it's important to consult a healthcare professional for an accurate diagnosis.
+
 
 **System: generic · Prompt: flu_detailed** (216.5 s, 253 tokens, 1.17 tokens/s)
 
-~~~text
-Based on your symptoms, I'd suspect you're experiencing a common but serious condition known as Influenza, more specifically Influenza A.
+> Based on your symptoms, I'd suspect you're experiencing a common but serious condition known as Influenza, more specifically Influenza A.
 
-Your symptoms could be signs of an acute respiratory infection, which is often caused by Influenza. Other possible conditions that could present with similar symptoms include other viral illnesses like the common cold or upper respiratory infections caused by bacteria (such as sinusitis or bronchitis), but these are less likely given the sudden onset of symptoms and the severity of your fatigue.
+> Your symptoms could be signs of an acute respiratory infection, which is often caused by Influenza. Other possible conditions that could present with similar symptoms include other viral illnesses like the common cold or upper respiratory infections caused by bacteria (such as sinusitis or bronchitis), but these are less likely given the sudden onset of symptoms and the severity of your fatigue.
 
-A differential diagnosis could include:
+> A differential diagnosis could include:
 
-1. Influenza: This is the most likely diagnosis, given the rapid onset of symptoms, especially since several coworkers are also ill.
-2. Viral gastroenteritis: This can cause similar symptoms like nausea, vomiting, diarrhea, and fever. However, it's less likely given your age, the sudden onset of symptoms, and the presence of muscle aches and fatigue.
-3. Sinusitis: This could cause a headache and sinus congestion. However, it's unlikely given the overall severity of your symptoms.
+> 1. Influenza: This is the most likely diagnosis, given the rapid onset of symptoms, especially since several coworkers are also ill.
+> 2. Viral gastroenteritis: This can cause similar symptoms like nausea, vomiting, diarrhea, and fever. However, it's less likely given your age, the sudden onset of symptoms, and the presence of muscle aches and fatigue.
+> 3. Sinusitis: This could cause a headache and sinus congestion. However, it's unlikely given the overall severity of your symptoms.
 
-It's important to note that these are just possible diagnoses, and your condition could be caused by something else entirely. If your symptoms persist or worsen, it's advisable to consult a healthcare professional for an accurate diagnosis and treatment.
-~~~
+> It's important to note that these are just possible diagnoses, and your condition could be caused by something else entirely. If your symptoms persist or worsen, it's advisable to consult a healthcare professional for an accurate diagnosis and treatment.
+
 
 **System: physician · Prompt: flu_brief** (43.7 s, 50 tokens, 1.14 tokens/s)
 
-~~~text
-Based on the symptoms you've provided, I would suspect Influenza A or B, Covid-19, or another viral respiratory illness like the common cold. However, further testing and consideration of additional symptoms would be necessary to narrow down the specific diagnosis.
-~~~
+> Based on the symptoms you've provided, I would suspect Influenza A or B, Covid-19, or another viral respiratory illness like the common cold. However, further testing and consideration of additional symptoms would be necessary to narrow down the specific diagnosis.
 
 **System: physician · Prompt: flu_detailed** (88.7 s, 101 tokens, 1.14 tokens/s)
 
-~~~text
-Extreme fatigue, fever, muscle and joint aches, headache, dry cough, and sore throat are indicative of Influenza A or B, COVID-19, or a viral respiratory illness. Your most likely diagnoses are Influenza A or B, COVID-19, and potential viral pneumonia.
+> Extreme fatigue, fever, muscle and joint aches, headache, dry cough, and sore throat are indicative of Influenza A or B, COVID-19, or a viral respiratory illness. Your most likely diagnoses are Influenza A or B, COVID-19, and potential viral pneumonia.
 
-Short differential:
-1. Influenza A or B
-2. COVID-19
-3. Viral pneumonia
-4. Other respiratory infections such as pertussis (whooping cough) or adenovirus.
-~~~
+> Short differential:
+> 1. Influenza A or B
+> 2. COVID-19
+> 3. Viral pneumonia
+> 4. Other respiratory infections such as pertussis (whooping cough) or adenovirus.
+
 
 ### Qwen/Qwen2.5-1.5B-Instruct
 
@@ -373,62 +354,56 @@ Load time 121.0 s.
 
 **System: generic · Prompt: flu_brief** (99.0 s, 116 tokens, 1.17 tokens/s)
 
-~~~text
-Based on your symptoms of fever, body aches, a dry cough, a sore throat, and fatigue, it is possible that you may be experiencing the flu or another respiratory illness such as COVID-19.
+> Based on your symptoms of fever, body aches, a dry cough, a sore throat, and fatigue, it is possible that you may be experiencing the flu or another respiratory illness such as COVID-19.
 
-It's important to note that these symptoms can also be caused by other conditions such as allergies, colds, or even less serious infections like the common cold. However, if your symptoms persist or worsen, it is recommended to seek medical attention from a healthcare provider who will be able to provide an accurate diagnosis and appropriate treatment based on their assessment of your condition.
-~~~
+> It's important to note that these symptoms can also be caused by other conditions such as allergies, colds, or even less serious infections like the common cold. However, if your symptoms persist or worsen, it is recommended to seek medical attention from a healthcare provider who will be able to provide an accurate diagnosis and appropriate treatment based on their assessment of your condition.
+
 
 **System: generic · Prompt: flu_detailed** (214.2 s, 256 tokens, 1.20 tokens/s)
 
-~~~text
-Based on the symptoms you've described—fever, muscle and joint aches, headache, dry cough, sore throat, and extreme fatigue—you may be experiencing a viral infection such as influenza or another respiratory virus. Given that several of your coworkers are also sick, it's possible they have similar infections.
+> Based on the symptoms you've described—fever, muscle and joint aches, headache, dry cough, sore throat, and extreme fatigue—you may be experiencing a viral infection such as influenza or another respiratory virus. Given that several of your coworkers are also sick, it's possible they have similar infections.
 
 **Most Likely Diagnosis:**
-Influenza (flu) or other respiratory viruses like coronavirus (COVID-19).
+> Influenza (flu) or other respiratory viruses like coronavirus (COVID-19).
 
 **Differential Diagnosis:**
 
-1. **Influenza (Flu):**
-   - High fever (often above 38°C)
-   - Muscle and joint pain
-   - Headache
-   - Dry cough
-   - Sore throat
-   - Fatigue
+> 1. **Influenza (Flu):**
+>   - High fever (often above 38°C)
+>   - Muscle and joint pain
+>   - Headache
+>   - Dry cough
+>   - Sore throat
+>   - Fatigue
 
-2. **Coronavirus (COVID-19):**
-   - Fever (usually higher than 38°C)
-   - Respiratory symptoms including coughing and difficulty breathing
-   - Fatigue
-   - Shortness of breath
-   - Conjunctivitis (red eyes)
+> 2. **Coronavirus (COVID-19):**
+>   - Fever (usually higher than 38°C)
+>   - Respiratory symptoms including coughing and difficulty breathing
+>   - Fatigue
+>   - Shortness of breath
+>   - Conjunctivitis (red eyes)
 
-Given the high likelihood of an infectious cause due to exposure to others who are ill, it would be prudent to consider both possibilities for initial testing if available. However, without specific diagnostic tools like PCR tests for COVID-19, we can't definitively diagnose these
-~~~
+> Given the high likelihood of an infectious cause due to exposure to others who are ill, it would be prudent to consider both possibilities for initial testing if available. However, without specific diagnostic tools like PCR tests for COVID-19, we can't definitively diagnose these
 
 **System: physician · Prompt: flu_brief** (83.5 s, 95 tokens, 1.14 tokens/s)
 
-~~~text
-Based on the symptoms you've described—fever, body aches, dry cough, sore throat, and fatigue—it is likely that you have influenza (the flu). The combination of these symptoms strongly suggests acute respiratory illness caused by the influenza virus. However, it's important to note that some other viral infections can also present similarly, so if this is not resolved within a few days or if there are any concerns about severity, consulting with a healthcare provider would be advisable.
-~~~
+> Based on the symptoms you've described—fever, body aches, dry cough, sore throat, and fatigue—it is likely that you have influenza (the flu). The combination of these symptoms strongly suggests acute respiratory illness caused by the influenza virus. However, it's important to note that some other viral infections can also present similarly, so if this is not resolved within a few days or if there are any concerns about severity, consulting with a healthcare provider would be advisable.
+
 
 **System: physician · Prompt: flu_detailed** (153.8 s, 178 tokens, 1.16 tokens/s)
 
-~~~text
-Given the symptoms of fever, muscle and joint aches, headache, dry cough, sore throat, and extreme fatigue, along with the fact that several coworkers are also ill, the most likely diagnoses could include:
+> Given the symptoms of fever, muscle and joint aches, headache, dry cough, sore throat, and extreme fatigue, along with the fact that several coworkers are also ill, the most likely diagnoses could include:
 
-1. **Influenza** (Common Cold): The flu often presents with similar symptoms but can be more severe, especially in adults.
-2. **Viral Pneumonia**: Can present with fever, cough, chest discomfort, and generalized malaise.
-3. **Tuberculosis**: Although less common, it can cause similar symptoms due to the body's immune response to infection.
+> 1. **Influenza** (Common Cold): The flu often presents with similar symptoms but can be more severe, especially in adults.
+> 2. **Viral Pneumonia**: Can present with fever, cough, chest discomfort, and generalized malaise.
+> 3. **Tuberculosis**: Although less common, it can cause similar symptoms due to the body's immune response to infection.
 
-A short differential would be:
-- Influenza or Common Cold
-- Viral Pneumonia
-- Tuberculosis
+> A short differential would be:
+> - Influenza or Common Cold
+> - Viral Pneumonia
+> - Tuberculosis
 
-Further diagnostic testing such as a complete blood count (CBC), chest X-ray, and possibly sputum tests may help clarify the exact diagnosis.
-~~~
+> Further diagnostic testing such as a complete blood count (CBC), chest X-ray, and possibly sputum tests may help clarify the exact diagnosis.
 
 ### microsoft/Phi-3.5-mini-instruct
 
@@ -436,63 +411,43 @@ Load time 291.0 s.
 
 **System: generic · Prompt: flu_brief** (213.2 s, 256 tokens, 1.20 tokens/s)
 
-~~~text
-I'm not a doctor, but I can provide some general information. The symptoms you're describing—fever, body aches, dry cough, sore throat, and tiredness—can be associated with a variety of conditions, ranging from common viral infections to more serious illnesses. Here are a few possibilities, but it's crucial to consult with a healthcare professional for an accurate diagnosis and appropriate treatment:
+> I'm not a doctor, but I can provide some general information. The symptoms you're describing—fever, body aches, dry cough, sore throat, and tiredness—can be associated with a variety of conditions, ranging from common viral infections to more serious illnesses. Here are a few possibilities, but it's crucial to consult with a healthcare professional for an accurate diagnosis and appropriate treatment:
 
-1. **Viral Infection**: Viruses such as the common cold, influenza (flu), or COVID-19 (caused by the SARS-CoV-2 virus) can cause these symptoms. Influenza and COVID-19, in particular, have been widely circulating, and the symptoms overlap significantly.
-
-2. **Bacterial Infection**: Bacterial infections like strep throat (caused by Streptococcus bacteria) can cause a sore throat, fever, and body aches.
-
-3. **Other Infections**: Other viral infections like mononucleosis (caused by the Epstein-B
-~~~
+> 1. **Viral Infection**: Viruses such as the common cold, influenza (flu), or COVID-19 (caused by the SARS-CoV-2 virus) can cause these symptoms. Influenza and COVID-19, in particular, have been widely circulating, and the symptoms overlap significantly.
+> 2. **Bacterial Infection**: Bacterial infections like strep throat (caused by Streptococcus bacteria) can cause a sore throat, fever, and body aches.
+> 3. **Other Infections**: Other viral infections like mononucleosis (caused by the Epstein-B
 
 **System: generic · Prompt: flu_detailed** (206.9 s, 256 tokens, 1.24 tokens/s)
 
-~~~text
-Based on the symptoms you described – fever, muscle and joint aches, headache, dry cough, sore throat, and extreme fatigue – along with the information that several coworkers are also ill, the most likely diagnosis is influenza (commonly known as the flu), although other infectious diseases should also be considered. Here's a differential diagnosis:
+> Based on the symptoms you described – fever, muscle and joint aches, headache, dry cough, sore throat, and extreme fatigue – along with the information that several coworkers are also ill, the most likely diagnosis is influenza (commonly known as the flu), although other infectious diseases should also be considered. Here's a differential diagnosis:
 
-Primary Diagnosis:
-1. Influenza: Given the seasonality of the flu and the presence of multiple co-workers with similar symptoms, this is the most likely diagnosis. Influenza is a viral illness that can spread rapidly, especially in close quarters like workplaces.
+> Primary Diagnosis:
+> 1. Influenza: Given the seasonality of the flu and the presence of multiple co-workers with similar symptoms, this is the most likely diagnosis. Influenza is a viral illness that can spread rapidly, especially in close quarters like workplaces.
 
-Differential Diagnosis:
-1. COVID-19: This coronavirus disease has symptoms that overlap with those of influenza, including fever, cough, fatigue, and body aches. Given the ongoing nature of the COVID-19 pandemic, testing for SARS-CoV-2 is recommended if you have not yet been tested, especially if symptoms are severe or if you belong to a high-risk group.
-
-2
-~~~
+> Differential Diagnosis:
+> 1. COVID-19: This coronavirus disease has symptoms that overlap with those of influenza, including fever, cough, fatigue, and body aches. Given the ongoing nature of the COVID-19 pandemic, testing for SARS-CoV-2 is recommended if you have not yet been tested, especially if symptoms are severe or if you belong to a high-risk group.
 
 **System: physician · Prompt: flu_brief** (203.7 s, 256 tokens, 1.26 tokens/s)
 
-~~~text
-Your symptoms (fever, body aches, dry cough, sore throat, and tiredness) are common in several respiratory infections. Here are a few possible conditions to consider:
+> Your symptoms (fever, body aches, dry cough, sore throat, and tiredness) are common in several respiratory infections. Here are a few possible conditions to consider:
 
-1. Influenza (flu): An acute viral respiratory infection commonly associated with systemic symptoms like fever, body aches, and fatigue, as well as respiratory symptoms.
-
-2. COVID-19: A novel coronavirus infection that presents with similar symptoms, including fever, dry cough, and fatigue. Current testing is recommended for confirmation.
-
-3. Common cold: A viral upper respiratory tract infection that can cause mild symptoms, but body aches are less common.
-
-4. Pneumonia: A bacterial, viral, or fungal infection of the lungs causing inflammation and fluid accumulation. It typically worsens symptoms and may include worsening cough, fever, and difficulty breathing.
-
-5. Mononucleosis: A viral infection caused by Epstein-Barr virus, characterized by fever
-~~~
+> 1. Influenza (flu): An acute viral respiratory infection commonly associated with systemic symptoms like fever, body aches, and fatigue, as well as respiratory symptoms.
+> 2. COVID-19: A novel coronavirus infection that presents with similar symptoms, including fever, dry cough, and fatigue. Current testing is recommended for confirmation.
+> 3. Common cold: A viral upper respiratory tract infection that can cause mild symptoms, but body aches are less common.
+> 4. Pneumonia: A bacterial, viral, or fungal infection of the lungs causing inflammation and fluid accumulation. It typically worsens symptoms and may include worsening cough, fever, and difficulty breathing.
+> 5. Mononucleosis: A viral infection caused by Epstein-Barr virus, characterized by fever
 
 **System: physician · Prompt: flu_detailed** (203.3 s, 256 tokens, 1.26 tokens/s)
 
-~~~text
-Most Likely Diagnosis: COVID-19.
+> Most Likely Diagnosis: COVID-19.
 
-Differential Diagnoses:
+> Differential Diagnoses:
+> 1. Influenza: Similar symptoms including fever, body aches, cough, and fatigue. High incidence during flu season and possible exposure through coworkers.
+> 2. Streptococcal Pharyngitis (Strep Throat): Sore throat, fever, and fatigue are common. However, it doesn't typically cause cough and muscle/joint aches.
+> 3. Mononucleosis: Often presents with fatigue, fever, sore throat, and body aches but usually involves lymph node swelling which is not mentioned.
+> 4. Viral Upper Respiratory Tract Infection: Common cold or another viral illness. However, the combination of systemic symptoms (fever, muscle/joint aches, fatigue) and cough might suggest a more serious infection.
+> 5. Pneumonia: Could present with fever, cough, fatigue. However, it would generally have more severe symptoms including shortness of breath, and ch
 
-1. Influenza: Similar symptoms including fever, body aches, cough, and fatigue. High incidence during flu season and possible exposure through coworkers.
-
-2. Streptococcal Pharyngitis (Strep Throat): Sore throat, fever, and fatigue are common. However, it doesn't typically cause cough and muscle/joint aches.
-
-3. Mononucleosis: Often presents with fatigue, fever, sore throat, and body aches but usually involves lymph node swelling which is not mentioned.
-
-4. Viral Upper Respiratory Tract Infection: Common cold or another viral illness. However, the combination of systemic symptoms (fever, muscle/joint aches, fatigue) and cough might suggest a more serious infection.
-
-5. Pneumonia: Could present with fever, cough, fatigue. However, it would generally have more severe symptoms including shortness of breath, and ch
-~~~
 
 ---
 
@@ -506,580 +461,474 @@ All bots received the same single-turn conversation (API calls; the web UIs were
 
 **User message sent to every bot:**
 
-~~~text
-Doctor, I've been feeling extremely anxious and have panic attacks. Crowded places and public speaking make me anxious.
+> Doctor, I've been feeling extremely anxious and have panic attacks. Crowded places and public speaking make me anxious.
 
-Based on everything I have told you, give a ranked list of your top 3 most likely diagnoses (1 = most likely), one line each with a brief rationale. End with: 'Most likely diagnosis: <diagnosis>'.
-~~~
+> Based on everything I have told you, give a ranked list of your top 3 most likely diagnoses (1 = most likely), one line each with a brief rationale. End with: 'Most likely diagnosis: <diagnosis>'.
 
 **Reference (doctor's line in the file):** It sounds like you might have social anxiety disorder. We can explore treatment options.
 
 **ChatGPT (gpt-4o-mini, OpenRouter)** (1.5 s)
 
-~~~text
-1. **Social Anxiety Disorder** - Characterized by intense fear of social situations and performance, leading to avoidance behaviors, which aligns with your anxiety in crowded places and public speaking.
+> 1. **Social Anxiety Disorder** - Characterized by intense fear of social situations and performance, leading to avoidance behaviors, which aligns with your anxiety in crowded places and public speaking.
+> 2. **Panic Disorder** - Involves recurrent panic attacks and persistent worry about future attacks, which could explain your extreme anxiety and panic episodes.
+> 3. **Generalized Anxiety Disorder** - Presents with excessive worry about various aspects of life, but the specific focus on social situations makes this less likely than the first two.
 
-2. **Panic Disorder** - Involves recurrent panic attacks and persistent worry about future attacks, which could explain your extreme anxiety and panic episodes.
-
-3. **Generalized Anxiety Disorder** - Presents with excessive worry about various aspects of life, but the specific focus on social situations makes this less likely than the first two.
-
-Most likely diagnosis: Social Anxiety Disorder.
-~~~
+> Most likely diagnosis: Social Anxiety Disorder.
 
 **Claude (OpenRouter)** (4.4 s)
 
-~~~text
-Based on your presentation of extreme anxiety, panic attacks, and specific triggers (crowded places and public speaking), here are my top 3 differential diagnoses:
+> Based on your presentation of extreme anxiety, panic attacks, and specific triggers (crowded places and public speaking), here are my top 3 differential diagnoses:
 
-1. **Panic Disorder with Agoraphobia** - Recurrent panic attacks with avoidance of situations where escape might be difficult (crowded places), classic presentation
-2. **Social Anxiety Disorder (Social Phobia)** - Marked fear of public speaking and social situations where scrutiny occurs, though panic attacks can be a feature
-3. **Generalized Anxiety Disorder with Panic Attacks** - Pervasive anxiety with panic episodes, though the specific situational triggers are more characteristic of panic disorder or social phobia
+> 1. **Panic Disorder with Agoraphobia** - Recurrent panic attacks with avoidance of situations where escape might be difficult (crowded places), classic presentation
+> 2. **Social Anxiety Disorder (Social Phobia)** - Marked fear of public speaking and social situations where scrutiny occurs, though panic attacks can be a feature
+> 3. **Generalized Anxiety Disorder with Panic Attacks** - Pervasive anxiety with panic episodes, though the specific situational triggers are more characteristic of panic disorder or social phobia
 
-Most likely diagnosis: **Panic Disorder with Agoraphobia**
-~~~
+> Most likely diagnosis: **Panic Disorder with Agoraphobia**
 
 **DeepSeek (OpenRouter)** (7.3 s)
 
-~~~text
-1. **Generalized Anxiety Disorder (GAD)**: Persistent anxiety and panic attacks, especially in social situations, align with GAD.  
-2. **Social Anxiety Disorder (SAD)**: Specific anxiety in crowded places and during public speaking strongly suggests SAD.  
-3. **Panic Disorder**: Recurrent panic attacks, even without clear triggers, could indicate Panic Disorder.  
-Most likely diagnosis: **Social Anxiety Disorder (SAD)**.
-~~~
+> 1. **Generalized Anxiety Disorder (GAD)**: Persistent anxiety and panic attacks, especially in social situations, align with GAD.  
+> 2. **Social Anxiety Disorder (SAD)**: Specific anxiety in crowded places and during public speaking strongly suggests SAD.  
+> 3. **Panic Disorder**: Recurrent panic attacks, even without clear triggers, could indicate Panic Disorder.  
+
+> Most likely diagnosis: **Social Anxiety Disorder (SAD)**.
 
 **Gemini (OpenRouter)** (1.8 s)
 
-~~~text
-Here are the top 3 most likely diagnoses:
+> Here are the top 3 most likely diagnoses:
 
-1.  **Panic Disorder with Agoraphobia:** Recurrent unexpected panic attacks combined with anxiety about being in places or situations from which escape might be difficult or embarrassing, or where help might not be available (e.g., crowded places).
-2.  **Social Anxiety Disorder (Social Phobia):** Marked fear or anxiety about one or more social situations in which the individual is exposed to possible scrutiny by others (e.g., public speaking, crowded places), often leading to panic-like symptoms.
-3.  **Generalized Anxiety Disorder (GAD):** Excessive anxiety and worry about a number of events or activities, which can manifest as panic attacks in specific stressful situations, though the primary feature is pervasive worry rather than discrete panic attacks or specific social fears.
+> 1.  **Panic Disorder with Agoraphobia:** Recurrent unexpected panic attacks combined with anxiety about being in places or situations from which escape might be difficult or embarrassing, or where help might not be available (e.g., crowded places).
+> 2.  **Social Anxiety Disorder (Social Phobia):** Marked fear or anxiety about one or more social situations in which the individual is exposed to possible scrutiny by others (e.g., public speaking, crowded places), often leading to panic-like symptoms.
+> 3.  **Generalized Anxiety Disorder (GAD):** Excessive anxiety and worry about a number of events or activities, which can manifest as panic attacks in specific stressful situations, though the primary feature is pervasive worry rather than discrete panic attacks or specific social fears.
 
-Most likely diagnosis: Panic Disorder with Agoraphobia
-~~~
+> Most likely diagnosis: Panic Disorder with Agoraphobia
 
 **Local Qwen2.5-1.5B (CPU)** (46.8 s)
 
-~~~text
-1. **Generalized Anxiety Disorder** - This condition is characterized by excessive worry about everyday life events and activities, often leading to physical symptoms such as anxiety and panic attacks.
-2. **Social Anxiety Disorder** - Individuals with this disorder experience intense fear or anxiety in social situations where they might be scrutinized or evaluated negatively by others.
-3. **Panic Disorder** - Characterized by recurrent unexpected panic attacks, which can lead to significant distress and avoidance behaviors due to the fear of future attacks.
+> 1. **Generalized Anxiety Disorder** - This condition is characterized by excessive worry about everyday life events and activities, often leading to physical symptoms such as anxiety and panic attacks.
+> 2. **Social Anxiety Disorder** - Individuals with this disorder experience intense fear or anxiety in social situations where they might be scrutinized or evaluated negatively by others.
+> 3. **Panic Disorder** - Characterized by recurrent unexpected panic attacks, which can lead to significant distress and avoidance behaviors due to the fear of future attacks.
 
-Most likely diagnosis: Generalized Anxiety Disorder.
-~~~
+> Most likely diagnosis: Generalized Anxiety Disorder.
 
 **Llama-2 7B (HF Space API)** (10.4 s)
 
-~~~text
-Of course! Based on the symptoms you've described, here are my top 3 most likely diagnoses:
+> Of course! Based on the symptoms you've described, here are my top 3 most likely diagnoses:
 
-1. Social Anxiety Disorder (SAD): Your symptoms of anxiety in crowded places and public speaking suggest that you may be experiencing social anxiety disorder. SAD is characterized by excessive fear or anxiety in social situations, which can lead to avoidance behaviors and significant distress.
-2. Panic Disorder: Your description of panic attacks suggests that you may also be experiencing panic disorder. Panic disorder involves recurring panic attacks, which are sudden episodes of intense fear that can occur at any time, even when there is no obvious reason for them. These attacks can be accompanied by physical symptoms such as a racing heart, shortness of breath, and profuse sweating.
-3. Generalized Anxiety Disorder (GAD): Finally, it's possible that you may be experiencing generalized anxiety disorder (GAD). GAD involves excessive worry about everyday things, which can interfere with daily functioning. People with GAD often experience restlessness, fatigue, irritability, and difficulty concentrating. While your symptoms don't necessarily fit neatly into either SAD or panic disorder, they could be consistent with GAD.
+> 1. Social Anxiety Disorder (SAD): Your symptoms of anxiety in crowded places and public speaking suggest that you may be experiencing social anxiety disorder. SAD is characterized by excessive fear or anxiety in social situations, which can lead to avoidance behaviors and significant distress.
+> 2. Panic Disorder: Your description of panic attacks suggests that you may also be experiencing panic disorder. Panic disorder involves recurring panic attacks, which are sudden episodes of intense fear that can occur at any time, even when there is no obvious reason for them. These attacks can be accompanied by physical symptoms such as a racing heart, shortness of breath, and profuse sweating.
+> 3. Generalized Anxiety Disorder (GAD): Finally, it's possible that you may be experiencing generalized anxiety disorder (GAD). GAD involves excessive worry about everyday things, which can interfere with daily functioning. People with GAD often experience restlessness, fatigue, irritability, and difficulty concentrating. While your symptoms don't necessarily fit neatly into either SAD or panic disorder, they could be consistent with GAD.
 
-Most likely diagnosis: Social Anxiety Disorder (SAD)
-~~~
+> Most likely diagnosis: Social Anxiety Disorder (SAD)
 
 **Llama-2 13B (HF Space API)** (10.9 s)
 
-~~~text
-Certainly! Based on what you've shared, here is my ranked list of the top 3 most likely diagnoses for your symptoms:
+> Certainly! Based on what you've shared, here is my ranked list of the top 3 most likely diagnoses for your symptoms:
 
-1. Generalized Anxiety Disorder (GAD): Your persistent and excessive worry about everyday things, along with your avoidance behaviors in crowded places and public speaking, point towards GAD as a strong possibility.
-2. Panic Disorder: The frequency and intensity of your panic attacks suggest that this could be a contributing factor to your anxiety.
-3. Social Anxiety Disorder (SAD): Your fear of being judged or evaluated negatively by others in social situations aligns well with SAD.
+> 1. Generalized Anxiety Disorder (GAD): Your persistent and excessive worry about everyday things, along with your avoidance behaviors in crowded places and public speaking, point towards GAD as a strong possibility.
+> 2. Panic Disorder: The frequency and intensity of your panic attacks suggest that this could be a contributing factor to your anxiety.
+> 3. Social Anxiety Disorder (SAD): Your fear of being judged or evaluated negatively by others in social situations aligns well with SAD.
 
-Most likely diagnosis: Generalized Anxiety Disorder (GAD).
-~~~
+> Most likely diagnosis: Generalized Anxiety Disorder (GAD).
 
 **Llama-2 7B (Ollama)** (54.1 s)
 
-~~~text
-Of course! Based on the symptoms you've provided, here are my top 3 most likely diagnoses:
+> Of course! Based on the symptoms you've provided, here are my top 3 most likely diagnoses:
 
-1. Panic Disorder: Your symptoms of anxiety and panic attacks in crowded places and during public speaking are classic features of panic disorder. This mental health condition is characterized by recurring panic attacks, avoidance of situations that may trigger panic, and significant distress or impairment in social, occupational, or other areas of functioning.
-2. Social Anxiety Disorder: Your fear of crowded places and public speaking suggests a high degree of social anxiety, which is a hallmark of this disorder. Social anxiety disorder is characterized by excessive and persistent fear of social or performance situations in which the person is exposed to possible scrutiny by others.
-3. Generalized Anxiety Disorder: Your symptoms of anxiety and panic attacks could also be indicative of generalized anxiety disorder (GAD), which is characterized by excessive and persistent worry about everyday things, even when there is no apparent reason to feel anxious. GAD can manifest with physical symptoms such as headaches, muscle tension, and gastrointestinal issues, in addition to psychological symptoms like anxiety and panic attacks.
+> 1. Panic Disorder: Your symptoms of anxiety and panic attacks in crowded places and during public speaking are classic features of panic disorder. This mental health condition is characterized by recurring panic attacks, avoidance of situations that may trigger panic, and significant distress or impairment in social, occupational, or other areas of functioning.
+> 2. Social Anxiety Disorder: Your fear of crowded places and public speaking suggests a high degree of social anxiety, which is a hallmark of this disorder. Social anxiety disorder is characterized by excessive and persistent fear of social or performance situations in which the person is exposed to possible scrutiny by others.
+> 3. Generalized Anxiety Disorder: Your symptoms of anxiety and panic attacks could also be indicative of generalized anxiety disorder (GAD), which is characterized by excessive and persistent worry about everyday things, even when there is no apparent reason to feel anxious. GAD can manifest with physical symptoms such as headaches, muscle tension, and gastrointestinal issues, in addition to psychological symptoms like anxiety and panic attacks.
 
-Most likely diagnosis: Panic Disorder.
-~~~
+> Most likely diagnosis: Panic Disorder.
 
 **Llama-2 13B (Ollama)** (99.5 s)
 
-~~~text
-As an experienced physician, based on the information you have provided, my top 3 most likely diagnoses for your symptoms of anxiety and panic attacks are:
+> As an experienced physician, based on the information you have provided, my top 3 most likely diagnoses for your symptoms of anxiety and panic attacks are:
 
-1. Generalized Anxiety Disorder (GAD): GAD is a common anxiety disorder characterized by excessive and persistent worry, anxiety, and fear that interferes with daily life. Your symptoms of feeling extremely anxious and having panic attacks are consistent with GAD.
-2. Social Anxiety Disorder (SAD): SAD is a specific phobia characterized by excessive and persistent fear of social or performance situations in which you are exposed to possible scrutiny by others. Your symptoms of feeling anxious in crowded places and public speaking suggest SAD may be a possibility.
-3. Panic Disorder: Panic disorder is a condition where you experience recurring panic attacks, which are sudden episodes of intense fear or anxiety that can occur at any time, even when there is no apparent reason for the fear. Your symptoms of panic attacks in crowded places and public speaking are consistent with panic disorder.
+> 1. Generalized Anxiety Disorder (GAD): GAD is a common anxiety disorder characterized by excessive and persistent worry, anxiety, and fear that interferes with daily life. Your symptoms of feeling extremely anxious and having panic attacks are consistent with GAD.
+> 2. Social Anxiety Disorder (SAD): SAD is a specific phobia characterized by excessive and persistent fear of social or performance situations in which you are exposed to possible scrutiny by others. Your symptoms of feeling anxious in crowded places and public speaking suggest SAD may be a possibility.
+> 3. Panic Disorder: Panic disorder is a condition where you experience recurring panic attacks, which are sudden episodes of intense fear or anxiety that can occur at any time, even when there is no apparent reason for the fear. Your symptoms of panic attacks in crowded places and public speaking are consistent with panic disorder.
 
-Most likely diagnosis: Generalized Anxiety Disorder (GAD).
-~~~
+> Most likely diagnosis: Generalized Anxiety Disorder (GAD).
 
 ### Vignette 40
 
 **User message sent to every bot:**
 
-~~~text
-Doctor, I've had sharp abdominal pain on my left side. My bowel movements have changed, and I feel bloated.
+> Doctor, I've had sharp abdominal pain on my left side. My bowel movements have changed, and I feel bloated.
 
-Based on everything I have told you, give a ranked list of your top 3 most likely diagnoses (1 = most likely), one line each with a brief rationale. End with: 'Most likely diagnosis: <diagnosis>'.
-~~~
+> Based on everything I have told you, give a ranked list of your top 3 most likely diagnoses (1 = most likely), one line each with a brief rationale. End with: 'Most likely diagnosis: <diagnosis>'.
+
 
 **Reference (doctor's line in the file):** Your symptoms raise concerns about diverticulitis. We'll perform imaging tests.
 
 **ChatGPT (gpt-4o-mini, OpenRouter)** (3.7 s)
 
-~~~text
-1. **Diverticulitis** - The sharp left-sided abdominal pain, changes in bowel habits, and bloating suggest inflammation of diverticula, which is common in the sigmoid colon.  
-2. **Irritable Bowel Syndrome (IBS)** - The combination of abdominal pain, bloating, and altered bowel habits could indicate a functional gastrointestinal disorder, particularly if symptoms are recurrent.  
-3. **Colorectal Cancer** - Although less common, the presentation of left-sided pain and changes in bowel habits raises concern for malignancy, especially in older patients or those with risk factors.  
+> 1. **Diverticulitis** - The sharp left-sided abdominal pain, changes in bowel habits, and bloating suggest inflammation of diverticula, which is common in the sigmoid colon.  
+> 2. **Irritable Bowel Syndrome (IBS)** - The combination of abdominal pain, bloating, and altered bowel habits could indicate a functional gastrointestinal disorder, particularly if symptoms are recurrent.  
+> 3. **Colorectal Cancer** - Although less common, the presentation of left-sided pain and changes in bowel habits raises concern for malignancy, especially in older patients or those with risk factors.  
 
-Most likely diagnosis: Diverticulitis.
-~~~
+> Most likely diagnosis: Diverticulitis.
 
 **Claude (OpenRouter)** (5.4 s)
 
-~~~text
-Based on your presentation of left-sided sharp abdominal pain, altered bowel movements, and bloating, here are my top 3 differential diagnoses:
+> Based on your presentation of left-sided sharp abdominal pain, altered bowel movements, and bloating, here are my top 3 differential diagnoses:
 
-1. **Diverticulitis** - Left lower quadrant pain with bowel changes is classic for sigmoid diverticulitis, particularly common in adults with acute inflammation of colonic diverticula.
+> 1. **Diverticulitis** - Left lower quadrant pain with bowel changes is classic for sigmoid diverticulitis, particularly common in adults with acute inflammation of colonic diverticula.
+> 2. **Irritable Bowel Syndrome (IBS)** - Chronic intermittent abdominal pain with altered bowel habits and bloating fits the Rome criteria, though typically less sharp/acute in presentation.
+> 3. **Colorectal neoplasm** - Left-sided colonic mass can cause obstruction leading to pain, bowel habit changes, and bloating, requiring exclusion especially with new-onset symptoms in appropriate age group.
 
-2. **Irritable Bowel Syndrome (IBS)** - Chronic intermittent abdominal pain with altered bowel habits and bloating fits the Rome criteria, though typically less sharp/acute in presentation.
-
-3. **Colorectal neoplasm** - Left-sided colonic mass can cause obstruction leading to pain, bowel habit changes, and bloating, requiring exclusion especially with new-onset symptoms in appropriate age group.
-
-Most likely diagnosis: **Diverticulitis**
-~~~
+> Most likely diagnosis: **Diverticulitis**
 
 **DeepSeek (OpenRouter)** (9.2 s)
 
-~~~text
-1. **Diverticulitis**: Sharp left-sided abdominal pain, bloating, and altered bowel movements are classic symptoms of diverticulitis, especially in older adults.  
-2. **Irritable Bowel Syndrome (IBS)**: Bloating and changes in bowel habits are hallmark features, though pain is typically more diffuse.  
-3. **Colonic Ischemia**: Left-sided abdominal pain and bowel changes could suggest reduced blood flow to the colon, particularly in older patients with vascular risk factors.  
+> 1. **Diverticulitis**: Sharp left-sided abdominal pain, bloating, and altered bowel movements are classic symptoms of diverticulitis, especially in older adults.  
+> 2. **Irritable Bowel Syndrome (IBS)**: Bloating and changes in bowel habits are hallmark features, though pain is typically more diffuse.  
+> 3. **Colonic Ischemia**: Left-sided abdominal pain and bowel changes could suggest reduced blood flow to the colon, particularly in older patients with vascular risk factors.  
 
-Most likely diagnosis: **Diverticulitis**.
-~~~
+> Most likely diagnosis: **Diverticulitis**.
 
 **Gemini (OpenRouter)** (3.4 s)
 
-~~~text
-Here are the top 3 most likely diagnoses:
+> Here are the top 3 most likely diagnoses:
 
-1.  **Diverticulitis:** Left-sided abdominal pain, changes in bowel movements, and bloating are classic symptoms, especially in older adults.
-2.  **Irritable Bowel Syndrome (IBS):** Chronic abdominal pain, bloating, and altered bowel habits (constipation, diarrhea, or mixed) are hallmark features.
-3.  **Constipation:** Can cause sharp, crampy abdominal pain, bloating, and changes in bowel movements (infrequent or difficult stools).
+> 1.  **Diverticulitis:** Left-sided abdominal pain, changes in bowel movements, and bloating are classic symptoms, especially in older adults.
+> 2.  **Irritable Bowel Syndrome (IBS):** Chronic abdominal pain, bloating, and altered bowel habits (constipation, diarrhea, or mixed) are hallmark features.
+> 3.  **Constipation:** Can cause sharp, crampy abdominal pain, bloating, and changes in bowel movements (infrequent or difficult stools).
 
-Most likely diagnosis: Diverticulitis
-~~~
+> Most likely diagnosis: Diverticulitis
 
 **Local Qwen2.5-1.5B (CPU)** (43.3 s)
 
-~~~text
-1. **Appendicitis**: The location of the pain is consistent with appendicitis, which typically presents with right lower quadrant pain that shifts to the center or left abdomen.
-2. **Gastroenteritis**: Changes in bowel habits and feeling bloated can be indicative of gastroenteritis, especially if accompanied by other symptoms like nausea or vomiting.
-3. **Diverticulitis**: Pain localized to the left upper quadrant could suggest diverticulitis, particularly if there's also fever, constipation, or diarrhea.
+> 1. **Appendicitis**: The location of the pain is consistent with appendicitis, which typically presents with right lower quadrant pain that shifts to the center or left abdomen.
+> 2. **Gastroenteritis**: Changes in bowel habits and feeling bloated can be indicative of gastroenteritis, especially if accompanied by other symptoms like nausea or vomiting.
+> 3. **Diverticulitis**: Pain localized to the left upper quadrant could suggest diverticulitis, particularly if there's also fever, constipation, or diarrhea.
 
-Most likely diagnosis: Appendicitis
-~~~
+> Most likely diagnosis: Appendicitis
 
 **Llama-2 7B (HF Space API)** (10.4 s)
 
-~~~text
-Of course! Here are my top 3 most likely diagnoses based on what you've shared:
+> Of course! Here are my top 3 most likely diagnoses based on what you've shared:
 
-1. Irritable Bowel Syndrome (IBS): The changes in your bowel movements and bloating suggest that you may be experiencing IBS. This condition is characterized by recurring abdominal pain, bloating, and changes in bowel habits, including diarrhea or constipation. IBS is a common condition that affects millions of people worldwide.
-2. Inflammatory Bowl Disease (IBD): Another possibility is inflammatory bowel disease (IBD), which includes conditions like Crohn's disease and ulcerative colitis. IBD causes chronic inflammation in the digestive tract, leading to abdominal pain, diarrhea, and rectal bleeding. Since you mentioned feeling bloated, IBD should be considered as well.
-3. Diverticulitis: A less common but still plausible explanation for your symptoms is diverticulitis. This occurs when small pouches form in the wall of the colon and become infected, causing abdominal pain, fever, and changes in bowel habits. As you mentioned feeling bloated, diverticulitis should be included in the differential diagnosis.
+> 1. Irritable Bowel Syndrome (IBS): The changes in your bowel movements and bloating suggest that you may be experiencing IBS. This condition is characterized by recurring abdominal pain, bloating, and changes in bowel habits, including diarrhea or constipation. IBS is a common condition that affects millions of people worldwide.
+> 2. Inflammatory Bowl Disease (IBD): Another possibility is inflammatory bowel disease (IBD), which includes conditions like Crohn's disease and ulcerative colitis. IBD causes chronic inflammation in the digestive tract, leading to abdominal pain, diarrhea, and rectal bleeding. Since you mentioned feeling bloated, IBD should be considered as well.
+> 3. Diverticulitis: A less common but still plausible explanation for your symptoms is diverticulitis. This occurs when small pouches form in the wall of the colon and become infected, causing abdominal pain, fever, and changes in bowel habits. As you mentioned feeling bloated, diverticulitis should be included in the differential diagnosis.
 
-Most likely diagnosis: Irritable Bowel Syndrome (IBS)
-~~~
+> Most likely diagnosis: Irritable Bowel Syndrome (IBS)
+
 
 **Llama-2 13B (HF Space API)** (7.4 s)
 
-~~~text
-Sure thing! Here's my ranked list of the top 3 most likely diagnoses based on what you've shared:
+> Sure thing! Here's my ranked list of the top 3 most likely diagnoses based on what you've shared:
 
-1. Appendicitis: Your sharp abdominal pain on the left side, especially given its sudden onset, suggests appendiceal inflammation or rupture.
-2. Inflammatory Bowel Disease (IBD): Changes in bowel habits and bloating can indicate IBD flares, particularly if there is evidence of chronic inflammation.
-3. Diverticulitis: Abdominal pain on the left side, bloating, and changes in bowel movements can also be consistent with diverticulitis, especially if there is a history of previous episodes.
+> 1. Appendicitis: Your sharp abdominal pain on the left side, especially given its sudden onset, suggests appendiceal inflammation or rupture.
+> 2. Inflammatory Bowel Disease (IBD): Changes in bowel habits and bloating can indicate IBD flares, particularly if there is evidence of chronic inflammation.
+> 3. Diverticulitis: Abdominal pain on the left side, bloating, and changes in bowel movements can also be consistent with diverticulitis, especially if there is a history of previous episodes.
 
-Most likely diagnosis: Appendicitis.
-~~~
+> Most likely diagnosis: Appendicitis.
 
 **Llama-2 7B (Ollama)** (57.0 s)
 
-~~~text
-Of course! Based on the symptoms you've described, here are my top 3 most likely diagnoses:
+> Of course! Based on the symptoms you've described, here are my top 3 most likely diagnoses:
 
-1. Appendicitis: The sudden onset of sharp abdominal pain on the left side, along with changes in bowel movements and bloating, are classic symptoms of appendicitis. The inflammation of the appendix can cause pain and discomfort in the abdomen, and if left untreated, can lead to serious complications.
-2. Small intestine bacterial overgrowth (SIBO): SIBO is a condition in which bacteria overgrow in the small intestine, leading to symptoms such as bloating, abdominal pain, and changes in bowel movements. The bacterial overgrowth can cause irritation and inflammation in the abdomen, which can lead to the symptoms you've described.
-3. Irritable bowel syndrome (IBS): IBS is a chronic condition characterized by recurring abdominal pain, bloating, and changes in bowel movements. The exact cause of IBS is unknown, but it's thought to be related to changes in gut motility and sensitivity to food and stress. The symptoms you've described are consistent with IBS, especially the bloating and changes in bowel movements.
+> 1. Appendicitis: The sudden onset of sharp abdominal pain on the left side, along with changes in bowel movements and bloating, are classic symptoms of appendicitis. The inflammation of the appendix can cause pain and discomfort in the abdomen, and if left untreated, can lead to serious complications.
+> 2. Small intestine bacterial overgrowth (SIBO): SIBO is a condition in which bacteria overgrow in the small intestine, leading to symptoms such as bloating, abdominal pain, and changes in bowel movements. The bacterial overgrowth can cause irritation and inflammation in the abdomen, which can lead to the symptoms you've described.
+> 3. Irritable bowel syndrome (IBS): IBS is a chronic condition characterized by recurring abdominal pain, bloating, and changes in bowel movements. The exact cause of IBS is unknown, but it's thought to be related to changes in gut motility and sensitivity to food and stress. The symptoms you've described are consistent with IBS, especially the bloating and changes in bowel movements.
 
-Most likely diagnosis: Appendicitis.
-~~~
+> Most likely diagnosis: Appendicitis.
 
 **Llama-2 13B (Ollama)** (84.5 s)
 
-~~~text
-As an experienced physician, based on your symptoms of sharp abdominal pain on the left side, changes in bowel movements, and bloating, here is my ranked list of top 3 most likely diagnoses:
+> As an experienced physician, based on your symptoms of sharp abdominal pain on the left side, changes in bowel movements, and bloating, here is my ranked list of top 3 most likely diagnoses:
 
-1. Appendicitis: The location of the pain on the left side, along with the changes in bowel movements and bloating, are all consistent with appendicitis. The risk of missing appendicitis is high, so it is essential to consider this diagnosis first.
-2. Diverticulitis: The bloating and changes in bowel movements are consistent with diverticulitis, an inflammation of the diverticula in the colon. The location of the pain on the left side also supports this diagnosis.
-3. Omental torsion: The sharp abdominal pain on the left side, along with the bloating and changes in bowel movements, could be caused by omental torsion, a rare condition where the omentum (a fold of peritoneum) twists and cuts off blood supply to the intestines.
+> 1. Appendicitis: The location of the pain on the left side, along with the changes in bowel movements and bloating, are all consistent with appendicitis. The risk of missing appendicitis is high, so it is essential to consider this diagnosis first.
+> 2. Diverticulitis: The bloating and changes in bowel movements are consistent with diverticulitis, an inflammation of the diverticula in the colon. The location of the pain on the left side also supports this diagnosis.
+> 3. Omental torsion: The sharp abdominal pain on the left side, along with the bloating and changes in bowel movements, could be caused by omental torsion, a rare condition where the omentum (a fold of peritoneum) twists and cuts off blood supply to the intestines.
 
-Most likely diagnosis: Appendicitis.
-~~~
+> Most likely diagnosis: Appendicitis.
 
 ### Vignette 64
 
 **User message sent to every bot:**
 
-~~~text
-Doctor, I've been waking up with severe headaches and nausea. Yes, they mainly happen in the morning when I wake up.
+> Doctor, I've been waking up with severe headaches and nausea. Yes, they mainly happen in the morning when I wake up.
 
-Based on everything I have told you, give a ranked list of your top 3 most likely diagnoses (1 = most likely), one line each with a brief rationale. End with: 'Most likely diagnosis: <diagnosis>'.
-~~~
+> Based on everything I have told you, give a ranked list of your top 3 most likely diagnoses (1 = most likely), one line each with a brief rationale. End with: 'Most likely diagnosis: <diagnosis>'.
+
 
 **Reference (doctor's line in the file):** Your symptoms may be linked to increased intracranial pressure. We'll order imaging to investigate further.
 
 **ChatGPT (gpt-4o-mini, OpenRouter)** (2.6 s)
 
-~~~text
-1. **Migraine** - Morning headaches with nausea are classic symptoms, especially if they are recurrent and associated with other migraine features.
-2. **Tension-type headache** - Commonly presents with morning headaches, often related to stress or poor sleep posture, and can cause mild nausea.
-3. **Intracranial hypertension** - Waking up with severe headaches and nausea could indicate increased intracranial pressure, especially if associated with visual changes or other neurological symptoms.
+> 1. **Migraine** - Morning headaches with nausea are classic symptoms, especially if they are recurrent and associated with other migraine features.
+> 2. **Tension-type headache** - Commonly presents with morning headaches, often related to stress or poor sleep posture, and can cause mild nausea.
+> 3. **Intracranial hypertension** - Waking up with severe headaches and nausea could indicate increased intracranial pressure, especially if associated with visual changes or other neurological symptoms.
 
-Most likely diagnosis: Migraine.
-~~~
+> Most likely diagnosis: Migraine.
 
 **Claude (OpenRouter)** (4.9 s)
 
-~~~text
-Based on your morning headaches with nausea, here are my top 3 differential diagnoses:
+> Based on your morning headaches with nausea, here are my top 3 differential diagnoses:
 
-1. **Increased intracranial pressure (mass lesion/tumor)** - Classic presentation of morning headaches with nausea that worsen upon waking, often improving as the day progresses due to positional changes in CSF dynamics
+> 1. **Increased intracranial pressure (mass lesion/tumor)** - Classic presentation of morning headaches with nausea that worsen upon waking, often improving as the day progresses due to positional changes in CSF dynamics
+> 2. **Obstructive sleep apnea** - Nocturnal hypoxemia and hypercapnia cause morning headaches with nausea, related to disrupted sleep and CO2 retention during apneic episodes
+> 3. **Chronic migraine** - Can present with morning predominance and associated nausea, though typically would have additional features like photophobia or prior headache history
 
-2. **Obstructive sleep apnea** - Nocturnal hypoxemia and hypercapnia cause morning headaches with nausea, related to disrupted sleep and CO2 retention during apneic episodes
-
-3. **Chronic migraine** - Can present with morning predominance and associated nausea, though typically would have additional features like photophobia or prior headache history
-
-Most likely diagnosis: **Increased intracranial pressure (mass lesion/tumor)**
-~~~
+> Most likely diagnosis: **Increased intracranial pressure (mass lesion/tumor)**
 
 **DeepSeek (OpenRouter)** (6.3 s)
 
-~~~text
-1. **Increased intracranial pressure (e.g., idiopathic intracranial hypertension or mass lesion)**: Morning headaches and nausea are classic symptoms due to overnight fluid accumulation and positional changes.  
-2. **Migraine**: Morning headaches can occur due to sleep disturbances or circadian triggers, often accompanied by nausea.  
-3. **Sleep apnea**: Hypoxia and CO2 retention during sleep can lead to morning headaches and nausea.  
+> 1. **Increased intracranial pressure (e.g., idiopathic intracranial hypertension or mass lesion)**: Morning headaches and nausea are classic symptoms due to overnight fluid accumulation and positional changes.  
+> 2. **Migraine**: Morning headaches can occur due to sleep disturbances or circadian triggers, often accompanied by nausea.  
+> 3. **Sleep apnea**: Hypoxia and CO2 retention during sleep can lead to morning headaches and nausea.  
 
-Most likely diagnosis: **Increased intracranial pressure**.
-~~~
+> Most likely diagnosis: **Increased intracranial pressure**.
 
 **Gemini (OpenRouter)** (3.7 s)
 
-~~~text
-Here are the top 3 most likely diagnoses:
+> Here are the top 3 most likely diagnoses:
 
-1. **Migraine:** Classic presentation with severe headaches, nausea, and morning exacerbation, often triggered by sleep patterns.
-2. **Cluster Headache:** While less common, severe morning headaches and nausea can occur, though typically with more specific autonomic symptoms.
-3. **Medication Overuse Headache (MOH):** If the patient is taking acute headache medications frequently, this can lead to daily or near-daily headaches, often worse upon waking.
+> 1. **Migraine:** Classic presentation with severe headaches, nausea, and morning exacerbation, often triggered by sleep patterns.
+> 2. **Cluster Headache:** While less common, severe morning headaches and nausea can occur, though typically with more specific autonomic symptoms.
+> 3. **Medication Overuse Headache (MOH):** If the patient is taking acute headache medications frequently, this can lead to daily or near-daily headaches, often worse upon waking.
 
-Most likely diagnosis: Migraine
-~~~
+> Most likely diagnosis: Migraine
 
 **Local Qwen2.5-1.5B (CPU)** (27.1 s)
 
-~~~text
-1. **Migraine**: The onset during the day is unusual for migraines but can occur at any time.
-2. **Hypertensive Crisis**: This could present with headache and nausea due to increased blood pressure.
-3. **Sinusitis**: Morning headaches and sinus symptoms like congestion or nasal discharge are common.
+> 1. **Migraine**: The onset during the day is unusual for migraines but can occur at any time.
+> 2. **Hypertensive Crisis**: This could present with headache and nausea due to increased blood pressure.
+> 3. **Sinusitis**: Morning headaches and sinus symptoms like congestion or nasal discharge are common.
 
-Most likely diagnosis: Hypertensive Crisis
-~~~
+> Most likely diagnosis: Hypertensive Crisis
 
 **Llama-2 7B (HF Space API)** (8.2 s)
 
-~~~text
-Certainly! Here are my top 3 most likely diagnoses based on your symptoms:
+> Certainly! Here are my top 3 most likely diagnoses based on your symptoms:
 
-1. Migraine Headache: Waking up with severe headaches and nausea, especially during the morning hours, suggests that you might be experiencing migraines. Migraines are a type of headache disorder that can cause moderate to severe pain, along with other symptoms like sensitivity to light and sound, nausea, and vomiting. They tend to occur more frequently in the morning due to changes in blood flow and hormone levels during sleep.
-2. Sinusitis: Another possibility is sinusitis, an infection or inflammation of the sinuses. When the sinuses become inflamed, it can cause pressure and pain in the face, particularly around the eyes, nose, and forehead. Morning headaches and nausea are common symptoms of sinusitis, especially if you have allergies or structural issues in the nasal passages.
-3. Medication Overuse Headache: If you take too much pain medication, you might be experiencing medication overuse headaches. This type of headache occurs when the body becomes dependent on the medication to relieve tension in the muscles and blood vessels, leading to rebound headaches. You may notice that your headaches worsen after taking pain medication, and they can also occur more frequently than usual.
+> 1. Migraine Headache: Waking up with severe headaches and nausea, especially during the morning hours, suggests that you might be experiencing migraines. Migraines are a type of headache disorder that can cause moderate to severe pain, along with other symptoms like sensitivity to light and sound, nausea, and vomiting. They tend to occur more frequently in the morning due to changes in blood flow and hormone levels during sleep.
+> 2. Sinusitis: Another possibility is sinusitis, an infection or inflammation of the sinuses. When the sinuses become inflamed, it can cause pressure and pain in the face, particularly around the eyes, nose, and forehead. Morning headaches and nausea are common symptoms of sinusitis, especially if you have allergies or structural issues in the nasal passages.
+> 3. Medication Overuse Headache: If you take too much pain medication, you might be experiencing medication overuse headaches. This type of headache occurs when the body becomes dependent on the medication to relieve tension in the muscles and blood vessels, leading to rebound headaches. You may notice that your headaches worsen after taking pain medication, and they can also occur more frequently than usual.
 
-Most likely diagnosis: Migraine Headache
-~~~
+> Most likely diagnosis: Migraine Headache
 
 **Llama-2 13B (HF Space API)** (7.3 s)
 
-~~~text
-Of course! Based on what you've shared, here's my ranked list of the top 3 most likely diagnoses:
+> Of course! Based on what you've shared, here's my ranked list of the top 3 most likely diagnoses:
 
-1. Migraine: Severe headaches that occur primarily in the morning, along with nausea, are classic features of migraines. Hormonal changes and dehydration may contribute to their timing.
-2. Hypoglycemia: Morning headaches and nausea can also be signs of hypoglycemia (low blood sugar), which often occurs during overnight fasting.
-3. Sinus Headache: Acute sinusitis or allergies might cause morning headaches and nausea due to sinus pressure and congestion.
+> 1. Migraine: Severe headaches that occur primarily in the morning, along with nausea, are classic features of migraines. Hormonal changes and dehydration may contribute to their timing.
+> 2. Hypoglycemia: Morning headaches and nausea can also be signs of hypoglycemia (low blood sugar), which often occurs during overnight fasting.
+> 3. Sinus Headache: Acute sinusitis or allergies might cause morning headaches and nausea due to sinus pressure and congestion.
 
 Most likely diagnosis: Migraine.
-~~~
 
 **Llama-2 7B (Ollama)** (63.8 s)
 
-~~~text
-Of course! Based on the symptoms you've provided, here are my top 3 most likely diagnoses:
+> Of course! Based on the symptoms you've provided, here are my top 3 most likely diagnoses:
 
-1. Migraine: Waking up with severe headaches and nausea is a classic symptom of migraine. The exact cause of migraines is still unknown, but it's believed to be related to changes in blood flow and neurotransmitter release in the brain.
-
+> 1. Migraine: Waking up with severe headaches and nausea is a classic symptom of migraine. The exact cause of migraines is still unknown, but it's believed to be related to changes in blood flow and neurotransmitter release in the brain.
 Rationale: Migraines are a common cause of morning headaches, and the timing of your symptoms fits with this pattern.
 
-2. Sinusitis: Sinusitis is an inflammation of the sinuses, which can cause headaches, facial pain, and pressure. The morning timing of your symptoms suggests that the inflammation may be related to postnasal drip or other factors that occur during sleep.
-
+> 2. Sinusitis: Sinusitis is an inflammation of the sinuses, which can cause headaches, facial pain, and pressure. The morning timing of your symptoms suggests that the inflammation may be related to postnasal drip or other factors that occur during sleep.
 Rationale: Sinusitis is a common cause of morning headaches, and the inflammation may be exacerbated by lying down and breathing in the same air all night.
 
-3. Medication overuse headache: If you're taking pain medication too frequently, you may experience a rebound headache, also known as a medication overuse headache. This can cause morning headaches that worsen over time.
-
+> 3. Medication overuse headache: If you're taking pain medication too frequently, you may experience a rebound headache, also known as a medication overuse headache. This can cause morning headaches that worsen over time.
 Rationale: If you're taking pain medication regularly, it could be contributing to your morning headaches.
 
-Most likely diagnosis: Migraine. While sinusitis and medication overuse headache are also possible causes, the timing and severity of your symptoms suggest that migraine is the most likely explanation. I recommend further evaluation, such as a headache diary or imaging studies, to confirm the diagnosis and develop an appropriate treatment plan.
-~~~
+>Most likely diagnosis: Migraine. While sinusitis and medication overuse headache are also possible causes, the timing and severity of your symptoms suggest that migraine is the most likely explanation. I recommend further evaluation, such as a headache diary or imaging studies, to confirm the diagnosis and develop an appropriate treatment plan.
 
 **Llama-2 13B (Ollama)** (61.5 s)
 
-~~~text
-As an experienced physician, based on your symptoms of severe headaches and nausea that mainly occur in the morning when you wake up, here is my ranked list of top 3 most likely diagnoses:
+> As an experienced physician, based on your symptoms of severe headaches and nausea that mainly occur in the morning when you wake up, here is my ranked list of top 3 most likely diagnoses:
 
-1. Migraine: Your symptoms of severe headaches and nausea are consistent with migraine headaches, which often occur in the morning and can be triggered by hormonal changes or other factors.
-2. Hypoglycemia: Your symptoms could also be caused by hypoglycemia (low blood sugar), which can cause headaches, nausea, and other symptoms.
-3. Meningitis: While less likely, your symptoms could also be caused by a more serious condition such as meningitis, which can cause severe headaches, nausea, and other symptoms.
+> 1. Migraine: Your symptoms of severe headaches and nausea are consistent with migraine headaches, which often occur in the morning and can be triggered by hormonal changes or other factors.
+> 2. Hypoglycemia: Your symptoms could also be caused by hypoglycemia (low blood sugar), which can cause headaches, nausea, and other symptoms.
+> 3. Meningitis: While less likely, your symptoms could also be caused by a more serious condition such as meningitis, which can cause severe headaches, nausea, and other symptoms.
 
-Most likely diagnosis: Migraine.
-~~~
+> Most likely diagnosis: Migraine.
 
 ### Vignette 65
 
 **User message sent to every bot:**
 
-~~~text
-Doctor, I've been having frequent muscle spasms and cramps. I've been trying, but the spasms persist even when I'm hydrated.
+> Doctor, I've been having frequent muscle spasms and cramps. I've been trying, but the spasms persist even when I'm hydrated.
 
-Based on everything I have told you, give a ranked list of your top 3 most likely diagnoses (1 = most likely), one line each with a brief rationale. End with: 'Most likely diagnosis: <diagnosis>'.
-~~~
+> Based on everything I have told you, give a ranked list of your top 3 most likely diagnoses (1 = most likely), one line each with a brief rationale. End with: 'Most likely diagnosis: <diagnosis>'.
 
 **Reference (doctor's line in the file):** Your symptoms might be due to an electrolyte imbalance. We'll check your blood levels.
 
 **ChatGPT (gpt-4o-mini, OpenRouter)** (2.5 s)
 
-~~~text
-1. **Electrolyte Imbalance** - Despite hydration, low levels of potassium, magnesium, or calcium can lead to persistent muscle spasms and cramps.  
-2. **Neuromuscular Disorders** - Conditions like multiple sclerosis or amyotrophic lateral sclerosis (ALS) can cause muscle spasms due to nerve dysfunction.  
-3. **Medication Side Effects** - Certain medications, especially diuretics or statins, can lead to muscle cramps as a side effect, even with adequate hydration.  
+> 1. **Electrolyte Imbalance** - Despite hydration, low levels of potassium, magnesium, or calcium can lead to persistent muscle spasms and cramps.  
+> 2. **Neuromuscular Disorders** - Conditions like multiple sclerosis or amyotrophic lateral sclerosis (ALS) can cause muscle spasms due to nerve dysfunction.  
+> 3. **Medication Side Effects** - Certain medications, especially diuretics or statins, can lead to muscle cramps as a side effect, even with adequate hydration.  
 
-Most likely diagnosis: Electrolyte Imbalance.
-~~~
+> Most likely diagnosis: Electrolyte Imbalance.
 
 **Claude (OpenRouter)** (5.4 s)
 
-~~~text
-Based on your presentation of persistent muscle spasms and cramps despite adequate hydration, here are my top 3 differential diagnoses:
+> Based on your presentation of persistent muscle spasms and cramps despite adequate hydration, here are my top 3 differential diagnoses:
 
-1. **Electrolyte imbalance (hypomagnesemia, hypocalcemia, or hypokalemia)** - Most common cause of persistent cramping; minerals critical for neuromuscular function may be depleted despite fluid repletion
-2. **Peripheral nerve hyperexcitability syndrome/Neuromyotonia** - Spontaneous muscle activity from peripheral nerve dysfunction causing continuous muscle fiber contractions and spasms
-3. **Hypothyroidism** - Can cause myopathy with muscle cramps, spasms, and stiffness due to altered muscle metabolism and delayed muscle relaxation
+> 1. **Electrolyte imbalance (hypomagnesemia, hypocalcemia, or hypokalemia)** - Most common cause of persistent cramping; minerals critical for neuromuscular function may be depleted despite fluid repletion
+> 2. **Peripheral nerve hyperexcitability syndrome/Neuromyotonia** - Spontaneous muscle activity from peripheral nerve dysfunction causing continuous muscle fiber contractions and spasms
+> 3. **Hypothyroidism** - Can cause myopathy with muscle cramps, spasms, and stiffness due to altered muscle metabolism and delayed muscle relaxation
 
-Most likely diagnosis: **Electrolyte imbalance (hypomagnesemia, hypocalcemia, or hypokalemia)**
-~~~
+> Most likely diagnosis: **Electrolyte imbalance (hypomagnesemia, hypocalcemia, or hypokalemia)**
 
 **DeepSeek (OpenRouter)** (2.6 s)
 
-~~~text
-1. **Electrolyte imbalance (e.g., hypokalemia, hypomagnesemia, hypocalcemia)** – Common cause of persistent muscle spasms despite hydration; often due to diet, diuretics, or malabsorption.  
-2. **Medication side effects (e.g., diuretics, statins)** – Many drugs disrupt electrolyte balance or directly cause myopathy.  
-3. **Peripheral artery disease (PAD)** – Can cause exercise-induced cramping due to reduced blood flow, though less likely if spasms occur at rest.  
+> 1. **Electrolyte imbalance (e.g., hypokalemia, hypomagnesemia, hypocalcemia)** – Common cause of persistent muscle spasms despite hydration; often due to diet, diuretics, or malabsorption.  
+> 2. **Medication side effects (e.g., diuretics, statins)** – Many drugs disrupt electrolyte balance or directly cause myopathy.  
+> 3. **Peripheral artery disease (PAD)** – Can cause exercise-induced cramping due to reduced blood flow, though less likely if spasms occur at rest.  
 
-**Most likely diagnosis: Electrolyte imbalance.**
-~~~
+> **Most likely diagnosis: Electrolyte imbalance.**
 
 **Gemini (OpenRouter)** (1.4 s)
 
-~~~text
-Here are the top 3 most likely diagnoses:
+> Here are the top 3 most likely diagnoses:
 
-1.  **Electrolyte Imbalance (e.g., hypomagnesemia, hypokalemia, hypocalcemia):** While you mentioned hydration, specific electrolyte deficiencies are a very common cause of muscle spasms and cramps, even with adequate water intake.
-2.  **Medication Side Effect:** Many common medications (e.g., diuretics, statins, beta-agonists, certain antidepressants) can cause muscle cramps and spasms as a side effect.
-3.  **Benign Fasciculation Syndrome (BFS):** This is a diagnosis of exclusion characterized by persistent muscle twitching and cramps without underlying neurological disease, often exacerbated by stress or fatigue.
+> 1.  **Electrolyte Imbalance (e.g., hypomagnesemia, hypokalemia, hypocalcemia):** While you mentioned hydration, specific electrolyte deficiencies are a very common cause of muscle spasms and cramps, even with adequate water intake.
+> 2.  **Medication Side Effect:** Many common medications (e.g., diuretics, statins, beta-agonists, certain antidepressants) can cause muscle cramps and spasms as a side effect.
+> 3.  **Benign Fasciculation Syndrome (BFS):** This is a diagnosis of exclusion characterized by persistent muscle twitching and cramps without underlying neurological disease, often exacerbated by stress or fatigue.
 
-Most likely diagnosis: Electrolyte Imbalance
-~~~
+> Most likely diagnosis: Electrolyte Imbalance
 
 **Local Qwen2.5-1.5B (CPU)** (39.6 s)
 
-~~~text
-1. **Muscle Strain or Overuse**: Frequent muscle spasms can often be due to overuse or strain from repetitive movements or physical activity.
-2. **Dehydration**: While you mentioned being hydrated, dehydration is still a possibility, especially if there's no other clear cause.
-3. **Hyperthyroidism**: This condition can lead to increased metabolic rate and potentially trigger muscle spasms.
+> 1. **Muscle Strain or Overuse**: Frequent muscle spasms can often be due to overuse or strain from repetitive movements or physical activity.
+> 2. **Dehydration**: While you mentioned being hydrated, dehydration is still a possibility, especially if there's no other clear cause.
+> 3. **Hyperthyroidism**: This condition can lead to increased metabolic rate and potentially trigger muscle spasms.
 
-**Most likely diagnosis:** Muscle Strain or Overuse.
-~~~
+> **Most likely diagnosis:** Muscle Strain or Overuse.
 
 **Llama-2 7B (HF Space API)** (8.7 s)
 
-~~~text
-Sure, here are my top 3 most likely diagnoses based on your symptoms:
+> Sure, here are my top 3 most likely diagnoses based on your symptoms:
 
-1. Hypothyroidism: Muscle spasms and cramps can be a symptom of hypothyroidism, a condition where the thyroid gland doesn't produce enough thyroid hormones. Thyroid hormones play a crucial role in regulating metabolism, growth, and development, so when the levels are low, it can affect various bodily functions, including muscle tone and contractions.
-2. Electrolyte Imbalance: An imbalance of electrolytes such as potassium, sodium, calcium, and magnesium can also cause muscle spasms and cramps. These minerals are essential for proper muscle function, and when their levels get out of balance, it can lead to muscle weakness and twitching. Dehydration can exacerbate this issue, making it harder to maintain proper electrolyte balances.
-3. Multiple Sclerosis (MS): Although MS is a rare autoimmune disease, it can cause muscle spasms and cramps, especially in the legs and feet. MS occurs when the immune system mistakenly attacks the protective covering of nerve fibers, leading to communication problems between the brain and the rest of the body. Muscle spasms and cramps are just one of the many symptoms associated with MS.
+> 1. Hypothyroidism: Muscle spasms and cramps can be a symptom of hypothyroidism, a condition where the thyroid gland doesn't produce enough thyroid hormones. Thyroid hormones play a crucial role in regulating metabolism, growth, and development, so when the levels are low, it can affect various bodily functions, including muscle tone and contractions.
+> 2. Electrolyte Imbalance: An imbalance of electrolytes such as potassium, sodium, calcium, and magnesium can also cause muscle spasms and cramps. These minerals are essential for proper muscle function, and when their levels get out of balance, it can lead to muscle weakness and twitching. Dehydration can exacerbate this issue, making it harder to maintain proper electrolyte balances.
+> 3. Multiple Sclerosis (MS): Although MS is a rare autoimmune disease, it can cause muscle spasms and cramps, especially in the legs and feet. MS occurs when the immune system mistakenly attacks the protective covering of nerve fibers, leading to communication problems between the brain and the rest of the body. Muscle spasms and cramps are just one of the many symptoms associated with MS.
 
-Most likely diagnosis: Hypothyroidism
-~~~
+> Most likely diagnosis: Hypothyroidism
 
 **Llama-2 13B (HF Space API):** answered manually in the Space's chat UI; the transcript is not stored in `runs.jsonl`.
 
 **Llama-2 7B (Ollama)** (74.4 s)
 
-~~~text
-Sure, I'd be happy to help you with your muscle spasms and cramps! Based on the information you've provided, here are my top 3 most likely diagnoses:
+> Sure, I'd be happy to help you with your muscle spasms and cramps! Based on the information you've provided, here are my top 3 most likely diagnoses:
 
-1. Hypokalemia (low potassium levels): Muscle spasms and cramps can be caused by low potassium levels, which can lead to abnormal electrical activity in the muscles. Hypokalemia can occur due to various causes such as excessive sweating, diarrhea, and certain medications.
-
+> 1. Hypokalemia (low potassium levels): Muscle spasms and cramps can be caused by low potassium levels, which can lead to abnormal electrical activity in the muscles. Hypokalemia can occur due to various causes such as excessive sweating, diarrhea, and certain medications.
 Rationale: Muscle spasms and cramps are a common symptom of hypokalemia, and the persistence of these symptoms even when you are hydrated suggests that the cause may be related to a potassium deficiency.
 
-2. Hyperthyroidism: An overactive thyroid gland can cause muscle weakness, spasms, and cramps. Hyperthyroidism can lead to an imbalance in the body's electrolyte levels, including potassium, which can contribute to muscle symptoms.
-
+> 2. Hyperthyroidism: An overactive thyroid gland can cause muscle weakness, spasms, and cramps. Hyperthyroidism can lead to an imbalance in the body's electrolyte levels, including potassium, which can contribute to muscle symptoms.
 Rationale: Muscle spasms and cramps can be a symptom of hyperthyroidism, and the persistence of these symptoms despite hydration suggests that the cause may be related to an imbalance in thyroid hormone levels.
 
-3. Neuromuscular disorders: Certain neuromuscular disorders, such as multiple sclerosis or peripheral neuropathy, can cause muscle spasms and cramps. These disorders can affect the communication between the nervous system and the muscles, leading to abnormal muscle contractions.
-
+> 3. Neuromuscular disorders: Certain neuromuscular disorders, such as multiple sclerosis or peripheral neuropathy, can cause muscle spasms and cramps. These disorders can affect the communication between the nervous system and the muscles, leading to abnormal muscle contractions.
 Rationale: Muscle spasms and cramps can be a symptom of various neuromuscular disorders, and the persistence of these symptoms despite hydration suggests that the cause may be related to an underlying neurological disorder.
 
-Most likely diagnosis: Hypokalemia.
-~~~
+> Most likely diagnosis: Hypokalemia.
 
 **Llama-2 13B (Ollama)** (62.2 s)
 
-~~~text
-As an experienced physician, based on your symptoms of frequent muscle spasms and cramps, here is my ranked list of top 3 most likely diagnoses:
+> As an experienced physician, based on your symptoms of frequent muscle spasms and cramps, here is my ranked list of top 3 most likely diagnoses:
 
-1. Hypokalemia (low potassium levels) - Muscle spasms and cramps are a common symptom of hypokalemia, and it can persist even with proper hydration.
-2. Hypocalcemia (low calcium levels) - Similar to hypokalemia, hypocalcemia can cause muscle spasms and cramps, and it can be difficult to diagnose without proper testing.
-3. Hyperparathyroidism (overactive parathyroid glands) - This condition can cause muscle weakness, cramps, and spasms, and it is more common in women than men.
+> 1. Hypokalemia (low potassium levels) - Muscle spasms and cramps are a common symptom of hypokalemia, and it can persist even with proper hydration.
+> 2. Hypocalcemia (low calcium levels) - Similar to hypokalemia, hypocalcemia can cause muscle spasms and cramps, and it can be difficult to diagnose without proper testing.
+> 3. Hyperparathyroidism (overactive parathyroid glands) - This condition can cause muscle weakness, cramps, and spasms, and it is more common in women than men.
 
-Most likely diagnosis: Hypokalemia.
-~~~
+> Most likely diagnosis: Hypokalemia.
 
 ### Vignette 82
 
 **User message sent to every bot:**
 
-~~~text
-Doctor, I've been feeling unusually thirsty and have frequent urination. Yes, I've been craving sugary foods, and I've lost some weight.
+> Doctor, I've been feeling unusually thirsty and have frequent urination. Yes, I've been craving sugary foods, and I've lost some weight.
 
-Based on everything I have told you, give a ranked list of your top 3 most likely diagnoses (1 = most likely), one line each with a brief rationale. End with: 'Most likely diagnosis: <diagnosis>'.
-~~~
+> Based on everything I have told you, give a ranked list of your top 3 most likely diagnoses (1 = most likely), one line each with a brief rationale. End with: 'Most likely diagnosis: <diagnosis>'.
 
 **Reference (doctor's line in the file):** Your symptoms may indicate type 1 diabetes. We'll check your blood sugar levels.
 
 **ChatGPT (gpt-4o-mini, OpenRouter)** (2.4 s)
 
-~~~text
-1. **Diabetes Mellitus (Type 1 or Type 2)** - The combination of increased thirst, frequent urination, cravings for sugary foods, and weight loss strongly suggests hyperglycemia and possible diabetes.
-2. **Diabetes Insipidus** - While less common, the symptoms of excessive thirst and urination could indicate a deficiency in ADH or a resistance to it, leading to dilute urine.
-3. **Hypercalcemia** - Elevated calcium levels can cause increased thirst and urination, along with weight loss, though the craving for sugary foods is less typical.
+> 1. **Diabetes Mellitus (Type 1 or Type 2)** - The combination of increased thirst, frequent urination, cravings for sugary foods, and weight loss strongly suggests hyperglycemia and possible diabetes.
+> 2. **Diabetes Insipidus** - While less common, the symptoms of excessive thirst and urination could indicate a deficiency in ADH or a resistance to it, leading to dilute urine.
+> 3. **Hypercalcemia** - Elevated calcium levels can cause increased thirst and urination, along with weight loss, though the craving for sugary foods is less typical.
 
-Most likely diagnosis: Diabetes Mellitus (Type 1 or Type 2).
-~~~
+> Most likely diagnosis: Diabetes Mellitus (Type 1 or Type 2).
 
 **Claude (OpenRouter)** (5.1 s)
 
-~~~text
-Based on your symptoms of polydipsia (excessive thirst), polyuria (frequent urination), sugar cravings, and unintentional weight loss, here are my top 3 differential diagnoses:
+> Based on your symptoms of polydipsia (excessive thirst), polyuria (frequent urination), sugar cravings, and unintentional weight loss, here are my top 3 differential diagnoses:
 
-1. **Diabetes Mellitus (Type 1 or Type 2)** - Classic triad of polyuria, polydipsia, and weight loss with hyperglycemia causing osmotic diuresis and sugar cravings from cellular glucose deprivation.
+> 1. **Diabetes Mellitus (Type 1 or Type 2)** - Classic triad of polyuria, polydipsia, and weight loss with hyperglycemia causing osmotic diuresis and sugar cravings from cellular glucose deprivation.
+> 2. **Diabetes Insipidus** - Causes severe polyuria and compensatory polydipsia, though weight loss would be from dehydration and sugar cravings are less typical.
+> 3. **Hyperthyroidism** - Can cause polydipsia, increased appetite with weight loss, and frequent urination, though the constellation is less classic than for diabetes mellitus.
 
-2. **Diabetes Insipidus** - Causes severe polyuria and compensatory polydipsia, though weight loss would be from dehydration and sugar cravings are less typical.
-
-3. **Hyperthyroidism** - Can cause polydipsia, increased appetite with weight loss, and frequent urination, though the constellation is less classic than for diabetes mellitus.
-
-Most likely diagnosis: **Diabetes Mellitus**
-~~~
+> Most likely diagnosis: **Diabetes Mellitus**
 
 **DeepSeek (OpenRouter)** (6.4 s)
 
-~~~text
-1. **Diabetes mellitus (Type 1 or Type 2)**: Classic triad of polydipsia, polyuria, and weight loss with increased appetite suggests hyperglycemia.  
-2. **Diabetes insipidus**: Excessive thirst and urination, but typically without weight loss or sugar cravings.  
-3. **Hyperthyroidism**: Weight loss and increased appetite, but thirst and urination are less prominent.  
+> 1. **Diabetes mellitus (Type 1 or Type 2)**: Classic triad of polydipsia, polyuria, and weight loss with increased appetite suggests hyperglycemia.  
+> 2. **Diabetes insipidus**: Excessive thirst and urination, but typically without weight loss or sugar cravings.  
+> 3. **Hyperthyroidism**: Weight loss and increased appetite, but thirst and urination are less prominent.  
 
-Most likely diagnosis: **Diabetes mellitus**.
-~~~
+> Most likely diagnosis: **Diabetes mellitus**.
 
 **Gemini (OpenRouter)** (1.3 s)
 
-~~~text
-Here are the top 3 most likely diagnoses:
+> Here are the top 3 most likely diagnoses:
 
-1.  **Type 1 Diabetes Mellitus:** The classic triad of polydipsia (thirst), polyuria (frequent urination), and weight loss, coupled with sugar cravings, strongly points to insulin deficiency.
-2.  **Type 2 Diabetes Mellitus:** While often more insidious, these symptoms can also present in Type 2, especially if the disease has progressed and blood glucose levels are significantly elevated, leading to osmotic diuresis and weight loss.
-3.  **Diabetes Insipidus:** Polydipsia and polyuria are hallmark symptoms, but the absence of sugar cravings and weight loss makes it less likely than diabetes mellitus, which better explains all presented symptoms.
+> 1.  **Type 1 Diabetes Mellitus:** The classic triad of polydipsia (thirst), polyuria (frequent urination), and weight loss, coupled with sugar cravings, strongly points to insulin deficiency.
+> 2.  **Type 2 Diabetes Mellitus:** While often more insidious, these symptoms can also present in Type 2, especially if the disease has progressed and blood glucose levels are significantly elevated, leading to osmotic diuresis and weight loss.
+> 3.  **Diabetes Insipidus:** Polydipsia and polyuria are hallmark symptoms, but the absence of sugar cravings and weight loss makes it less likely than diabetes mellitus, which better explains all presented symptoms.
 
-Most likely diagnosis: Type 1 Diabetes Mellitus
-~~~
+> Most likely diagnosis: Type 1 Diabetes Mellitus
 
 **Local Qwen2.5-1.5B (CPU)** (38.8 s)
 
-~~~text
-1. Diabetes Mellitus Type 2 - The increased thirst and frequent urination suggest diabetes, particularly type 2.
-2. Hyperthyroidism - Weight loss can be associated with hyperthyroidism due to its metabolic effects.
-3. Cushing's Syndrome - Unusual cravings for sweets could indicate this condition, which is characterized by high cortisol levels.
+> 1. Diabetes Mellitus Type 2 - The increased thirst and frequent urination suggest diabetes, particularly type 2.
+> 2. Hyperthyroidism - Weight loss can be associated with hyperthyroidism due to its metabolic effects.
+> 3. Cushing's Syndrome - Unusual cravings for sweets could indicate this condition, which is characterized by high cortisol levels.
 
-Most likely diagnosis: Diabetes Mellitus Type 2.
-~~~
+> Most likely diagnosis: Diabetes Mellitus Type 2.
 
 **Llama-2 7B (HF Space API)** (11.1 s)
 
-~~~text
-Great, thank you for providing additional information! Based on what you've shared, here are my top 3 most likely diagnoses:
+> Great, thank you for providing additional information! Based on what you've shared, here are my top 3 most likely diagnoses:
 
-1. Type 1 Diabetes: Your symptoms of increased thirst, frequent urination, and cravings for sugary foods are classic signs of type 1 diabetes. This is an autoimmune disease where the body's immune system attacks the cells in the pancreas that produce insulin, resulting in high blood sugar levels. Losing weight without trying is also a common symptom of type 1 diabetes. Most likely diagnosis: Type 1 Diabetes.
-2. Gestational Diabetes: If you are pregnant or thinking about becoming pregnant, gestational diabetes is another potential cause of your symptoms. This type of diabetes develops during pregnancy, usually during the second trimester, and is caused by hormonal changes and insulin resistance. Pregnant women with gestational diabetes often experience similar symptoms to type 1 diabetes, including increased thirst and urination, and cravings for sweet foods. Most likely diagnosis: Gestational Diabetes.
-3. Polycystic Ovary Syndrome (PCOS): PCOS is a hormonal disorder that affects ovulation and can cause insulin resistance, leading to high blood sugar levels. Common symptoms of PCOS include acne, irregular periods, and weight gain, as well as the ones you've listed. While PCOS is not typically associated with diabetes, it's important to consider it as a possibility given your symptoms. Most likely diagnosis: PCOS.
+> 1. Type 1 Diabetes: Your symptoms of increased thirst, frequent urination, and cravings for sugary foods are classic signs of type 1 diabetes. This is an autoimmune disease where the body's immune system attacks the cells in the pancreas that produce insulin, resulting in high blood sugar levels. Losing weight without trying is also a common symptom of type 1 diabetes. Most likely diagnosis: Type 1 Diabetes.
+> 2. Gestational Diabetes: If you are pregnant or thinking about becoming pregnant, gestational diabetes is another potential cause of your symptoms. This type of diabetes develops during pregnancy, usually during the second trimester, and is caused by hormonal changes and insulin resistance. Pregnant women with gestational diabetes often experience similar symptoms to type 1 diabetes, including increased thirst and urination, and cravings for sweet foods. Most likely diagnosis: Gestational Diabetes.
+> 3. Polycystic Ovary Syndrome (PCOS): PCOS is a hormonal disorder that affects ovulation and can cause insulin resistance, leading to high blood sugar levels. Common symptoms of PCOS include acne, irregular periods, and weight gain, as well as the ones you've listed. While PCOS is not typically associated with diabetes, it's important to consider it as a possibility given your symptoms. Most likely diagnosis: PCOS.
 
-It's important to note that these are just possibilities and not definitive diagnoses. To confirm the underlying cause of your symptoms, further testing and evaluation will be necessary. I recommend consulting with a healthcare professional for a proper evaluation and appropriate treatment.
-~~~
+> It's important to note that these are just possibilities and not definitive diagnoses. To confirm the underlying cause of your symptoms, further testing and evaluation will be necessary. I recommend consulting with a healthcare professional for a proper evaluation and appropriate treatment.
 
 **Llama-2 13B (HF Space API):** answered manually in the Space's chat UI; the transcript is not stored in `runs.jsonl`.
 
 **Llama-2 7B (Ollama)** (37.3 s)
 
-~~~text
-Sure, I'd be happy to help you with your differential diagnosis! Based on the symptoms you've provided, here are my top 3 most likely diagnoses:
+> Sure, I'd be happy to help you with your differential diagnosis! Based on the symptoms you've provided, here are my top 3 most likely diagnoses:
 
-1. Diabetes mellitus: The excessive thirst and frequent urination you've experienced are classic symptoms of diabetes mellitus. The craving for sugary foods and weight loss could also be related to high blood sugar levels.
-2. Hyperthyroidism: An overactive thyroid gland can cause increased thirst and urination, as well as weight loss. The desire for sweet foods could be a result of increased metabolism.
-3. Hyponatremia: This is a condition where the body has too much water and not enough sodium, leading to excessive thirst and urination. Weight loss could also occur due to the body's attempt to correct the imbalance.
+> 1. Diabetes mellitus: The excessive thirst and frequent urination you've experienced are classic symptoms of diabetes mellitus. The craving for sugary foods and weight loss could also be related to high blood sugar levels.
+> 2. Hyperthyroidism: An overactive thyroid gland can cause increased thirst and urination, as well as weight loss. The desire for sweet foods could be a result of increased metabolism.
+> 3. Hyponatremia: This is a condition where the body has too much water and not enough sodium, leading to excessive thirst and urination. Weight loss could also occur due to the body's attempt to correct the imbalance.
 
-Most likely diagnosis: Diabetes mellitus
-~~~
+> Most likely diagnosis: Diabetes mellitus
 
 **Llama-2 13B (Ollama)** (66.3 s)
 
-~~~text
-As an experienced physician, based on the symptoms you've described, my top 3 most likely diagnoses are:
+> As an experienced physician, based on the symptoms you've described, my top 3 most likely diagnoses are:
 
-1. Diabetes mellitus (DM): Your increased thirst and frequent urination are classic symptoms of uncontrolled blood sugar levels, which could be due to either type 1 or type 2 DM. The presence of sugar cravings and weight loss also support this diagnosis.
-2. Hypothyroidism: Your weight loss and increased thirst could be indicative of an underactive thyroid gland, which could lead to an imbalance in your body's metabolic processes.
-3. Adrenal insufficiency: Your increased thirst and frequent urination could be a sign of decreased aldosterone production, leading to an imbalance in your body's electrolyte levels.
+> 1. Diabetes mellitus (DM): Your increased thirst and frequent urination are classic symptoms of uncontrolled blood sugar levels, which could be due to either type 1 or type 2 DM. The presence of sugar cravings and weight loss also support this diagnosis.
+> 2. Hypothyroidism: Your weight loss and increased thirst could be indicative of an underactive thyroid gland, which could lead to an imbalance in your body's metabolic processes.
+> 3. Adrenal insufficiency: Your increased thirst and frequent urination could be a sign of decreased aldosterone production, leading to an imbalance in your body's electrolyte levels.
 
-Most likely diagnosis: Diabetes mellitus (DM).
-~~~
+> Most likely diagnosis: Diabetes mellitus (DM).
 
 ---
 
-## Before you submit
+## GitHub Repository
 
-1. **Space settings:** replace the bracketed text in the section 3 setup table with the generation settings you used (or delete the Space rows if you drop that supplementary analysis).
-2. **Check the numbers:** compare the tables in sections 3.3, 5.2 and 5.3 with `results/summary_tables.md` and fix any difference.
-3. **Labels:** review `results/manual_labels.csv` against the answers; the notebook lists the rows where it differs from the judge.
-4. Add your name, delete this checklist, and follow your course's rules on disclosing AI assistance.
+The work project has been deployed with Docker architecture using API through OpenRouter and HuggingFace.
+The rest of the requirements are described in the README.md
+
+- **GitHub repository:** [https://github.com/marcusRB/urv-computer-aided-diagnosis-practice ]
