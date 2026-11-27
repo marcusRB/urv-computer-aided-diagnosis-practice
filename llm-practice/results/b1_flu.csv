@@ -1,0 +1,132 @@
+model,system,prompt,load_s,latency_s,completion_tokens,tok_per_s,answer
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,generic,flu_brief,87.0,35.8,142,3.97,"The symptoms you describe are consistent with the flu, commonly referred to as influenza or the ""flu."" The flu usually lasts for about 1-2 weeks, and it can cause severe symptoms, such as fever, body aches, a dry cough, a sore throat, and tiredness. The flu can be caused by various strains of influenza virus, which includes the H1N1, H3N2, and H9N2 strains. If you have any of these symptoms, it's essential to get medical attention as soon as possible, especially if you have underlying health conditions or you are at high risk of complications."
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,generic,flu_detailed,87.0,41.3,167,4.04,"I don't have access to any specific medical records, but based on your symptoms, I can suggest the most likely diagnosis as COVID-19 infection. Here are the possible differential diagnoses:
+
+1. Flu
+2. Common cold
+3. SARS-CoV-2 infection (the virus that causes COVID-19)
+4. Infection with another respiratory virus
+5. Infection with a bacteria or parasite (such as pneumonia, meningitis, or malaria)
+
+I recommend getting a COVID-19 test as soon as possible to confirm your diagnosis and receive the appropriate treatment. If you have any concerns or questions, please do not hesitate to seek medical advice from a healthcare provider."
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,physician,flu_brief,87.0,64.2,257,4.0,"I do not have you as a patient. However, based on the symptoms you provided, here's what I would recommend:
+
+1. Fever: this is a high-pitched temperature that exceeds 38 degrees celsius (100 degrees fahrenheit) for 24 hours or more. A fever can be caused by infections such as the flu, chickenpox, or measles. A doctor should perform a diagnostic test such as a temperature check or blood test to confirm the diagnosis.
+
+2. Body aches: this can be caused by various conditions such as a viral infection, rheumatic fever, or a bone or joint infection. The doctor may ask you about your symptoms and ask you to describe any pain or discomfort you are experiencing.
+
+3. Dry cough: this can be caused by a severe viral infection, bronchitis, or a bacterial infection. The doctor may ask you about your cough, whether it's persistent or not, and ask you to describe any other symptoms you may be experiencing.
+
+4. Sore throat: this"
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,physician,flu_detailed,87.0,64.6,256,3.96,"Congratulations on your return to work! Here's your most likely diagnosis for your sudden onset of symptoms:
+
+1. COVID-19 infection
+
+Symptoms: Fever, muscle and joint aches, headache, dry cough, sore throat, extreme fatigue
+
+Causes: COVID-19 is a respiratory illness caused by a new coronavirus discovered in 2019. Symptoms can be mild or severe, including pneumonia and acute bronchitis. The virus can be transmitted through respiratory droplets in close contact with someone with COVID-19, or through touching a surface or object contaminated with the virus and then touching your mouth, nose, or eyes.
+
+2. Chickenpox
+
+Symptoms: Fever, muscle and joint aches, headache, dry cough, sore throat, and shivering
+
+Causes: Chickenpox is a viral illness caused by the varicella-zoster virus. The virus can be transmitted through close contact with an infected person, through respir"
+HuggingFaceTB/SmolLM2-1.7B-Instruct,generic,flu_brief,138.8,55.7,58,1.04,"Based on your symptoms, it's possible that you may have Influenza, commonly referred to as the flu. These symptoms are typical of the flu, but it's also important to note that other conditions can cause similar symptoms, so it's important to consult a healthcare professional for an accurate diagnosis."
+HuggingFaceTB/SmolLM2-1.7B-Instruct,generic,flu_detailed,138.8,216.5,253,1.17,"Based on your symptoms, I'd suspect you're experiencing a common but serious condition known as Influenza, more specifically Influenza A.
+
+Your symptoms could be signs of an acute respiratory infection, which is often caused by Influenza. Other possible conditions that could present with similar symptoms include other viral illnesses like the common cold or upper respiratory infections caused by bacteria (such as sinusitis or bronchitis), but these are less likely given the sudden onset of symptoms and the severity of your fatigue.
+
+A differential diagnosis could include:
+
+1. Influenza: This is the most likely diagnosis, given the rapid onset of symptoms, especially since several coworkers are also ill.
+2. Viral gastroenteritis: This can cause similar symptoms like nausea, vomiting, diarrhea, and fever. However, it's less likely given your age, the sudden onset of symptoms, and the presence of muscle aches and fatigue.
+3. Sinusitis: This could cause a headache and sinus congestion. However, it's unlikely given the overall severity of your symptoms.
+
+It's important to note that these are just possible diagnoses, and your condition could be caused by something else entirely. If your symptoms persist or worsen, it's advisable to consult a healthcare professional for an accurate diagnosis and treatment."
+HuggingFaceTB/SmolLM2-1.7B-Instruct,physician,flu_brief,138.8,43.7,50,1.14,"Based on the symptoms you've provided, I would suspect Influenza A or B, Covid-19, or another viral respiratory illness like the common cold. However, further testing and consideration of additional symptoms would be necessary to narrow down the specific diagnosis."
+HuggingFaceTB/SmolLM2-1.7B-Instruct,physician,flu_detailed,138.8,88.7,101,1.14,"Extreme fatigue, fever, muscle and joint aches, headache, dry cough, and sore throat are indicative of Influenza A or B, COVID-19, or a viral respiratory illness. Your most likely diagnoses are Influenza A or B, COVID-19, and potential viral pneumonia.
+
+Short differential:
+1. Influenza A or B
+2. COVID-19
+3. Viral pneumonia
+4. Other respiratory infections such as pertussis (whooping cough) or adenovirus."
+Qwen/Qwen2.5-1.5B-Instruct,generic,flu_brief,121.0,99.0,116,1.17,"Based on your symptoms of fever, body aches, a dry cough, a sore throat, and fatigue, it is possible that you may be experiencing the flu or another respiratory illness such as COVID-19.
+
+It's important to note that these symptoms can also be caused by other conditions such as allergies, colds, or even less serious infections like the common cold. However, if your symptoms persist or worsen, it is recommended to seek medical attention from a healthcare provider who will be able to provide an accurate diagnosis and appropriate treatment based on their assessment of your condition."
+Qwen/Qwen2.5-1.5B-Instruct,generic,flu_detailed,121.0,214.2,256,1.2,"Based on the symptoms you've described—fever, muscle and joint aches, headache, dry cough, sore throat, and extreme fatigue—you may be experiencing a viral infection such as influenza or another respiratory virus. Given that several of your coworkers are also sick, it's possible they have similar infections.
+
+**Most Likely Diagnosis:**
+Influenza (flu) or other respiratory viruses like coronavirus (COVID-19).
+
+**Differential Diagnosis:**
+
+1. **Influenza (Flu):**
+   - High fever (often above 38°C)
+   - Muscle and joint pain
+   - Headache
+   - Dry cough
+   - Sore throat
+   - Fatigue
+
+2. **Coronavirus (COVID-19):**
+   - Fever (usually higher than 38°C)
+   - Respiratory symptoms including coughing and difficulty breathing
+   - Fatigue
+   - Shortness of breath
+   - Conjunctivitis (red eyes)
+
+Given the high likelihood of an infectious cause due to exposure to others who are ill, it would be prudent to consider both possibilities for initial testing if available. However, without specific diagnostic tools like PCR tests for COVID-19, we can't definitively diagnose these"
+Qwen/Qwen2.5-1.5B-Instruct,physician,flu_brief,121.0,83.5,95,1.14,"Based on the symptoms you've described—fever, body aches, dry cough, sore throat, and fatigue—it is likely that you have influenza (the flu). The combination of these symptoms strongly suggests acute respiratory illness caused by the influenza virus. However, it's important to note that some other viral infections can also present similarly, so if this is not resolved within a few days or if there are any concerns about severity, consulting with a healthcare provider would be advisable."
+Qwen/Qwen2.5-1.5B-Instruct,physician,flu_detailed,121.0,153.8,178,1.16,"Given the symptoms of fever, muscle and joint aches, headache, dry cough, sore throat, and extreme fatigue, along with the fact that several coworkers are also ill, the most likely diagnoses could include:
+
+1. **Influenza** (Common Cold): The flu often presents with similar symptoms but can be more severe, especially in adults.
+2. **Viral Pneumonia**: Can present with fever, cough, chest discomfort, and generalized malaise.
+3. **Tuberculosis**: Although less common, it can cause similar symptoms due to the body's immune response to infection.
+
+A short differential would be:
+- Influenza or Common Cold
+- Viral Pneumonia
+- Tuberculosis
+
+Further diagnostic testing such as a complete blood count (CBC), chest X-ray, and possibly sputum tests may help clarify the exact diagnosis."
+microsoft/Phi-3.5-mini-instruct,generic,flu_brief,291.0,213.2,256,1.2,"I'm not a doctor, but I can provide some general information. The symptoms you're describing—fever, body aches, dry cough, sore throat, and tiredness—can be associated with a variety of conditions, ranging from common viral infections to more serious illnesses. Here are a few possibilities, but it's crucial to consult with a healthcare professional for an accurate diagnosis and appropriate treatment:
+
+1. **Viral Infection**: Viruses such as the common cold, influenza (flu), or COVID-19 (caused by the SARS-CoV-2 virus) can cause these symptoms. Influenza and COVID-19, in particular, have been widely circulating, and the symptoms overlap significantly.
+
+2. **Bacterial Infection**: Bacterial infections like strep throat (caused by Streptococcus bacteria) can cause a sore throat, fever, and body aches.
+
+3. **Other Infections**: Other viral infections like mononucleosis (caused by the Epstein-B"
+microsoft/Phi-3.5-mini-instruct,generic,flu_detailed,291.0,206.9,256,1.24,"Based on the symptoms you described – fever, muscle and joint aches, headache, dry cough, sore throat, and extreme fatigue – along with the information that several coworkers are also ill, the most likely diagnosis is influenza (commonly known as the flu), although other infectious diseases should also be considered. Here's a differential diagnosis:
+
+Primary Diagnosis:
+1. Influenza: Given the seasonality of the flu and the presence of multiple co-workers with similar symptoms, this is the most likely diagnosis. Influenza is a viral illness that can spread rapidly, especially in close quarters like workplaces.
+
+Differential Diagnosis:
+1. COVID-19: This coronavirus disease has symptoms that overlap with those of influenza, including fever, cough, fatigue, and body aches. Given the ongoing nature of the COVID-19 pandemic, testing for SARS-CoV-2 is recommended if you have not yet been tested, especially if symptoms are severe or if you belong to a high-risk group.
+
+2"
+microsoft/Phi-3.5-mini-instruct,physician,flu_brief,291.0,203.7,256,1.26,"Your symptoms (fever, body aches, dry cough, sore throat, and tiredness) are common in several respiratory infections. Here are a few possible conditions to consider:
+
+1. Influenza (flu): An acute viral respiratory infection commonly associated with systemic symptoms like fever, body aches, and fatigue, as well as respiratory symptoms.
+
+2. COVID-19: A novel coronavirus infection that presents with similar symptoms, including fever, dry cough, and fatigue. Current testing is recommended for confirmation.
+
+3. Common cold: A viral upper respiratory tract infection that can cause mild symptoms, but body aches are less common.
+
+4. Pneumonia: A bacterial, viral, or fungal infection of the lungs causing inflammation and fluid accumulation. It typically worsens symptoms and may include worsening cough, fever, and difficulty breathing.
+
+5. Mononucleosis: A viral infection caused by Epstein-Barr virus, characterized by fever"
+microsoft/Phi-3.5-mini-instruct,physician,flu_detailed,291.0,203.3,256,1.26,"Most Likely Diagnosis: COVID-19.
+
+Differential Diagnoses:
+
+1. Influenza: Similar symptoms including fever, body aches, cough, and fatigue. High incidence during flu season and possible exposure through coworkers.
+
+2. Streptococcal Pharyngitis (Strep Throat): Sore throat, fever, and fatigue are common. However, it doesn't typically cause cough and muscle/joint aches.
+
+3. Mononucleosis: Often presents with fatigue, fever, sore throat, and body aches but usually involves lymph node swelling which is not mentioned.
+
+4. Viral Upper Respiratory Tract Infection: Common cold or another viral illness. However, the combination of systemic symptoms (fever, muscle/joint aches, fatigue) and cough might suggest a more serious infection.
+
+5. Pneumonia: Could present with fever, cough, fatigue. However, it would generally have more severe symptoms including shortness of breath, and ch"

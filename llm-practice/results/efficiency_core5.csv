@@ -1,0 +1,10 @@
+bot,latency_mean_s,latency_median_s,completion_tokens_mean,refusal_rate
+chatgpt,2.55,2.54,117.8,0.0
+claude,5.032,5.115,190.8,0.0
+deepseek,6.33,6.364,103.4,0.0
+gemini,2.335,1.845,144.8,0.0
+llama2-13b,8.502,7.379,0.0,0.0
+llama2-13b-ollama,74.785,66.347,220.0,0.0
+llama2-7b,9.764,10.395,0.0,0.0
+llama2-7b-ollama,57.347,57.048,326.8,0.0
+local-qwen2.5-1.5b,39.117,39.563,94.8,0.0

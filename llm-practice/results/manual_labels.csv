@@ -1,0 +1,909 @@
+bot,vignette_id,set,gold,final_text,top1,top3,manual_top1,manual_top3
+gemini,15,core,It sounds like you might have social anxiety disorder. We can explore treatment options.,"Here are the top 3 most likely diagnoses:
+
+1.  **Panic Disorder with Agoraphobia:** Recurrent unexpected panic attacks combined with anxiety about being in places or situations from which escape might be difficult or embarrassing, or where help might not be available (e.g., crowded places).
+2.  **Social Anxiety Disorder (Social Phobia):** Marked fear or anxiety about one or more social situations in which the individual is exposed to possible scrutiny by others (e.g., public speaking, crowded places), often leading to panic-like symptoms.
+3.  **Generalized Anxiety Disorder (GAD):** Excessive anxiety and worry about a number of events or activities, which can manifest as panic attacks in specific stressful situations, though the primary feature is pervasive worry rather than discrete panic attacks or specific social fears.
+
+Most likely diagnosis: Panic Disorder with Agoraphobia",0,1,0.0,1.0
+gemini,40,core,Your symptoms raise concerns about diverticulitis. We'll perform imaging tests.,"Here are the top 3 most likely diagnoses:
+
+1.  **Diverticulitis:** Left-sided abdominal pain, changes in bowel movements, and bloating are classic symptoms, especially in older adults.
+2.  **Irritable Bowel Syndrome (IBS):** Chronic abdominal pain, bloating, and altered bowel habits (constipation, diarrhea, or mixed) are hallmark features.
+3.  **Constipation:** Can cause sharp, crampy abdominal pain, bloating, and changes in bowel movements (infrequent or difficult stools).
+
+Most likely diagnosis: Diverticulitis",1,1,1.0,1.0
+gemini,64,core,Your symptoms may be linked to increased intracranial pressure. We'll order imaging to investigate further.,"Here are the top 3 most likely diagnoses:
+
+1. **Migraine:** Classic presentation with severe headaches, nausea, and morning exacerbation, often triggered by sleep patterns.
+2. **Cluster Headache:** While less common, severe morning headaches and nausea can occur, though typically with more specific autonomic symptoms.
+3. **Medication Overuse Headache (MOH):** If the patient is taking acute headache medications frequently, this can lead to daily or near-daily headaches, often worse upon waking.
+
+Most likely diagnosis: Migraine",0,0,0.0,0.0
+gemini,65,core,Your symptoms might be due to an electrolyte imbalance. We'll check your blood levels.,"Here are the top 3 most likely diagnoses:
+
+1.  **Electrolyte Imbalance (e.g., hypomagnesemia, hypokalemia, hypocalcemia):** While you mentioned hydration, specific electrolyte deficiencies are a very common cause of muscle spasms and cramps, even with adequate water intake.
+2.  **Medication Side Effect:** Many common medications (e.g., diuretics, statins, beta-agonists, certain antidepressants) can cause muscle cramps and spasms as a side effect.
+3.  **Benign Fasciculation Syndrome (BFS):** This is a diagnosis of exclusion characterized by persistent muscle twitching and cramps without underlying neurological disease, often exacerbated by stress or fatigue.
+
+Most likely diagnosis: Electrolyte Imbalance",1,1,1.0,1.0
+gemini,82,core,Your symptoms may indicate type 1 diabetes. We'll check your blood sugar levels.,"Here are the top 3 most likely diagnoses:
+
+1.  **Type 1 Diabetes Mellitus:** The classic triad of polydipsia (thirst), polyuria (frequent urination), and weight loss, coupled with sugar cravings, strongly points to insulin deficiency.
+2.  **Type 2 Diabetes Mellitus:** While often more insidious, these symptoms can also present in Type 2, especially if the disease has progressed and blood glucose levels are significantly elevated, leading to osmotic diuresis and weight loss.
+3.  **Diabetes Insipidus:** Polydipsia and polyuria are hallmark symptoms, but the absence of sugar cravings and weight loss makes it less likely than diabetes mellitus, which better explains all presented symptoms.
+
+Most likely diagnosis: Type 1 Diabetes Mellitus",1,1,1.0,1.0
+gemini,150,extra,"Based on your symptoms, I would suspect that you have a migraine. I recommend an MRI to confirm the diagnosis.","Here are the top 3 most likely diagnoses:
+
+1. **Tension-type headache with associated dizziness/nausea:** This is a very common presentation for headaches, and while ""tension"" implies a cause, the symptoms of constant headache, dizziness, and nausea can be quite debilitating and concerning, often leading to worry about more serious conditions.
+2. **Migraine with aura or vestibular migraine:** Migraines can present with constant headaches, dizziness (vertigo or lightheadedness), and nausea, and can worsen over time. The ""aura"" can sometimes be subtle or non-visual, contributing to the dizziness.
+3. **Medication overuse headache (MOH):** If the patient has been taking over-the-counter pain relievers frequently for their headaches, this can paradoxically lead to a worsening and more constant headache pattern, often accompanied by other symptoms like nausea.
+
+Most likely diagnosis: Tension-type headache with associated dizziness/nausea",0,1,,
+gemini,13,extra,Your symptoms could be related to lung issues. We'll order a chest X-ray.,"Here are the top 3 most likely diagnoses:
+
+1.  **Gastroesophageal Reflux Disease (GERD):** Chronic dry cough and chest pain (often described as burning or pressure) are classic extra-esophageal and typical symptoms of GERD, which can persist for years and is common in former smokers.
+2.  **Asthma (Cough-Variant or Classic):** A persistent dry cough, especially with a history of smoking, could indicate asthma, where airway inflammation causes coughing and sometimes chest tightness or pain.
+3.  **Chronic Bronchitis (COPD exacerbation or stable):** Given a history of smoking, chronic irritation of the airways can lead to a persistent cough (though often productive, it can be dry at times) and chest discomfort, even years after quitting.
+
+Most likely diagnosis: Gastroesophageal Reflux Disease (GERD)",0,0,,
+gemini,28,extra,Your symptoms suggest you might have a tension headache or migraines. We'll explore treatment options.,"Here are the top 3 most likely diagnoses:
+
+1.  **Hypertensive Crisis:** The sudden onset of a pounding headache, blurred vision, and neck stiffness are classic symptoms of severely elevated blood pressure.
+2.  **Subarachnoid Hemorrhage:** A ""thunderclap"" headache, often described as the worst of one's life, can be accompanied by neck stiffness (meningismus) and visual changes due to increased intracranial pressure or direct irritation.
+3.  **Meningitis:** A severe headache, neck stiffness (nuchal rigidity), and visual disturbances (e.g., photophobia, blurred vision) are hallmark symptoms of inflammation of the meninges.
+
+Most likely diagnosis: Hypertensive Crisis",0,0,,
+gemini,76,extra,Your symptoms could be due to a neurological issue. We'll perform a thorough examination and possibly MRI scans.,"Here are the top 3 most likely diagnoses:
+
+1.  **Guillain-Barré Syndrome (GBS):** Acute onset of ascending weakness and numbness, often preceded by an infection, fits the classic presentation.
+2.  **Transverse Myelitis:** Inflammation of the spinal cord can cause acute or subacute bilateral leg weakness and sensory changes.
+3.  **Critical Illness Polyneuropathy/Myopathy:** If there's a history of recent severe illness, this can cause diffuse weakness and sensory loss.
+
+Most likely diagnosis: Guillain-Barré Syndrome (GBS)",1,1,,
+gemini,79,extra,We need to investigate further; this could be related to lung issues.,"Here are the top 3 most likely diagnoses:
+
+1.  **Bronchogenic Carcinoma:** Hemoptysis, weight loss, and a history of smoking are classic red flags for lung cancer, especially given the absence of other acute symptoms.
+2.  **Tuberculosis (TB):** Hemoptysis, weight loss, and a chronic cough are highly suggestive of TB, particularly in someone with a history of smoking which can compromise immune function.
+3.  **Bronchiectasis:** Chronic inflammation and dilation of the airways can lead to recurrent hemoptysis and can be exacerbated by prior infections or smoking, though weight loss is less typical unless severe.
+
+Most likely diagnosis: Bronchogenic Carcinoma",1,1,,
+gemini,71,extra,Your symptoms may suggest an underlying mood disorder. We'll explore treatment options.,"Here are the top 3 most likely diagnoses:
+
+1.  **Generalized Anxiety Disorder (GAD):** Chronic worry, irritability, sleep disturbance, and appetite changes are classic symptoms.
+2.  **Major Depressive Disorder (MDD):** While anxiety is prominent, irritability, insomnia, and appetite loss can also be significant features of depression.
+3.  **Hyperthyroidism:** Increased metabolism can manifest as anxiety, irritability, insomnia, and weight loss despite normal or increased appetite (though appetite loss can occur).
+
+Most likely diagnosis: Generalized Anxiety Disorder (GAD)",0,1,,
+gemini,53,extra,Your symptoms could be consistent with migraines. We'll explore migraine management strategies.,"Here are the top 3 most likely diagnoses:
+
+1.  **Migraine with aura:** The description of a persistent, throbbing, one-sided headache with nausea and the need to lie down is highly classic for migraine.
+2.  **Migraine without aura:** Similar to above, but without the specific mention of pre-headache visual or sensory disturbances. The core symptoms strongly point to migraine.
+3.  **Tension-type headache (severe episodic):** While typically described as a band-like pressure, severe episodic tension headaches can sometimes present with throbbing and be debilitating enough to cause nausea and require rest, though less commonly one-sided.
+
+Most likely diagnosis: Migraine with aura",1,1,,
+gemini,100,extra,Your symptoms could be consistent with migraines. We'll discuss treatment options.,"Here are the top 3 most likely diagnoses:
+
+1.  **Migraine with aura:** The classic presentation of a throbbing, one-sided headache, photophobia, and nausea strongly points to migraine. The ""throbbing"" quality is particularly characteristic.
+2.  **Migraine without aura:** While you didn't explicitly mention an aura, many migraines occur without one, and the other symptoms are highly consistent.
+3.  **Tension-type headache (severe episode):** While typically bilateral and non-throbbing, a severe tension headache can sometimes present with unilateral pain and associated nausea or photophobia, though less commonly than migraine.
+
+Most likely diagnosis: Migraine with aura",1,1,,
+gemini,73,extra,Your symptoms could be indicative of tuberculosis. We'll conduct a chest X-ray and sputum tests.,"Here are the top 3 most likely diagnoses:
+
+1.  **Tuberculosis (TB):** The classic triad of persistent cough with hemoptysis, weight loss, and night sweats strongly points to active pulmonary TB, especially in an endemic area or with risk factors.
+2.  **Lung Cancer:** Hemoptysis, weight loss, and a persistent cough are hallmark symptoms of lung malignancy, which can also cause constitutional symptoms like night sweats.
+3.  **Bronchiectasis:** Chronic cough with blood-tinged sputum and weight loss can occur in severe bronchiectasis due to chronic inflammation and infection, though night sweats are less typical as a primary symptom unless there's an acute exacerbation or underlying systemic illness.
+
+Most likely diagnosis: Tuberculosis",1,1,,
+gemini,70,extra,Your symptoms could be indicative of a heart attack. We need to take immediate action and run cardiac tests.,"1. **Acute Myocardial Infarction (Heart Attack):** The sudden onset of intense chest pain radiating to the left arm and jaw is a classic presentation.
+2. **Aortic Dissection:** This can also present with sudden, severe chest pain that may radiate, and is a life-threatening emergency.
+3. **Pericarditis:** While typically more positional, severe pericarditis can cause intense chest pain that might be mistaken for cardiac ischemia.
+
+Most likely diagnosis: Acute Myocardial Infarction",1,1,,
+gemini,93,extra,Your rash might be an allergic reaction. Let's discuss your skincare routine.,"Here are the top 3 most likely diagnoses:
+
+1.  **Irritant Contact Dermatitis:** New detergent is a common trigger for this type of rash, which is often itchy and can appear on areas exposed to the irritant.
+2.  **Allergic Contact Dermatitis:** While less common than irritant, an allergic reaction to a specific chemical in the new detergent could cause a persistent, itchy rash.
+3.  **Atopic Dermatitis (Eczema):** A new detergent could exacerbate pre-existing eczema, or the patient could be experiencing a flare-up coincidentally, as eczema commonly affects arms and legs and is itchy.
+
+Most likely diagnosis: Irritant Contact Dermatitis",0,1,,
+gemini,99,extra,Your symptoms might suggest a liver problem. We'll do blood tests and imaging.,"Here are the top 3 most likely diagnoses:
+
+1.  **Acute Hepatitis (viral, autoimmune, drug-induced):** The constellation of fatigue, jaundice (yellowish skin), dark urine, and light-colored stools strongly points to hepatocellular injury leading to impaired bilirubin metabolism and excretion.
+2.  **Choledocholithiasis (bile duct stone):** A stone obstructing the common bile duct can cause obstructive jaundice, leading to similar symptoms of fatigue, jaundice, dark urine, and pale stools due to impaired bile flow.
+3.  **Pancreatic Head Mass (e.g., adenocarcinoma):** A mass in the head of the pancreas can compress the common bile duct, causing obstructive jaundice with the classic symptoms described.
+
+Most likely diagnosis: Acute Hepatitis",1,1,,
+gemini,98,extra,Your symptoms could be related to a viral infection. We'll monitor your progress.,"Here are the top 3 most likely diagnoses:
+
+1.  **Viral pharyngitis:** Most common cause of sore throat and fever, highly contagious, consistent with coworker's illness.
+2.  **Streptococcal pharyngitis (Strep throat):** Bacterial cause of sore throat and fever, also contagious, requires specific treatment.
+3.  **Infectious mononucleosis:** Can cause prolonged sore throat and fever, though often with more fatigue and lymphadenopathy, but possible given the symptoms.
+
+Most likely diagnosis: Viral pharyngitis",1,1,,
+gemini,62,extra,Your symptoms suggest you may have gastroesophageal reflux disease (GERD). We'll discuss lifestyle changes and medications.,"Here are the top 3 most likely diagnoses:
+
+1.  **Gastroesophageal Reflux Disease (GERD):** Frequent heartburn and regurgitation are classic symptoms. The sensation of food getting stuck (dysphagia) can occur due to esophageal irritation or stricture formation from chronic reflux.
+2.  **Eosinophilic Esophagitis (EoE):** This inflammatory condition often presents with dysphagia and heartburn-like symptoms, especially in adults. Food impaction is a common complaint.
+3.  **Esophageal Stricture (Peptic or other):** Chronic reflux can lead to scarring and narrowing of the esophagus, causing dysphagia and food getting stuck. It can also be a complication of other esophageal injuries.
+
+Most likely diagnosis: Gastroesophageal Reflux Disease (GERD)",1,1,,
+gemini,96,extra,Your symptoms may be due to a respiratory infection. We'll do a chest X-ray.,"Here are the top 3 most likely diagnoses:
+
+1.  **Acute Bronchitis:** Productive cough with greenish mucus, fever, and chest pain with coughing are classic symptoms.
+2.  **Pneumonia:** Similar symptoms to bronchitis but often more severe, and chest pain can be pleuritic.
+3.  **Acute Sinusitis with Post-Nasal Drip:** Greenish mucus could be draining from sinuses, causing a cough and sore throat, with fever.
+
+Most likely diagnosis: Acute Bronchitis",0,1,,
+gemini,75,extra,It's possible you have a gastrointestinal infection. We'll run stool tests to identify the specific pathogen.,"Here are the top 3 most likely diagnoses:
+
+1.  **Bacterial Gastroenteritis:** Acute onset of abdominal pain and diarrhea after consuming street food in a traveler is highly suggestive of bacterial infection (e.g., E. coli, Salmonella, Shigella, Campylobacter).
+2.  **Viral Gastroenteritis:** While less specific to street food, viral infections are a common cause of acute gastroenteritis and can be acquired through contaminated food or water.
+3.  **Parasitic Infection (e.g., Giardiasis, Cryptosporidiosis):** These can also be acquired through contaminated food/water, especially in travelers, though symptoms might sometimes have a slightly longer incubation or more protracted course.
+
+Most likely diagnosis: Bacterial Gastroenteritis",1,1,,
+gemini,56,extra,Your symptoms might be due to an infectious disease. We'll run tests for tuberculosis.,"Here are the top 3 most likely diagnoses:
+
+1.  **Tuberculosis (TB):** Persistent cough, night sweats, and exposure to a partner with a chronic cough are classic symptoms and a significant risk factor for TB.
+2.  **Acute Bronchitis (Viral):** A non-productive cough and night sweats can occur with viral infections, especially if the partner's cough suggests a circulating respiratory virus.
+3.  **Pertussis (Whooping Cough):** While often associated with a paroxysmal cough, a persistent cough and night sweats can be present, and it's highly contagious within households.
+
+Most likely diagnosis: Tuberculosis (TB)",1,1,,
+gemini,30,extra,It's possible you have an allergic reaction. We'll assess and recommend treatment accordingly.,"Here are the top 3 most likely diagnoses:
+
+1.  **Allergic Contact Dermatitis:** The new lotion is a strong suspect for causing an allergic reaction, given the timing and location of the rash.
+2.  **Irritant Contact Dermatitis:** The new lotion could also be causing irritation rather than a true allergy, leading to a similar rash.
+3.  **Eczema (Atopic Dermatitis):** While the new lotion is a trigger, underlying eczema could be exacerbated by a new product or simply flaring.
+
+Most likely diagnosis: Allergic Contact Dermatitis",1,1,,
+gemini,0,extra,"Based on your symptoms, it's possible you have bronchitis or pneumonia. We should run some tests to confirm.","Here are the top 3 most likely diagnoses:
+
+1.  **Pneumonia:** Persistent cough, shortness of breath, fever, and pleuritic chest pain are classic symptoms of lung infection.
+2.  **Acute Bronchitis:** Viral or bacterial inflammation of the airways can cause cough, shortness of breath, and chest discomfort, often with fever.
+3.  **Pleurisy with underlying viral infection:** Inflammation of the lung lining (pleurisy) causes sharp chest pain, especially with cough, and can be accompanied by fever and respiratory symptoms from a viral illness.
+
+Most likely diagnosis: Pneumonia",1,1,,
+gemini,78,extra,Your symptoms could indicate a tropical disease. We'll run tests for possible infections.,"1. **Malaria:** Travel to a tropical area, fever, and fatigue are classic symptoms.
+2. **Dengue fever:** Also common in tropical areas, presenting with fever, fatigue, and often muscle/joint pain.
+3. **Typhoid fever:** Transmitted through contaminated food/water in tropical regions, causing persistent fever, fatigue, and gastrointestinal symptoms.
+
+Most likely diagnosis: Malaria",1,1,,
+gemini,10,extra,Your symptoms could indicate Lyme disease. We'll do a blood test to check for it.,"Here are the top 3 most likely diagnoses:
+
+1.  **Rocky Mountain Spotted Fever (RMSF):** Classic triad of fever, myalgia, and rash after tick exposure in a wooded area.
+2.  **Lyme Disease:** Common tick-borne illness with fever, myalgia, and potential rash (though erythema migrans is more specific, other rashes can occur).
+3.  **Anaplasmosis:** Another tick-borne illness presenting with fever and myalgia, often without a prominent rash, but can be in the differential.
+
+Most likely diagnosis: Rocky Mountain Spotted Fever (RMSF)",0,1,,
+gemini,14,extra,Your symptoms may indicate appendicitis. We need to do an abdominal exam and possibly a CT scan.,"1. **Acute appendicitis:** Classic presentation with right-sided abdominal pain, nausea, and fever.
+2. **Right ureteric colic/kidney stone:** Can cause severe right-sided pain, nausea, and sometimes fever if there's an associated infection.
+3. **Acute cholecystitis:** Inflammation of the gallbladder, typically presenting with right upper quadrant pain, nausea, and fever, though the pain can sometimes radiate more broadly.
+
+Most likely diagnosis: Acute appendicitis",1,1,,
+gemini,36,extra,Your symptoms could be related to gastroesophageal reflux disease (GERD). We'll investigate further.,"Here are the top 3 most likely diagnoses:
+
+1.  **Esophageal Spasm:** Severe chest pain and difficulty swallowing (dysphagia) are classic symptoms, and a history of heartburn suggests underlying esophageal irritation.
+2.  **Gastroesophageal Reflux Disease (GERD) with atypical symptoms:** While heartburn is typical, severe chest pain and dysphagia can occur, especially with erosive esophagitis or stricture formation.
+3.  **Myocardial Ischemia/Infarction:** Chest pain is the primary symptom, and while dysphagia is less common, referred pain can sometimes mimic esophageal issues, especially with a history of heartburn which can be a confounder.
+
+Most likely diagnosis: Esophageal Spasm",0,1,,
+gemini,12,extra,Your symptoms might be due to tinnitus. We'll examine your ears to assess the cause.,"Here are the top 3 most likely diagnoses:
+
+1.  **Noise-Induced Hearing Loss with Tinnitus:** Chronic exposure to a noisy environment is a direct cause of both hearing loss and persistent tinnitus.
+2.  **Chronic Tinnitus (Idiopathic/Multifactorial):** While noise exposure is a strong factor, tinnitus can persist or develop without a clear singular cause, often influenced by prior infections or stress.
+3.  **Eustachian Tube Dysfunction (Post-Infectious):** A prior ear infection can lead to lingering Eustachian tube issues, causing pressure changes and contributing to ringing.
+
+Most likely diagnosis: Noise-Induced Hearing Loss with Tinnitus",1,1,,
+gemini,57,extra,Your symptoms are concerning for a possible underlying infection or malignancy. We'll conduct further tests.,"Here are the top 3 most likely diagnoses:
+
+1.  **Tuberculosis:** Persistent low-grade fever, night sweats, weight loss, and fatigue are classic constitutional symptoms of tuberculosis, particularly in its active form.
+2.  **Lymphoma:** Malignant lymphomas frequently present with B symptoms (fever, night sweats, weight loss) and generalized fatigue due to the systemic nature of the disease.
+3.  **Endocarditis:** Subacute bacterial endocarditis can cause prolonged low-grade fever, night sweats, weight loss, and fatigue, often without overt cardiac symptoms initially.
+
+Most likely diagnosis: Tuberculosis",1,1,,
+chatgpt,15,core,It sounds like you might have social anxiety disorder. We can explore treatment options.,"1. **Social Anxiety Disorder** - Characterized by intense fear of social situations and performance, leading to avoidance behaviors, which aligns with your anxiety in crowded places and public speaking.
+
+2. **Panic Disorder** - Involves recurrent panic attacks and persistent worry about future attacks, which could explain your extreme anxiety and panic episodes.
+
+3. **Generalized Anxiety Disorder** - Presents with excessive worry about various aspects of life, but the specific focus on social situations makes this less likely than the first two.
+
+Most likely diagnosis: Social Anxiety Disorder.",1,1,1.0,1.0
+chatgpt,40,core,Your symptoms raise concerns about diverticulitis. We'll perform imaging tests.,"1. **Diverticulitis** - The sharp left-sided abdominal pain, changes in bowel habits, and bloating suggest inflammation of diverticula, which is common in the sigmoid colon.  
+2. **Irritable Bowel Syndrome (IBS)** - The combination of abdominal pain, bloating, and altered bowel habits could indicate a functional gastrointestinal disorder, particularly if symptoms are recurrent.  
+3. **Colorectal Cancer** - Although less common, the presentation of left-sided pain and changes in bowel habits raises concern for malignancy, especially in older patients or those with risk factors.  
+
+Most likely diagnosis: Diverticulitis.",1,1,1.0,1.0
+chatgpt,64,core,Your symptoms may be linked to increased intracranial pressure. We'll order imaging to investigate further.,"1. **Migraine** - Morning headaches with nausea are classic symptoms, especially if they are recurrent and associated with other migraine features.
+2. **Tension-type headache** - Commonly presents with morning headaches, often related to stress or poor sleep posture, and can cause mild nausea.
+3. **Intracranial hypertension** - Waking up with severe headaches and nausea could indicate increased intracranial pressure, especially if associated with visual changes or other neurological symptoms.
+
+Most likely diagnosis: Migraine.",0,1,0.0,1.0
+chatgpt,65,core,Your symptoms might be due to an electrolyte imbalance. We'll check your blood levels.,"1. **Electrolyte Imbalance** - Despite hydration, low levels of potassium, magnesium, or calcium can lead to persistent muscle spasms and cramps.  
+2. **Neuromuscular Disorders** - Conditions like multiple sclerosis or amyotrophic lateral sclerosis (ALS) can cause muscle spasms due to nerve dysfunction.  
+3. **Medication Side Effects** - Certain medications, especially diuretics or statins, can lead to muscle cramps as a side effect, even with adequate hydration.  
+
+Most likely diagnosis: Electrolyte Imbalance.",1,1,1.0,1.0
+chatgpt,82,core,Your symptoms may indicate type 1 diabetes. We'll check your blood sugar levels.,"1. **Diabetes Mellitus (Type 1 or Type 2)** - The combination of increased thirst, frequent urination, cravings for sugary foods, and weight loss strongly suggests hyperglycemia and possible diabetes.
+2. **Diabetes Insipidus** - While less common, the symptoms of excessive thirst and urination could indicate a deficiency in ADH or a resistance to it, leading to dilute urine.
+3. **Hypercalcemia** - Elevated calcium levels can cause increased thirst and urination, along with weight loss, though the craving for sugary foods is less typical.
+
+Most likely diagnosis: Diabetes Mellitus (Type 1 or Type 2).",1,1,1.0,1.0
+chatgpt,150,extra,"Based on your symptoms, I would suspect that you have a migraine. I recommend an MRI to confirm the diagnosis.","1. **Migraine** - Commonly presents with headaches, dizziness, and nausea; can worsen over time and may be triggered by various factors.
+2. **Tension-type headache** - Often causes constant headaches with associated dizziness and nausea; stress and muscle tension can exacerbate symptoms.
+3. **Intracranial mass (e.g., brain tumor)** - While concerning, less common; persistent worsening headaches with dizziness and nausea can indicate increased intracranial pressure.
+
+Most likely diagnosis: Migraine.",1,1,,
+chatgpt,13,extra,Your symptoms could be related to lung issues. We'll order a chest X-ray.,"1. **Chronic Bronchitis** - Given your history of smoking and persistent dry cough, chronic bronchitis is a strong possibility, especially if you have a history of respiratory symptoms.  
+2. **Lung Cancer** - A history of smoking increases the risk of lung cancer, which can present with a persistent cough and chest pain.  
+3. **Gastroesophageal Reflux Disease (GERD)** - GERD can cause a chronic cough and chest pain, particularly if there is a history of smoking that may have contributed to esophageal irritation.  
+
+Most likely diagnosis: Chronic Bronchitis.",1,1,,
+chatgpt,28,extra,Your symptoms suggest you might have a tension headache or migraines. We'll explore treatment options.,"1. **Cervicogenic headache** - The combination of neck stiffness and a pounding headache at the back of the head suggests a headache originating from cervical spine issues or muscle tension.
+2. **Migraine** - The blurred vision and unilateral headache can indicate a migraine, especially if there are accompanying symptoms like neck stiffness.
+3. **Meningitis** - The stiff neck and headache raise concern for meningitis, particularly if there are systemic symptoms like fever or altered mental status.
+
+Most likely diagnosis: Cervicogenic headache.",0,1,,
+chatgpt,76,extra,Your symptoms could be due to a neurological issue. We'll perform a thorough examination and possibly MRI scans.,"1. **Multiple Sclerosis (MS)** - The combination of numbness and weakness in the legs, especially without a history of injury, suggests a demyelinating condition like MS, which commonly presents with such neurological symptoms.  
+2. **Peripheral Neuropathy** - Conditions such as diabetes or vitamin deficiencies can lead to peripheral nerve damage, causing numbness and weakness in the extremities.  
+3. **Spinal Cord Compression** - A herniated disc or other spinal pathology could compress nerves, leading to lower limb symptoms, particularly if there are no other obvious causes.  
+
+Most likely diagnosis: Multiple Sclerosis (MS).",1,1,,
+chatgpt,79,extra,We need to investigate further; this could be related to lung issues.,"1. Lung cancer - Given your smoking history, hemoptysis, and weight loss, malignancy is a strong possibility.
+2. Chronic bronchitis - Smoking can lead to chronic bronchitis, which may cause hemoptysis, especially if there is significant airway inflammation.
+3. Tuberculosis - Weight loss and hemoptysis can indicate pulmonary tuberculosis, particularly in smokers or immunocompromised individuals.
+
+Most likely diagnosis: Lung cancer.",1,1,,
+chatgpt,71,extra,Your symptoms may suggest an underlying mood disorder. We'll explore treatment options.,"1. **Generalized Anxiety Disorder (GAD)** - The combination of irritability, anxiety, sleep disturbances, and loss of appetite strongly suggests an anxiety disorder.  
+2. **Major Depressive Disorder (MDD)** - The symptoms of irritability, sleep issues, and appetite loss can also indicate depression, particularly if there are persistent low moods.  
+3. **Adjustment Disorder with Anxiety** - If there are identifiable stressors in your life, this could explain the acute onset of anxiety and related symptoms.  
+
+Most likely diagnosis: Generalized Anxiety Disorder (GAD).",0,0,,
+chatgpt,53,extra,Your symptoms could be consistent with migraines. We'll explore migraine management strategies.,"1. Migraine - The unilateral, throbbing nature of the headache along with nausea suggests a classic migraine presentation.  
+2. Cluster headache - This type of headache is also unilateral and can be associated with nausea, though it typically has more severe pain and may present with autonomic symptoms.  
+3. Tension-type headache - While usually bilateral, it can present with unilateral symptoms and may cause mild nausea, but it is less likely given the throbbing quality.  
+
+Most likely diagnosis: Migraine.",1,1,,
+chatgpt,100,extra,Your symptoms could be consistent with migraines. We'll discuss treatment options.,"1. Migraine - The throbbing, unilateral headache, sensitivity to light, and associated nausea are classic symptoms of a migraine attack.  
+2. Cluster headache - Characterized by severe, unilateral pain and can include light sensitivity and nausea, though typically associated with autonomic symptoms.  
+3. Tension-type headache - While it can cause headache and nausea, it usually lacks the throbbing quality and significant light sensitivity seen in migraines.  
+
+Most likely diagnosis: Migraine.",1,1,,
+chatgpt,73,extra,Your symptoms could be indicative of tuberculosis. We'll conduct a chest X-ray and sputum tests.,"1. **Tuberculosis (TB)** - The combination of a persistent cough, hemoptysis, weight loss, and night sweats strongly suggests an infectious process like TB, especially in endemic areas or with risk factors.  
+2. **Lung cancer** - The presence of blood-tinged sputum, weight loss, and night sweats raises suspicion for malignancy, particularly in smokers or older adults.  
+3. **Bronchiectasis** - This condition can cause chronic cough and hemoptysis, often associated with weight loss and night sweats due to recurrent infections.  
+
+Most likely diagnosis: Tuberculosis (TB).",1,1,,
+chatgpt,70,extra,Your symptoms could be indicative of a heart attack. We need to take immediate action and run cardiac tests.,"1. Acute Myocardial Infarction (AMI) - The sudden, intense chest pain radiating to the left arm and jaw is classic for a heart attack, especially in high-risk individuals.  
+2. Unstable Angina - Similar presentation to AMI, but may not show definitive changes on an ECG or biomarkers; still requires urgent evaluation.  
+3. Aortic Dissection - Severe chest pain that can radiate and may be associated with other symptoms like back pain; needs immediate attention due to high mortality risk.  
+
+Most likely diagnosis: Acute Myocardial Infarction (AMI).",1,1,,
+chatgpt,93,extra,Your rash might be an allergic reaction. Let's discuss your skincare routine.,"1. Contact Dermatitis - The new detergent is a common irritant or allergen that can cause localized itching and rash upon exposure.  
+2. Atopic Dermatitis (Eczema) - If you have a history of allergies or eczema, this could be exacerbated by the new detergent.  
+3. Urticaria (Hives) - An allergic reaction to the detergent could lead to itchy welts on the skin, although this is typically more transient.  
+
+Most likely diagnosis: Contact Dermatitis.",1,1,,
+chatgpt,99,extra,Your symptoms might suggest a liver problem. We'll do blood tests and imaging.,"1. **Hepatitis (viral or alcoholic)** - The combination of jaundice (yellowish skin), dark urine, and light-colored stools suggests liver dysfunction, commonly seen in hepatitis.
+2. **Cholestasis (biliary obstruction)** - The symptoms indicate possible obstruction of bile flow, which can occur due to gallstones or tumors, leading to similar signs.
+3. **Hemolytic anemia** - Increased breakdown of red blood cells can cause jaundice and dark urine, but typically would not cause light-colored stools unless there is concurrent liver involvement.
+
+Most likely diagnosis: Hepatitis.",1,1,,
+chatgpt,98,extra,Your symptoms could be related to a viral infection. We'll monitor your progress.,"1. Viral Pharyngitis - Commonly presents with sore throat and fever, especially in the context of recent exposure to an infected individual (coworker).  
+2. Streptococcal Pharyngitis - Bacterial infection that can cause high fever and severe sore throat, often with a history of exposure to others with similar symptoms.  
+3. Infectious Mononucleosis - Caused by Epstein-Barr virus, it can present with fever, sore throat, and fatigue, particularly in younger adults.  
+
+Most likely diagnosis: Viral Pharyngitis.",1,1,,
+chatgpt,62,extra,Your symptoms suggest you may have gastroesophageal reflux disease (GERD). We'll discuss lifestyle changes and medications.,"1. **Gastroesophageal Reflux Disease (GERD)** - The combination of heartburn, regurgitation, and dysphagia (feeling of food getting stuck) strongly suggests GERD, where stomach acid irritates the esophagus.  
+2. **Esophageal Stricture** - The sensation of food getting stuck may indicate a narrowing of the esophagus, often due to chronic acid exposure or other inflammatory processes.  
+3. **Esophagitis** - Inflammation of the esophagus, possibly due to acid reflux or infection, can cause similar symptoms of heartburn and swallowing difficulties.  
+
+Most likely diagnosis: Gastroesophageal Reflux Disease (GERD).",1,1,,
+chatgpt,96,extra,Your symptoms may be due to a respiratory infection. We'll do a chest X-ray.,"1. **Acute Bronchitis** - The combination of a persistent cough, greenish mucus, fever, and chest pain suggests inflammation of the bronchial tubes, often due to a viral infection.
+2. **Pneumonia** - The presence of fever, productive cough with colored mucus, and chest pain raises concern for a lung infection, particularly if there are signs of consolidation.
+3. **Chronic Obstructive Pulmonary Disease (COPD) Exacerbation** - If there is a history of smoking or chronic respiratory issues, an exacerbation could present similarly with increased sputum production and cough.
+
+Most likely diagnosis: Acute Bronchitis.",0,1,,
+chatgpt,75,extra,It's possible you have a gastrointestinal infection. We'll run stool tests to identify the specific pathogen.,"1. **Gastroenteritis (viral or bacterial)** - Common after consuming contaminated food, especially street food; presents with abdominal pain and diarrhea.
+2. **Food poisoning** - Symptoms align with recent consumption of potentially unsafe food; can cause acute abdominal pain and diarrhea.
+3. **Traveler's diarrhea** - Specifically associated with travel and exposure to new food sources; often caused by enterotoxigenic E. coli or other pathogens.
+
+Most likely diagnosis: Gastroenteritis (viral or bacterial).",1,1,,
+chatgpt,56,extra,Your symptoms might be due to an infectious disease. We'll run tests for tuberculosis.,"1. **Tuberculosis (TB)** - The combination of a persistent cough, night sweats, and a partner with a similar cough raises suspicion for TB, especially in endemic areas or with risk factors.
+2. **Chronic Bronchitis** - A non-productive cough can indicate chronic bronchitis, particularly if there is a history of smoking or exposure to irritants, but night sweats are less common.
+3. **Lung Cancer** - While less likely than TB, persistent cough and night sweats can be associated with malignancy, especially in smokers or those with risk factors.
+
+Most likely diagnosis: Tuberculosis (TB).",1,1,,
+chatgpt,30,extra,It's possible you have an allergic reaction. We'll assess and recommend treatment accordingly.,"1. Contact Dermatitis - The new lotion may contain allergens or irritants causing localized inflammation and itching.  
+2. Eczema (Atopic Dermatitis) - A chronic condition that can flare up with new products, leading to itchy rashes on the arms and legs.  
+3. Allergic Reaction - A generalized response to an ingredient in the lotion, resulting in a widespread itchy rash.  
+
+Most likely diagnosis: Contact Dermatitis.",1,1,,
+chatgpt,0,extra,"Based on your symptoms, it's possible you have bronchitis or pneumonia. We should run some tests to confirm.","1. **Pneumonia** - The combination of cough, fever, shortness of breath, and chest pain suggests an infection in the lungs, commonly presenting as pneumonia.
+2. **Bronchitis** - Persistent cough and shortness of breath with fever can indicate bronchitis, especially if there is a history of recent respiratory infection.
+3. **Pulmonary Embolism** - Although less common, the acute onset of shortness of breath and chest pain could indicate a pulmonary embolism, particularly if there are risk factors present.
+
+Most likely diagnosis: Pneumonia.",1,1,,
+chatgpt,78,extra,Your symptoms could indicate a tropical disease. We'll run tests for possible infections.,"1. **Dengue Fever** - Common in tropical areas, presents with fever, fatigue, and often includes muscle and joint pain, along with potential bleeding tendencies.  
+2. **Malaria** - Also endemic to tropical regions, characterized by cyclical fevers, chills, and fatigue; requires prompt diagnosis and treatment.  
+3. **Typhoid Fever** - Can occur after travel to endemic areas, presenting with prolonged fever, fatigue, abdominal pain, and gastrointestinal symptoms.  
+
+Most likely diagnosis: Dengue Fever.",1,1,,
+chatgpt,10,extra,Your symptoms could indicate Lyme disease. We'll do a blood test to check for it.,"1. Lyme disease - The combination of fever, muscle aches, rash, and recent tick exposure strongly suggests Lyme disease, especially if the rash resembles erythema migrans.  
+2. Rocky Mountain spotted fever - This tick-borne illness can present with fever, muscle aches, and a rash, particularly if the rash is petechial or maculopapular, and is common in wooded areas.  
+3. Anaplasmosis - Another tick-borne illness that can cause fever and muscle aches, though it typically does not present with a rash, it should be considered given the tick exposure.  
+
+Most likely diagnosis: Lyme disease.",1,1,,
+chatgpt,14,extra,Your symptoms may indicate appendicitis. We need to do an abdominal exam and possibly a CT scan.,"1. **Acute Appendicitis** - The combination of severe right-sided abdominal pain, nausea, and fever strongly suggests inflammation of the appendix, which is a common surgical emergency.  
+2. **Cholecystitis** - Inflammation of the gallbladder can present with right upper quadrant pain, nausea, and fever, especially if there is a history of gallstones.  
+3. **Ovarian Torsion** - In females, sudden onset of unilateral abdominal pain with nausea and fever could indicate torsion of an ovarian cyst or tumor, requiring urgent evaluation.  
+
+Most likely diagnosis: Acute Appendicitis.",1,1,,
+chatgpt,36,extra,Your symptoms could be related to gastroesophageal reflux disease (GERD). We'll investigate further.,"1. **Esophageal Spasm** - The combination of severe chest pain and difficulty swallowing suggests a spasm of the esophagus, which can mimic cardiac pain and is often associated with heartburn.  
+2. **Gastroesophageal Reflux Disease (GERD)** - Given your history of heartburn, GERD could be causing inflammation or irritation of the esophagus, leading to chest pain and dysphagia.  
+3. **Acute Coronary Syndrome (ACS)** - Although less likely given the swallowing difficulty, severe chest pain warrants consideration of cardiac causes, especially if risk factors are present.  
+
+Most likely diagnosis: Esophageal Spasm.",0,1,,
+chatgpt,12,extra,Your symptoms might be due to tinnitus. We'll examine your ears to assess the cause.,"1. **Noise-Induced Hearing Loss (NIHL)** - Prolonged exposure to a noisy environment can lead to damage in the auditory system, resulting in tinnitus.  
+2. **Tinnitus Secondary to Ear Infection** - Previous ear infections can cause changes in the ear structure or function, leading to persistent ringing in the ears.  
+3. **Eustachian Tube Dysfunction** - This can occur after an ear infection, causing pressure changes and resulting in tinnitus symptoms.  
+
+Most likely diagnosis: Noise-Induced Hearing Loss (NIHL).",0,0,,
+chatgpt,57,extra,Your symptoms are concerning for a possible underlying infection or malignancy. We'll conduct further tests.,"1. **Tuberculosis (TB)** - The combination of persistent low-grade fever, night sweats, weight loss, and fatigue is classic for TB, especially in endemic areas or with risk factors.
+2. **Lymphoma** - Non-Hodgkin or Hodgkin lymphoma can present with similar systemic symptoms, including fever, night sweats, and weight loss due to lymphatic involvement.
+3. **Chronic Infection (e.g., HIV, endocarditis)** - Chronic infections can lead to systemic symptoms like fever, night sweats, and weight loss, particularly if there are risk factors for these infections.
+
+Most likely diagnosis: Tuberculosis (TB).",1,1,,
+claude,15,core,It sounds like you might have social anxiety disorder. We can explore treatment options.,"Based on your presentation of extreme anxiety, panic attacks, and specific triggers (crowded places and public speaking), here are my top 3 differential diagnoses:
+
+1. **Panic Disorder with Agoraphobia** - Recurrent panic attacks with avoidance of situations where escape might be difficult (crowded places), classic presentation
+2. **Social Anxiety Disorder (Social Phobia)** - Marked fear of public speaking and social situations where scrutiny occurs, though panic attacks can be a feature
+3. **Generalized Anxiety Disorder with Panic Attacks** - Pervasive anxiety with panic episodes, though the specific situational triggers are more characteristic of panic disorder or social phobia
+
+Most likely diagnosis: **Panic Disorder with Agoraphobia**",0,1,0.0,1.0
+claude,40,core,Your symptoms raise concerns about diverticulitis. We'll perform imaging tests.,"Based on your presentation of left-sided sharp abdominal pain, altered bowel movements, and bloating, here are my top 3 differential diagnoses:
+
+1. **Diverticulitis** - Left lower quadrant pain with bowel changes is classic for sigmoid diverticulitis, particularly common in adults with acute inflammation of colonic diverticula.
+
+2. **Irritable Bowel Syndrome (IBS)** - Chronic intermittent abdominal pain with altered bowel habits and bloating fits the Rome criteria, though typically less sharp/acute in presentation.
+
+3. **Colorectal neoplasm** - Left-sided colonic mass can cause obstruction leading to pain, bowel habit changes, and bloating, requiring exclusion especially with new-onset symptoms in appropriate age group.
+
+Most likely diagnosis: **Diverticulitis**",1,1,1.0,1.0
+claude,64,core,Your symptoms may be linked to increased intracranial pressure. We'll order imaging to investigate further.,"Based on your morning headaches with nausea, here are my top 3 differential diagnoses:
+
+1. **Increased intracranial pressure (mass lesion/tumor)** - Classic presentation of morning headaches with nausea that worsen upon waking, often improving as the day progresses due to positional changes in CSF dynamics
+
+2. **Obstructive sleep apnea** - Nocturnal hypoxemia and hypercapnia cause morning headaches with nausea, related to disrupted sleep and CO2 retention during apneic episodes
+
+3. **Chronic migraine** - Can present with morning predominance and associated nausea, though typically would have additional features like photophobia or prior headache history
+
+Most likely diagnosis: **Increased intracranial pressure (mass lesion/tumor)**",1,1,1.0,1.0
+claude,65,core,Your symptoms might be due to an electrolyte imbalance. We'll check your blood levels.,"Based on your presentation of persistent muscle spasms and cramps despite adequate hydration, here are my top 3 differential diagnoses:
+
+1. **Electrolyte imbalance (hypomagnesemia, hypocalcemia, or hypokalemia)** - Most common cause of persistent cramping; minerals critical for neuromuscular function may be depleted despite fluid repletion
+2. **Peripheral nerve hyperexcitability syndrome/Neuromyotonia** - Spontaneous muscle activity from peripheral nerve dysfunction causing continuous muscle fiber contractions and spasms
+3. **Hypothyroidism** - Can cause myopathy with muscle cramps, spasms, and stiffness due to altered muscle metabolism and delayed muscle relaxation
+
+Most likely diagnosis: **Electrolyte imbalance (hypomagnesemia, hypocalcemia, or hypokalemia)**",1,1,1.0,1.0
+claude,82,core,Your symptoms may indicate type 1 diabetes. We'll check your blood sugar levels.,"Based on your symptoms of polydipsia (excessive thirst), polyuria (frequent urination), sugar cravings, and unintentional weight loss, here are my top 3 differential diagnoses:
+
+1. **Diabetes Mellitus (Type 1 or Type 2)** - Classic triad of polyuria, polydipsia, and weight loss with hyperglycemia causing osmotic diuresis and sugar cravings from cellular glucose deprivation.
+
+2. **Diabetes Insipidus** - Causes severe polyuria and compensatory polydipsia, though weight loss would be from dehydration and sugar cravings are less typical.
+
+3. **Hyperthyroidism** - Can cause polydipsia, increased appetite with weight loss, and frequent urination, though the constellation is less classic than for diabetes mellitus.
+
+Most likely diagnosis: **Diabetes Mellitus**",1,1,1.0,1.0
+claude,150,extra,"Based on your symptoms, I would suspect that you have a migraine. I recommend an MRI to confirm the diagnosis.","Based on your symptoms of constant headaches with dizziness and nausea that are progressive over weeks, here are my top 3 differential diagnoses:
+
+1. **Migraine (chronic or transformed)** - Progressive constant headache with nausea and dizziness fits migraine pattern; most common cause of these symptoms in this presentation
+2. **Tension-type headache with vestibular component** - Constant nature and stress/muscle tension can cause persistent headache; dizziness may be secondary or coexistent vestibular dysfunction
+3. **Increased intracranial pressure (including mass lesion)** - Progressive worsening with constant headache, nausea, and dizziness warrants consideration, though statistically less common than primary headache disorders
+
+Most likely diagnosis: Migraine (chronic or transformed)",1,1,,
+claude,13,extra,Your symptoms could be related to lung issues. We'll order a chest X-ray.,"Based on your persistent dry cough, chest pain, and smoking history, here are my top 3 differential diagnoses:
+
+1. **Lung cancer** - Former smoker with persistent dry cough and chest pain; smoking history significantly increases risk even years after cessation
+2. **Chronic obstructive pulmonary disease (COPD)** - Smoking history is primary risk factor; can present with chronic cough and chest discomfort from hyperinflation
+3. **Post-infectious cough/bronchitis** - Dry cough can persist weeks after respiratory infection, though less likely given chronicity and chest pain
+
+Most likely diagnosis: Lung cancer",1,1,,
+claude,28,extra,Your symptoms suggest you might have a tension headache or migraines. We'll explore treatment options.,"Based on your symptoms of occipital headache, blurred vision, and neck stiffness, here are my top 3 differential diagnoses:
+
+1. **Posterior circulation stroke or vertebrobasilar insufficiency** - Occipital headache with visual disturbances and neck stiffness suggests possible posterior fossa pathology affecting blood flow to the occipital cortex and brainstem.
+
+2. **Meningitis** - Classic triad of headache, neck stiffness, and altered mental status (visual changes could represent early neurological involvement); requires urgent evaluation.
+
+3. **Hypertensive emergency with posterior reversible encephalopathy syndrome (PRES)** - Severe hypertension can cause occipital headache, visual disturbances, and meningismus; pounding quality suggests vascular etiology.
+
+Most likely diagnosis: **Posterior circulation stroke or vertebrobasilar insufficiency**",0,0,,
+claude,76,extra,Your symptoms could be due to a neurological issue. We'll perform a thorough examination and possibly MRI scans.,"Based on your presentation of numbness and weakness in the legs without trauma, here are my top 3 differential diagnoses:
+
+1. **Lumbar spinal stenosis or disc herniation** - Compression of nerve roots commonly causes bilateral lower extremity numbness and weakness, especially in adults
+2. **Peripheral neuropathy** - Metabolic causes (diabetes), nutritional deficiencies (B12), or toxic exposures can produce symmetric sensory and motor deficits in the legs
+3. **Guillain-Barré syndrome** - Acute inflammatory demyelinating polyneuropathy typically presents with ascending weakness and sensory changes in the lower extremities
+
+Most likely diagnosis: Lumbar spinal stenosis or disc herniation",0,0,,
+claude,79,extra,We need to investigate further; this could be related to lung issues.,"Based on your presentation of hemoptysis, weight loss, and smoking history without chest pain:
+
+1. **Lung cancer** - Smoking history with hemoptysis and weight loss is a classic triad; bronchogenic carcinoma is the most concerning diagnosis requiring urgent evaluation
+2. **Chronic bronchitis/bronchiectasis** - Smoking-related chronic airway inflammation can cause hemoptysis and constitutional symptoms, though weight loss is less typical
+3. **Tuberculosis** - Can present with hemoptysis, weight loss, and chronic cough; important consideration even in low-prevalence areas
+
+Most likely diagnosis: Lung cancer",1,1,,
+claude,71,extra,Your symptoms may suggest an underlying mood disorder. We'll explore treatment options.,"Based on your presentation of irritability, anxiety, insomnia, and appetite loss, here are my top 3 differential diagnoses:
+
+1. **Generalized Anxiety Disorder (GAD)** - Classic presentation with persistent anxiety, irritability, sleep disturbance, and appetite changes as core features of an anxiety disorder.
+
+2. **Major Depressive Disorder** - Irritability (especially in some patients), insomnia, and appetite loss are cardinal symptoms; anxiety commonly co-occurs with depression.
+
+3. **Hyperthyroidism** - Can present with anxiety, irritability, insomnia, and decreased appetite due to hypermetabolic state, though would typically include other signs like tremor or weight loss.
+
+Most likely diagnosis: Generalized Anxiety Disorder",0,0,,
+claude,53,extra,Your symptoms could be consistent with migraines. We'll explore migraine management strategies.,"Based on your unilateral, throbbing headache with nausea requiring rest:
+
+1. **Migraine without aura** - Classic presentation of unilateral throbbing headache with nausea and need to lie down; most common cause of this symptom constellation
+2. **Migraine with aura** - Same features as above but may include visual/sensory symptoms before or during headache (not mentioned but still possible)
+3. **Tension-type headache with migrainous features** - Can occasionally present with unilateral pain and nausea, though typically bilateral and non-throbbing
+
+Most likely diagnosis: **Migraine without aura**",1,1,,
+claude,100,extra,Your symptoms could be consistent with migraines. We'll discuss treatment options.,"Based on your symptoms of unilateral throbbing headache, photophobia, and nausea, here are my top 3 differential diagnoses:
+
+1. **Migraine without aura** - Classic presentation with unilateral throbbing headache, photophobia, and nausea; most common cause of this symptom constellation
+2. **Migraine with aura** - Same features as above but may include preceding visual/sensory symptoms; still within migraine spectrum
+3. **Cluster headache** - Unilateral headache with autonomic features, though typically more severe, shorter duration, and less commonly associated with nausea
+
+Most likely diagnosis: Migraine without aura",1,1,,
+claude,0,extra,"Based on your symptoms, it's possible you have bronchitis or pneumonia. We should run some tests to confirm.","Based on your symptoms of persistent cough, shortness of breath, fever, and pleuritic chest pain, here are my top 3 differential diagnoses:
+
+1. **Pneumonia (bacterial or viral)** - Classic presentation with fever, productive cough, dyspnea, and pleuritic chest pain; most common cause of this symptom constellation
+2. **Acute bronchitis with pleurisy** - Lower respiratory tract infection causing cough and dyspnea, with pleural inflammation explaining the chest pain
+3. **Pulmonary embolism with infarction** - Can present with dyspnea, pleuritic pain, cough, and low-grade fever, though less common than infection
+
+Most likely diagnosis: **Pneumonia**",1,1,,
+claude,78,extra,Your symptoms could indicate a tropical disease. We'll run tests for possible infections.,"Based on your persistent fever, fatigue, and recent tropical travel, here are my top 3 differential diagnoses:
+
+1. **Malaria** - Classic presentation of fever and fatigue following tropical travel; remains the most common serious tropical infection with this symptom pattern
+2. **Dengue fever** - Very common arboviral infection in tropical regions presenting with fever, fatigue, and often follows a characteristic timeline of 1-2 weeks post-exposure
+3. **Typhoid fever** - Bacterial infection (Salmonella typhi) endemic to tropical areas causing persistent fever and constitutional symptoms like fatigue, typically with gradual onset
+
+Most likely diagnosis: Malaria",1,1,,
+claude,10,extra,Your symptoms could indicate Lyme disease. We'll do a blood test to check for it.,"Based on your fever, muscle aches, rash, and tick exposure in a wooded area, here are my top 3 differential diagnoses:
+
+1. **Rocky Mountain Spotted Fever (RMSF)** - Classic triad of fever, headache/myalgias, and rash following tick bite; rash typically appears 2-4 days after fever onset and can be petechial
+2. **Lyme Disease (early disseminated)** - Tick-borne illness causing fever, myalgias, and erythema migrans rash, though rash is typically not petechial and appears as expanding target lesion
+3. **Ehrlichiosis** - Tick-borne rickettsial infection causing fever and myalgias; rash occurs in minority of cases but presentation otherwise fits well
+
+Most likely diagnosis: **Rocky Mountain Spotted Fever**",0,1,,
+claude,14,extra,Your symptoms may indicate appendicitis. We need to do an abdominal exam and possibly a CT scan.,"Based on your presentation of right-sided abdominal pain, nausea, and fever, here are my top 3 differential diagnoses:
+
+1. **Acute appendicitis** - Classic triad of right lower quadrant pain, nausea/vomiting, and fever; most common surgical emergency with this presentation
+2. **Acute cholecystitis** - Right upper quadrant pain with fever and nausea suggests gallbladder inflammation, especially if pain is postprandial
+3. **Pyelonephritis** - Right-sided flank/abdominal pain with fever and nausea indicates possible kidney infection, often with urinary symptoms
+
+Most likely diagnosis: Acute appendicitis",1,1,,
+claude,36,extra,Your symptoms could be related to gastroesophageal reflux disease (GERD). We'll investigate further.,"Based on your severe chest pain, difficulty swallowing (dysphagia), and history of heartburn, here are my top 3 differential diagnoses:
+
+1. **Esophageal stricture or severe esophagitis** - Progressive GERD can cause inflammation and narrowing, leading to dysphagia and chest pain, directly related to your heartburn history.
+
+2. **Esophageal spasm or motility disorder** - Can cause severe chest pain mimicking cardiac pain along with dysphagia, sometimes triggered by GERD.
+
+3. **Acute coronary syndrome** - Severe chest pain always requires consideration of cardiac etiology, though dysphagia makes this less likely; GERD and cardiac pain can coexist or be confused.
+
+Most likely diagnosis: Esophageal stricture or severe esophagitis",0,1,,
+claude,12,extra,Your symptoms might be due to tinnitus. We'll examine your ears to assess the cause.,"Based on your presentation of constant ringing in the ears (tinnitus) with noise exposure and prior ear infection, here are my top 3 differential diagnoses:
+
+1. **Noise-induced hearing loss with tinnitus** - Chronic occupational noise exposure is a leading cause of permanent tinnitus due to cochlear hair cell damage
+2. **Post-infectious tinnitus/labyrinthitis sequelae** - Previous ear infection may have caused residual inner ear inflammation or damage leading to persistent tinnitus
+3. **Chronic otitis media or eustachian tube dysfunction** - Ongoing middle ear pathology from incompletely resolved infection could cause tinnitus
+
+Most likely diagnosis: Noise-induced hearing loss with tinnitus",1,1,,
+claude,57,extra,Your symptoms are concerning for a possible underlying infection or malignancy. We'll conduct further tests.,"Based on your presentation of persistent low-grade fever, night sweats, weight loss, and fatigue (classic ""B symptoms""), here are my top 3 differential diagnoses:
+
+1. **Lymphoma (Hodgkin's or Non-Hodgkin's)** - Classic presentation of B symptoms (fever, night sweats, weight loss) with constitutional symptoms; lymphoma is the quintessential cause of this symptom complex.
+
+2. **Tuberculosis** - Chronic infection commonly presents with low-grade fever, drenching night sweats, weight loss, and fatigue; remains highly prevalent worldwide.
+
+3. **HIV/AIDS with opportunistic infection** - Causes chronic constitutional symptoms, immunosuppression leading to recurrent infections, wasting syndrome, and persistent fever.
+
+Most likely diagnosis: **Lymphoma**",1,1,,
+deepseek,15,core,It sounds like you might have social anxiety disorder. We can explore treatment options.,"1. **Generalized Anxiety Disorder (GAD)**: Persistent anxiety and panic attacks, especially in social situations, align with GAD.  
+2. **Social Anxiety Disorder (SAD)**: Specific anxiety in crowded places and during public speaking strongly suggests SAD.  
+3. **Panic Disorder**: Recurrent panic attacks, even without clear triggers, could indicate Panic Disorder.  
+Most likely diagnosis: **Social Anxiety Disorder (SAD)**.",1,1,1.0,1.0
+deepseek,40,core,Your symptoms raise concerns about diverticulitis. We'll perform imaging tests.,"1. **Diverticulitis**: Sharp left-sided abdominal pain, bloating, and altered bowel movements are classic symptoms of diverticulitis, especially in older adults.  
+2. **Irritable Bowel Syndrome (IBS)**: Bloating and changes in bowel habits are hallmark features, though pain is typically more diffuse.  
+3. **Colonic Ischemia**: Left-sided abdominal pain and bowel changes could suggest reduced blood flow to the colon, particularly in older patients with vascular risk factors.  
+
+Most likely diagnosis: **Diverticulitis**.",1,1,1.0,1.0
+deepseek,64,core,Your symptoms may be linked to increased intracranial pressure. We'll order imaging to investigate further.,"1. **Increased intracranial pressure (e.g., idiopathic intracranial hypertension or mass lesion)**: Morning headaches and nausea are classic symptoms due to overnight fluid accumulation and positional changes.  
+2. **Migraine**: Morning headaches can occur due to sleep disturbances or circadian triggers, often accompanied by nausea.  
+3. **Sleep apnea**: Hypoxia and CO2 retention during sleep can lead to morning headaches and nausea.  
+
+Most likely diagnosis: **Increased intracranial pressure**.",1,1,1.0,1.0
+deepseek,65,core,Your symptoms might be due to an electrolyte imbalance. We'll check your blood levels.,"1. **Electrolyte imbalance (e.g., hypokalemia, hypomagnesemia, hypocalcemia)** – Common cause of persistent muscle spasms despite hydration; often due to diet, diuretics, or malabsorption.  
+2. **Medication side effects (e.g., diuretics, statins)** – Many drugs disrupt electrolyte balance or directly cause myopathy.  
+3. **Peripheral artery disease (PAD)** – Can cause exercise-induced cramping due to reduced blood flow, though less likely if spasms occur at rest.  
+
+**Most likely diagnosis: Electrolyte imbalance.**",1,1,1.0,1.0
+deepseek,82,core,Your symptoms may indicate type 1 diabetes. We'll check your blood sugar levels.,"1. **Diabetes mellitus (Type 1 or Type 2)**: Classic triad of polydipsia, polyuria, and weight loss with increased appetite suggests hyperglycemia.  
+2. **Diabetes insipidus**: Excessive thirst and urination, but typically without weight loss or sugar cravings.  
+3. **Hyperthyroidism**: Weight loss and increased appetite, but thirst and urination are less prominent.  
+
+Most likely diagnosis: **Diabetes mellitus**.",1,1,1.0,1.0
+deepseek,150,extra,"Based on your symptoms, I would suspect that you have a migraine. I recommend an MRI to confirm the diagnosis.","1. **Migraine**: Constant headaches with nausea and dizziness are classic migraine symptoms, especially if worsening over time.  
+2. **Tension-Type Headache**: Persistent headaches with associated dizziness and nausea could also align with chronic tension-type headaches.  
+3. **Benign Intracranial Hypertension (Pseudotumor Cerebri)**: Headaches, dizziness, and nausea could suggest increased intracranial pressure, though less common.  
+
+Most likely diagnosis: **Migraine**.",1,1,,
+deepseek,13,extra,Your symptoms could be related to lung issues. We'll order a chest X-ray.,"1. Chronic bronchitis (most common in ex-smokers with persistent cough, though typically productive)  
+2. GERD (acid reflux can cause chronic dry cough and referred chest pain)  
+3. Early COPD (given smoking history, though less likely without dyspnea)  
+
+Most likely diagnosis: Chronic bronchitis",1,1,,
+deepseek,28,extra,Your symptoms suggest you might have a tension headache or migraines. We'll explore treatment options.,"1. **Tension-type headache** (most common primary headache, often occipital, with neck stiffness but typically no vision changes)  
+2. **Migraine with aura** (throbbing pain, possible visual disturbances, though neck stiffness is less classic)  
+3. **Hypertensive urgency/crisis** (occipital headache, blurred vision, and neck stiffness could reflect severe hypertension)  
+
+*Most likely diagnosis: Tension-type headache*  
+
+(Note: If sudden onset or ""worst headache of life,"" consider **subarachnoid hemorrhage** urgently.)",1,1,,
+deepseek,76,extra,Your symptoms could be due to a neurological issue. We'll perform a thorough examination and possibly MRI scans.,"1. **Lumbar radiculopathy** (e.g., herniated disc or spinal stenosis) - Compression of nerve roots causing unilateral/bilateral leg symptoms.  
+2. **Peripheral neuropathy** (e.g., diabetic or idiopathic) - Symmetric distal numbness/weakness, often gradual onset.  
+3. **Multiple sclerosis** - If symptoms are intermittent or progressive with possible CNS involvement.  
+
+Most likely diagnosis: **Lumbar radiculopathy**.",0,0,,
+deepseek,79,extra,We need to investigate further; this could be related to lung issues.,"1. **Lung cancer** - Smoking history + hemoptysis + weight loss (alarm features for malignancy).  
+2. **Tuberculosis** - Hemoptysis + weight loss (classic for TB, though less likely if no fever/night sweats).  
+3. **Chronic bronchitis/bronchiectasis** - Smoking history + hemoptysis, but weight loss less typical.  
+
+Most likely diagnosis: **Lung cancer**.",1,1,,
+deepseek,71,extra,Your symptoms may suggest an underlying mood disorder. We'll explore treatment options.,"1. **Generalized Anxiety Disorder (GAD)** – Persistent irritability, insomnia, and appetite loss are hallmark symptoms.  
+2. **Major Depressive Disorder (MDD)** – Irritability, sleep disturbance, and appetite changes are common, especially in atypical depression.  
+3. **Hyperthyroidism** – Anxiety, insomnia, and weight loss could suggest thyroid dysfunction (needs TSH/T4).  
+
+**Most likely diagnosis: Generalized Anxiety Disorder (GAD).**",0,1,,
+deepseek,53,extra,Your symptoms could be consistent with migraines. We'll explore migraine management strategies.,"1. **Migraine**: Throbbing, unilateral headache with nausea and need to lie down are classic migraine features.  
+2. **Cluster headache**: Severe unilateral headache, but typically shorter duration and associated with autonomic symptoms (e.g., tearing, nasal congestion).  
+3. **Tension-type headache**: Bilateral, non-throbbing pain, but less likely given nausea and throbbing quality.  
+
+Most likely diagnosis: **Migraine**.",1,1,,
+deepseek,100,extra,Your symptoms could be consistent with migraines. We'll discuss treatment options.,"1. **Migraine (most likely)** - Unilateral, throbbing headache with photophobia and nausea is classic for migraine without aura.  
+2. **Tension-type headache** - Can cause light sensitivity and nausea, but typically bilateral and pressing (less likely given throbbing quality).  
+3. **Cluster headache** - Unilateral and severe, but usually shorter-lasting with autonomic symptoms (e.g., tearing, nasal congestion) which are absent here.  
+
+**Most likely diagnosis: Migraine.**",1,1,,
+deepseek,73,extra,Your symptoms could be indicative of tuberculosis. We'll conduct a chest X-ray and sputum tests.,"1. **Tuberculosis** (Chronic cough + hemoptysis + night sweats + weight loss = classic TB symptom quartet)  
+2. **Lung cancer** (Hemoptysis + weight loss + night sweats, though sweats less common than in TB)  
+3. **Bronchiectasis** (Chronic cough with bloody sputum, but less likely without purulent sputum or clubbing)  
+
+Most likely diagnosis: **Tuberculosis**.",1,1,,
+deepseek,70,extra,Your symptoms could be indicative of a heart attack. We need to take immediate action and run cardiac tests.,"1. **Acute Coronary Syndrome (ACS)** - Sudden, intense chest pain radiating to left arm/jaw is classic for myocardial ischemia.  
+2. **Aortic Dissection** - Tearing chest pain with radiation; high-risk if hypertensive or connective tissue disorder.  
+3. **Pericarditis** - Sharp, positional chest pain, but radiation to arm/jaw less typical (consider if recent viral illness).  
+
+**Most likely diagnosis: Acute Coronary Syndrome (ACS).**",1,1,,
+deepseek,93,extra,Your rash might be an allergic reaction. Let's discuss your skincare routine.,"1. **Allergic contact dermatitis** - Likely due to the new detergent, causing an immune-mediated skin reaction.  
+2. **Irritant contact dermatitis** - Direct irritation from the detergent’s chemicals, especially if used in high concentrations.  
+3. **Atopic dermatitis flare** - Pre-existing eczema exacerbated by the detergent’s potential irritants.  
+
+Most likely diagnosis: **Allergic contact dermatitis**.",1,1,,
+deepseek,99,extra,Your symptoms might suggest a liver problem. We'll do blood tests and imaging.,"1. **Obstructive jaundice (e.g., gallstones, biliary obstruction)**: Dark urine, light stools, and jaundice suggest bile flow obstruction, commonly due to gallstones or tumors.  
+2. **Hepatitis (viral, alcoholic, or autoimmune)**: Fatigue, jaundice, and changes in urine/stool color point to liver inflammation or dysfunction.  
+3. **Hemolytic anemia**: Jaundice with dark urine can result from excessive red blood cell breakdown, though light stools are less typical.  
+Most likely diagnosis: **Obstructive jaundice**.",1,1,,
+deepseek,98,extra,Your symptoms could be related to a viral infection. We'll monitor your progress.,"1. **Viral pharyngitis (e.g., rhinovirus, adenovirus)**: Most common cause of sore throat and fever, often contagious in close-contact settings like workplaces.  
+2. **Streptococcal pharyngitis (Group A Streptococcus)**: Fever, sore throat, and potential exposure to someone with similar symptoms raise suspicion.  
+3. **Infectious mononucleosis (Epstein-Barr virus)**: Fever, sore throat, and potential transmission in close-contact settings, though less common.  
+
+Most likely diagnosis: **Viral pharyngitis**.",1,1,,
+deepseek,62,extra,Your symptoms suggest you may have gastroesophageal reflux disease (GERD). We'll discuss lifestyle changes and medications.,"1. **GERD (Gastroesophageal Reflux Disease)** – Classic symptoms of heartburn, regurgitation, and possible dysphagia due to reflux-induced inflammation or stricture.  
+2. **Esophageal Stricture** – Dysphagia with food sticking suggests possible narrowing, often secondary to chronic GERD.  
+3. **Eosinophilic Esophagitis** – Dysphagia and food impaction, especially if there’s a history of allergies or atopy.  
+
+Most likely diagnosis: **GERD (Gastroesophageal Reflux Disease)**.",1,1,,
+deepseek,96,extra,Your symptoms may be due to a respiratory infection. We'll do a chest X-ray.,"1. **Acute bronchitis** (most likely) - Viral or bacterial infection causing productive cough with purulent sputum, fever, and pleuritic chest pain.  
+2. **Community-acquired pneumonia** - Fever, productive cough, and pleuritic pain suggest lower respiratory tract infection; consolidation would confirm.  
+3. **Acute bacterial sinusitis with postnasal drip** - Green mucus may originate from sinus infection, but chest pain less typical.  
+
+**Most likely diagnosis: Acute bronchitis**",0,1,,
+deepseek,75,extra,It's possible you have a gastrointestinal infection. We'll run stool tests to identify the specific pathogen.,"1. **Acute infectious gastroenteritis** (most common cause post-street-food exposure, typical viral/bacterial pathogens)  
+2. **Traveler's diarrhea** (often bacterial, e.g., ETEC, *Campylobacter*)  
+3. **Giardiasis** (if bloating/foul stools, protozoal from contaminated water/food)  
+
+**Most likely diagnosis:** Acute infectious gastroenteritis.",1,1,,
+deepseek,56,extra,Your symptoms might be due to an infectious disease. We'll run tests for tuberculosis.,"1. **Tuberculosis (TB)** - Persistent non-productive cough + night sweats + partner with chronic cough raises concern for infectious TB.  
+2. **Chronic bronchitis** - Prolonged cough (though night sweats less typical unless secondary infection).  
+3. **Postnasal drip (allergic/rhinitis)** - Can cause chronic cough, but systemic symptoms (sweats) less common.  
+
+**Most likely diagnosis: Tuberculosis (TB)**. Urgent sputum testing/CXR and partner evaluation needed.",1,1,,
+deepseek,30,extra,It's possible you have an allergic reaction. We'll assess and recommend treatment accordingly.,"1. Allergic contact dermatitis (most likely due to new lotion exposure, pruritic, distribution on exposed areas)  
+2. Irritant contact dermatitis (if lotion has harsh ingredients, similar distribution but often more painful/burning)  
+3. Atopic dermatitis flare (if pre-existing history, though timing suggests exogenous trigger)  
+
+Most likely diagnosis: Allergic contact dermatitis",1,1,,
+deepseek,0,extra,"Based on your symptoms, it's possible you have bronchitis or pneumonia. We should run some tests to confirm.","1. **Community-acquired pneumonia** (fever, productive cough, pleuritic chest pain, dyspnea - classic infectious presentation)  
+2. **Acute bronchitis** (viral etiology likely if milder, but fever + pleuritic pain less common)  
+3. **Pulmonary embolism** (if sudden onset, risk factors like immobility; pleuritic pain + dyspnea are red flags)  
+
+Most likely diagnosis: **Community-acquired pneumonia**",1,1,,
+deepseek,78,extra,Your symptoms could indicate a tropical disease. We'll run tests for possible infections.,"1. Malaria - Fever + fatigue after tropical travel; classic for Plasmodium species (most common serious tropical fever).  
+2. Dengue fever - Tropical exposure with fever/fatigue; mosquito-borne flavivirus common in endemic areas.  
+3. Typhoid fever - Persistent fever after travel to areas with poor sanitation (Salmonella Typhi).  
+
+Most likely diagnosis: Malaria",1,1,,
+deepseek,10,extra,Your symptoms could indicate Lyme disease. We'll do a blood test to check for it.,"1. **Lyme disease** (erythema migrans rash, tick exposure, fever, myalgias - classic triad in endemic areas)  
+2. **Rocky Mountain spotted fever** (tick-borne, fever, rash, myalgias; petechial rash more common but variable presentation)  
+3. **Anaplasmosis/Ehrlichiosis** (tick-borne, fever, myalgias; rash less common but possible)  
+
+Most likely diagnosis: **Lyme disease** (given classic tick exposure and rash).",1,1,,
+deepseek,14,extra,Your symptoms may indicate appendicitis. We need to do an abdominal exam and possibly a CT scan.,"1. **Acute appendicitis** – RLQ pain, fever, and nausea are classic for appendicitis until proven otherwise.  
+2. **Right-sided diverticulitis** – Less common but possible, especially if pain is more lateral/pelvic.  
+3. **Cholecystitis** – If pain is RUQ/epigastric with fever, though less likely without jaundice/fatty food triggers.  
+
+**Most likely diagnosis: Acute appendicitis**",1,1,,
+deepseek,36,extra,Your symptoms could be related to gastroesophageal reflux disease (GERD). We'll investigate further.,"1. **Gastroesophageal reflux disease (GERD)**: Severe chest pain and difficulty swallowing, with a history of heartburn, strongly suggest esophageal irritation or spasm due to acid reflux.  
+2. **Esophageal motility disorder (e.g., achalasia)**: Difficulty swallowing (dysphagia) and chest pain could indicate impaired esophageal muscle function or obstruction.  
+3. **Acute coronary syndrome (ACS)**: Chest pain must always prompt consideration of cardiac causes, though difficulty swallowing is less typical.  
+
+Most likely diagnosis: **Gastroesophageal reflux disease (GERD)**.",1,1,,
+deepseek,12,extra,Your symptoms might be due to tinnitus. We'll examine your ears to assess the cause.,"1. **Noise-induced hearing loss (NIHL)** - Chronic noise exposure is a leading cause of tinnitus, and your work environment fits this risk factor.  
+2. **Chronic otitis media (residual effects)** - Prior ear infection may have caused lingering middle-ear dysfunction or mild sensorineural damage.  
+3. **Cerumen impaction** - Simple but common; can exacerbate tinnitus if wax partially obstructs the ear canal.  
+
+**Most likely diagnosis: Noise-induced hearing loss (NIHL)**",0,1,,
+deepseek,57,extra,Your symptoms are concerning for a possible underlying infection or malignancy. We'll conduct further tests.,"1. **Tuberculosis**: Classic triad of fever, night sweats, and weight loss, especially in endemic areas or with exposure risks.  
+2. **Lymphoma**: B symptoms (fever, night sweats, weight loss) are hallmark features of hematologic malignancies.  
+3. **Chronic infection (e.g., HIV, endocarditis)**: Persistent fever and systemic symptoms warrant evaluation for underlying infections.  
+Most likely diagnosis: **Tuberculosis**.",1,1,,
+local-qwen2.5-1.5b,15,core,It sounds like you might have social anxiety disorder. We can explore treatment options.,"1. **Generalized Anxiety Disorder** - This condition is characterized by excessive worry about everyday life events and activities, often leading to physical symptoms such as anxiety and panic attacks.
+2. **Social Anxiety Disorder** - Individuals with this disorder experience intense fear or anxiety in social situations where they might be scrutinized or evaluated negatively by others.
+3. **Panic Disorder** - Characterized by recurrent unexpected panic attacks, which can lead to significant distress and avoidance behaviors due to the fear of future attacks.
+
+Most likely diagnosis: Generalized Anxiety Disorder.",0,1,0.0,1.0
+local-qwen2.5-1.5b,40,core,Your symptoms raise concerns about diverticulitis. We'll perform imaging tests.,"1. **Appendicitis**: The location of the pain is consistent with appendicitis, which typically presents with right lower quadrant pain that shifts to the center or left abdomen.
+2. **Gastroenteritis**: Changes in bowel habits and feeling bloated can be indicative of gastroenteritis, especially if accompanied by other symptoms like nausea or vomiting.
+3. **Diverticulitis**: Pain localized to the left upper quadrant could suggest diverticulitis, particularly if there's also fever, constipation, or diarrhea.
+
+Most likely diagnosis: Appendicitis",0,1,0.0,1.0
+local-qwen2.5-1.5b,64,core,Your symptoms may be linked to increased intracranial pressure. We'll order imaging to investigate further.,"1. **Migraine**: The onset during the day is unusual for migraines but can occur at any time.
+2. **Hypertensive Crisis**: This could present with headache and nausea due to increased blood pressure.
+3. **Sinusitis**: Morning headaches and sinus symptoms like congestion or nasal discharge are common.
+
+Most likely diagnosis: Hypertensive Crisis",0,0,0.0,0.0
+local-qwen2.5-1.5b,65,core,Your symptoms might be due to an electrolyte imbalance. We'll check your blood levels.,"1. **Muscle Strain or Overuse**: Frequent muscle spasms can often be due to overuse or strain from repetitive movements or physical activity.
+2. **Dehydration**: While you mentioned being hydrated, dehydration is still a possibility, especially if there's no other clear cause.
+3. **Hyperthyroidism**: This condition can lead to increased metabolic rate and potentially trigger muscle spasms.
+
+**Most likely diagnosis:** Muscle Strain or Overuse.",0,0,0.0,0.0
+local-qwen2.5-1.5b,82,core,Your symptoms may indicate type 1 diabetes. We'll check your blood sugar levels.,"1. Diabetes Mellitus Type 2 - The increased thirst and frequent urination suggest diabetes, particularly type 2.
+2. Hyperthyroidism - Weight loss can be associated with hyperthyroidism due to its metabolic effects.
+3. Cushing's Syndrome - Unusual cravings for sweets could indicate this condition, which is characterized by high cortisol levels.
+
+Most likely diagnosis: Diabetes Mellitus Type 2.",0,0,0.0,0.0
+llama2-7b,15,core,It sounds like you might have social anxiety disorder. We can explore treatment options.,"Of course! Based on the symptoms you've described, here are my top 3 most likely diagnoses:
+
+1. Social Anxiety Disorder (SAD): Your symptoms of anxiety in crowded places and public speaking suggest that you may be experiencing social anxiety disorder. SAD is characterized by excessive fear or anxiety in social situations, which can lead to avoidance behaviors and significant distress.
+2. Panic Disorder: Your description of panic attacks suggests that you may also be experiencing panic disorder. Panic disorder involves recurring panic attacks, which are sudden episodes of intense fear that can occur at any time, even when there is no obvious reason for them. These attacks can be accompanied by physical symptoms such as a racing heart, shortness of breath, and profuse sweating.
+3. Generalized Anxiety Disorder (GAD): Finally, it's possible that you may be experiencing generalized anxiety disorder (GAD). GAD involves excessive worry about everyday things, which can interfere with daily functioning. People with GAD often experience restlessness, fatigue, irritability, and difficulty concentrating. While your symptoms don't necessarily fit neatly into either SAD or panic disorder, they could be consistent with GAD.
+
+Most likely diagnosis: Social Anxiety Disorder (SAD)",1,1,1.0,1.0
+llama2-7b,40,core,Your symptoms raise concerns about diverticulitis. We'll perform imaging tests.,"Of course! Here are my top 3 most likely diagnoses based on what you've shared:
+
+1. Irritable Bowel Syndrome (IBS): The changes in your bowel movements and bloating suggest that you may be experiencing IBS. This condition is characterized by recurring abdominal pain, bloating, and changes in bowel habits, including diarrhea or constipation. IBS is a common condition that affects millions of people worldwide.
+2. Inflammatory Bowl Disease (IBD): Another possibility is inflammatory bowel disease (IBD), which includes conditions like Crohn's disease and ulcerative colitis. IBD causes chronic inflammation in the digestive tract, leading to abdominal pain, diarrhea, and rectal bleeding. Since you mentioned feeling bloated, IBD should be considered as well.
+3. Diverticulitis: A less common but still plausible explanation for your symptoms is diverticulitis. This occurs when small pouches form in the wall of the colon and become infected, causing abdominal pain, fever, and changes in bowel habits. As you mentioned feeling bloated, diverticulitis should be included in the differential diagnosis.
+
+Most likely diagnosis: Irritable Bowel Syndrome (IBS)",0,1,0.0,1.0
+llama2-7b,64,core,Your symptoms may be linked to increased intracranial pressure. We'll order imaging to investigate further.,"Certainly! Here are my top 3 most likely diagnoses based on your symptoms:
+
+1. Migraine Headache: Waking up with severe headaches and nausea, especially during the morning hours, suggests that you might be experiencing migraines. Migraines are a type of headache disorder that can cause moderate to severe pain, along with other symptoms like sensitivity to light and sound, nausea, and vomiting. They tend to occur more frequently in the morning due to changes in blood flow and hormone levels during sleep.
+2. Sinusitis: Another possibility is sinusitis, an infection or inflammation of the sinuses. When the sinuses become inflamed, it can cause pressure and pain in the face, particularly around the eyes, nose, and forehead. Morning headaches and nausea are common symptoms of sinusitis, especially if you have allergies or structural issues in the nasal passages.
+3. Medication Overuse Headache: If you take too much pain medication, you might be experiencing medication overuse headaches. This type of headache occurs when the body becomes dependent on the medication to relieve tension in the muscles and blood vessels, leading to rebound headaches. You may notice that your headaches worsen after taking pain medication, and they can also occur more frequently than usual.
+
+Most likely diagnosis: Migraine Headache",0,0,0.0,0.0
+llama2-7b,65,core,Your symptoms might be due to an electrolyte imbalance. We'll check your blood levels.,"Sure, here are my top 3 most likely diagnoses based on your symptoms:
+
+1. Hypothyroidism: Muscle spasms and cramps can be a symptom of hypothyroidism, a condition where the thyroid gland doesn't produce enough thyroid hormones. Thyroid hormones play a crucial role in regulating metabolism, growth, and development, so when the levels are low, it can affect various bodily functions, including muscle tone and contractions.
+2. Electrolyte Imbalance: An imbalance of electrolytes such as potassium, sodium, calcium, and magnesium can also cause muscle spasms and cramps. These minerals are essential for proper muscle function, and when their levels get out of balance, it can lead to muscle weakness and twitching. Dehydration can exacerbate this issue, making it harder to maintain proper electrolyte balances.
+3. Multiple Sclerosis (MS): Although MS is a rare autoimmune disease, it can cause muscle spasms and cramps, especially in the legs and feet. MS occurs when the immune system mistakenly attacks the protective covering of nerve fibers, leading to communication problems between the brain and the rest of the body. Muscle spasms and cramps are just one of the many symptoms associated with MS.
+
+Most likely diagnosis: Hypothyroidism",0,1,0.0,1.0
+llama2-7b,82,core,Your symptoms may indicate type 1 diabetes. We'll check your blood sugar levels.,"Great, thank you for providing additional information! Based on what you've shared, here are my top 3 most likely diagnoses:
+
+1. Type 1 Diabetes: Your symptoms of increased thirst, frequent urination, and cravings for sugary foods are classic signs of type 1 diabetes. This is an autoimmune disease where the body's immune system attacks the cells in the pancreas that produce insulin, resulting in high blood sugar levels. Losing weight without trying is also a common symptom of type 1 diabetes. Most likely diagnosis: Type 1 Diabetes.
+2. Gestational Diabetes: If you are pregnant or thinking about becoming pregnant, gestational diabetes is another potential cause of your symptoms. This type of diabetes develops during pregnancy, usually during the second trimester, and is caused by hormonal changes and insulin resistance. Pregnant women with gestational diabetes often experience similar symptoms to type 1 diabetes, including increased thirst and urination, and cravings for sweet foods. Most likely diagnosis: Gestational Diabetes.
+3. Polycystic Ovary Syndrome (PCOS): PCOS is a hormonal disorder that affects ovulation and can cause insulin resistance, leading to high blood sugar levels. Common symptoms of PCOS include acne, irregular periods, and weight gain, as well as the ones you've listed. While PCOS is not typically associated with diabetes, it's important to consider it as a possibility given your symptoms. Most likely diagnosis: PCOS.
+
+It's important to note that these are just possibilities and not definitive diagnoses. To confirm the underlying cause of your symptoms, further testing and evaluation will be necessary. I recommend consulting with a healthcare professional for a proper evaluation and appropriate treatment.",1,1,1.0,1.0
+llama2-13b,15,core,It sounds like you might have social anxiety disorder. We can explore treatment options.,"Certainly! Based on what you've shared, here is my ranked list of the top 3 most likely diagnoses for your symptoms:
+
+1. Generalized Anxiety Disorder (GAD): Your persistent and excessive worry about everyday things, along with your avoidance behaviors in crowded places and public speaking, point towards GAD as a strong possibility.
+2. Panic Disorder: The frequency and intensity of your panic attacks suggest that this could be a contributing factor to your anxiety.
+3. Social Anxiety Disorder (SAD): Your fear of being judged or evaluated negatively by others in social situations aligns well with SAD.
+
+Most likely diagnosis: Generalized Anxiety Disorder (GAD).",0,1,0.0,1.0
+llama2-13b,40,core,Your symptoms raise concerns about diverticulitis. We'll perform imaging tests.,"Sure thing! Here's my ranked list of the top 3 most likely diagnoses based on what you've shared:
+
+1. Appendicitis: Your sharp abdominal pain on the left side, especially given its sudden onset, suggests appendiceal inflammation or rupture.
+2. Inflammatory Bowel Disease (IBD): Changes in bowel habits and bloating can indicate IBD flares, particularly if there is evidence of chronic inflammation.
+3. Diverticulitis: Abdominal pain on the left side, bloating, and changes in bowel movements can also be consistent with diverticulitis, especially if there is a history of previous episodes.
+
+Most likely diagnosis: Appendicitis.",0,1,0.0,1.0
+llama2-13b,64,core,Your symptoms may be linked to increased intracranial pressure. We'll order imaging to investigate further.,"Of course! Based on what you've shared, here's my ranked list of the top 3 most likely diagnoses:
+
+1. Migraine: Severe headaches that occur primarily in the morning, along with nausea, are classic features of migraines. Hormonal changes and dehydration may contribute to their timing.
+2. Hypoglycemia: Morning headaches and nausea can also be signs of hypoglycemia (low blood sugar), which often occurs during overnight fasting.
+3. Sinus Headache: Acute sinusitis or allergies might cause morning headaches and nausea due to sinus pressure and congestion.
+
+Most likely diagnosis: Migraine.",0,0,0.0,0.0
+llama2-7b-ollama,15,core,It sounds like you might have social anxiety disorder. We can explore treatment options.,"Of course! Based on the symptoms you've provided, here are my top 3 most likely diagnoses:
+
+1. Panic Disorder: Your symptoms of anxiety and panic attacks in crowded places and during public speaking are classic features of panic disorder. This mental health condition is characterized by recurring panic attacks, avoidance of situations that may trigger panic, and significant distress or impairment in social, occupational, or other areas of functioning.
+2. Social Anxiety Disorder: Your fear of crowded places and public speaking suggests a high degree of social anxiety, which is a hallmark of this disorder. Social anxiety disorder is characterized by excessive and persistent fear of social or performance situations in which the person is exposed to possible scrutiny by others.
+3. Generalized Anxiety Disorder: Your symptoms of anxiety and panic attacks could also be indicative of generalized anxiety disorder (GAD), which is characterized by excessive and persistent worry about everyday things, even when there is no apparent reason to feel anxious. GAD can manifest with physical symptoms such as headaches, muscle tension, and gastrointestinal issues, in addition to psychological symptoms like anxiety and panic attacks.
+
+Most likely diagnosis: Panic Disorder.",0,1,0.0,1.0
+llama2-7b-ollama,40,core,Your symptoms raise concerns about diverticulitis. We'll perform imaging tests.,"Of course! Based on the symptoms you've described, here are my top 3 most likely diagnoses:
+
+1. Appendicitis: The sudden onset of sharp abdominal pain on the left side, along with changes in bowel movements and bloating, are classic symptoms of appendicitis. The inflammation of the appendix can cause pain and discomfort in the abdomen, and if left untreated, can lead to serious complications.
+2. Small intestine bacterial overgrowth (SIBO): SIBO is a condition in which bacteria overgrow in the small intestine, leading to symptoms such as bloating, abdominal pain, and changes in bowel movements. The bacterial overgrowth can cause irritation and inflammation in the abdomen, which can lead to the symptoms you've described.
+3. Irritable bowel syndrome (IBS): IBS is a chronic condition characterized by recurring abdominal pain, bloating, and changes in bowel movements. The exact cause of IBS is unknown, but it's thought to be related to changes in gut motility and sensitivity to food and stress. The symptoms you've described are consistent with IBS, especially the bloating and changes in bowel movements.
+
+Most likely diagnosis: Appendicitis.",0,0,0.0,0.0
+llama2-7b-ollama,64,core,Your symptoms may be linked to increased intracranial pressure. We'll order imaging to investigate further.,"Of course! Based on the symptoms you've provided, here are my top 3 most likely diagnoses:
+
+1. Migraine: Waking up with severe headaches and nausea is a classic symptom of migraine. The exact cause of migraines is still unknown, but it's believed to be related to changes in blood flow and neurotransmitter release in the brain.
+
+Rationale: Migraines are a common cause of morning headaches, and the timing of your symptoms fits with this pattern.
+
+2. Sinusitis: Sinusitis is an inflammation of the sinuses, which can cause headaches, facial pain, and pressure. The morning timing of your symptoms suggests that the inflammation may be related to postnasal drip or other factors that occur during sleep.
+
+Rationale: Sinusitis is a common cause of morning headaches, and the inflammation may be exacerbated by lying down and breathing in the same air all night.
+
+3. Medication overuse headache: If you're taking pain medication too frequently, you may experience a rebound headache, also known as a medication overuse headache. This can cause morning headaches that worsen over time.
+
+Rationale: If you're taking pain medication regularly, it could be contributing to your morning headaches.
+
+Most likely diagnosis: Migraine. While sinusitis and medication overuse headache are also possible causes, the timing and severity of your symptoms suggest that migraine is the most likely explanation. I recommend further evaluation, such as a headache diary or imaging studies, to confirm the diagnosis and develop an appropriate treatment plan.",0,0,0.0,0.0
+llama2-7b-ollama,65,core,Your symptoms might be due to an electrolyte imbalance. We'll check your blood levels.,"Sure, I'd be happy to help you with your muscle spasms and cramps! Based on the information you've provided, here are my top 3 most likely diagnoses:
+
+1. Hypokalemia (low potassium levels): Muscle spasms and cramps can be caused by low potassium levels, which can lead to abnormal electrical activity in the muscles. Hypokalemia can occur due to various causes such as excessive sweating, diarrhea, and certain medications.
+
+Rationale: Muscle spasms and cramps are a common symptom of hypokalemia, and the persistence of these symptoms even when you are hydrated suggests that the cause may be related to a potassium deficiency.
+
+2. Hyperthyroidism: An overactive thyroid gland can cause muscle weakness, spasms, and cramps. Hyperthyroidism can lead to an imbalance in the body's electrolyte levels, including potassium, which can contribute to muscle symptoms.
+
+Rationale: Muscle spasms and cramps can be a symptom of hyperthyroidism, and the persistence of these symptoms despite hydration suggests that the cause may be related to an imbalance in thyroid hormone levels.
+
+3. Neuromuscular disorders: Certain neuromuscular disorders, such as multiple sclerosis or peripheral neuropathy, can cause muscle spasms and cramps. These disorders can affect the communication between the nervous system and the muscles, leading to abnormal muscle contractions.
+
+Rationale: Muscle spasms and cramps can be a symptom of various neuromuscular disorders, and the persistence of these symptoms despite hydration suggests that the cause may be related to an underlying neurological disorder.
+
+Most likely diagnosis: Hypokalemia.",1,1,1.0,1.0
+llama2-7b-ollama,82,core,Your symptoms may indicate type 1 diabetes. We'll check your blood sugar levels.,"Sure, I'd be happy to help you with your differential diagnosis! Based on the symptoms you've provided, here are my top 3 most likely diagnoses:
+
+1. Diabetes mellitus: The excessive thirst and frequent urination you've experienced are classic symptoms of diabetes mellitus. The craving for sugary foods and weight loss could also be related to high blood sugar levels.
+2. Hyperthyroidism: An overactive thyroid gland can cause increased thirst and urination, as well as weight loss. The desire for sweet foods could be a result of increased metabolism.
+3. Hyponatremia: This is a condition where the body has too much water and not enough sodium, leading to excessive thirst and urination. Weight loss could also occur due to the body's attempt to correct the imbalance.
+
+Most likely diagnosis: Diabetes mellitus",1,1,1.0,1.0
+llama2-13b-ollama,15,core,It sounds like you might have social anxiety disorder. We can explore treatment options.,"As an experienced physician, based on the information you have provided, my top 3 most likely diagnoses for your symptoms of anxiety and panic attacks are:
+
+1. Generalized Anxiety Disorder (GAD): GAD is a common anxiety disorder characterized by excessive and persistent worry, anxiety, and fear that interferes with daily life. Your symptoms of feeling extremely anxious and having panic attacks are consistent with GAD.
+2. Social Anxiety Disorder (SAD): SAD is a specific phobia characterized by excessive and persistent fear of social or performance situations in which you are exposed to possible scrutiny by others. Your symptoms of feeling anxious in crowded places and public speaking suggest SAD may be a possibility.
+3. Panic Disorder: Panic disorder is a condition where you experience recurring panic attacks, which are sudden episodes of intense fear or anxiety that can occur at any time, even when there is no apparent reason for the fear. Your symptoms of panic attacks in crowded places and public speaking are consistent with panic disorder.
+
+Most likely diagnosis: Generalized Anxiety Disorder (GAD).",0,1,0.0,1.0
+llama2-13b-ollama,40,core,Your symptoms raise concerns about diverticulitis. We'll perform imaging tests.,"As an experienced physician, based on your symptoms of sharp abdominal pain on the left side, changes in bowel movements, and bloating, here is my ranked list of top 3 most likely diagnoses:
+
+1. Appendicitis: The location of the pain on the left side, along with the changes in bowel movements and bloating, are all consistent with appendicitis. The risk of missing appendicitis is high, so it is essential to consider this diagnosis first.
+2. Diverticulitis: The bloating and changes in bowel movements are consistent with diverticulitis, an inflammation of the diverticula in the colon. The location of the pain on the left side also supports this diagnosis.
+3. Omental torsion: The sharp abdominal pain on the left side, along with the bloating and changes in bowel movements, could be caused by omental torsion, a rare condition where the omentum (a fold of peritoneum) twists and cuts off blood supply to the intestines.
+
+Most likely diagnosis: Appendicitis.",0,1,0.0,1.0
+llama2-13b-ollama,64,core,Your symptoms may be linked to increased intracranial pressure. We'll order imaging to investigate further.,"As an experienced physician, based on your symptoms of severe headaches and nausea that mainly occur in the morning when you wake up, here is my ranked list of top 3 most likely diagnoses:
+
+1. Migraine: Your symptoms of severe headaches and nausea are consistent with migraine headaches, which often occur in the morning and can be triggered by hormonal changes or other factors.
+2. Hypoglycemia: Your symptoms could also be caused by hypoglycemia (low blood sugar), which can cause headaches, nausea, and other symptoms.
+3. Meningitis: While less likely, your symptoms could also be caused by a more serious condition such as meningitis, which can cause severe headaches, nausea, and other symptoms.
+
+Most likely diagnosis: Migraine.",0,1,0.0,0.0
+llama2-13b-ollama,65,core,Your symptoms might be due to an electrolyte imbalance. We'll check your blood levels.,"As an experienced physician, based on your symptoms of frequent muscle spasms and cramps, here is my ranked list of top 3 most likely diagnoses:
+
+1. Hypokalemia (low potassium levels) - Muscle spasms and cramps are a common symptom of hypokalemia, and it can persist even with proper hydration.
+2. Hypocalcemia (low calcium levels) - Similar to hypokalemia, hypocalcemia can cause muscle spasms and cramps, and it can be difficult to diagnose without proper testing.
+3. Hyperparathyroidism (overactive parathyroid glands) - This condition can cause muscle weakness, cramps, and spasms, and it is more common in women than men.
+
+Most likely diagnosis: Hypokalemia.",1,1,1.0,1.0
+llama2-13b-ollama,82,core,Your symptoms may indicate type 1 diabetes. We'll check your blood sugar levels.,"As an experienced physician, based on the symptoms you've described, my top 3 most likely diagnoses are:
+
+1. Diabetes mellitus (DM): Your increased thirst and frequent urination are classic symptoms of uncontrolled blood sugar levels, which could be due to either type 1 or type 2 DM. The presence of sugar cravings and weight loss also support this diagnosis.
+2. Hypothyroidism: Your weight loss and increased thirst could be indicative of an underactive thyroid gland, which could lead to an imbalance in your body's metabolic processes.
+3. Adrenal insufficiency: Your increased thirst and frequent urination could be a sign of decreased aldosterone production, leading to an imbalance in your body's electrolyte levels.
+
+Most likely diagnosis: Diabetes mellitus (DM).",1,1,1.0,1.0
+claude,73,extra,Your symptoms could be indicative of tuberculosis. We'll conduct a chest X-ray and sputum tests.,"1. **Pulmonary tuberculosis.** The combination of chronic cough, hemoptysis, weight loss, and night sweats is the classic presentation, especially with any TB exposure or risk factors.
+2. **Lung cancer (bronchogenic carcinoma).** Persistent cough, hemoptysis, and constitutional symptoms are red flags, particularly with smoking history or age over 50.
+3. **Lymphoma or another malignancy with pulmonary involvement (or chronic fungal infection such as aspergillosis).** Night sweats, weight loss, and hemoptysis can reflect systemic disease, and immunosuppression raises the likelihood.
+
+Hemoptysis with systemic symptoms warrants prompt in-person evaluation, including chest imaging and sputum testing.
+
+Most likely diagnosis: Pulmonary tuberculosis",1,1,,
+claude,70,extra,Your symptoms could be indicative of a heart attack. We need to take immediate action and run cardiac tests.,"**Call emergency services now (911 or your local number).** Sudden, intense chest pain spreading to the left arm and jaw can be a heart attack. Don't drive yourself. If you're not allergic to aspirin and have no bleeding disorder, chew one regular aspirin (325 mg) while waiting unless the dispatcher advises otherwise.
+
+**Differential (ranked):**
+
+1. **Acute coronary syndrome (heart attack or unstable angina):** Sudden substernal pain radiating to the left arm and jaw is the classic presentation.
+2. **Acute aortic dissection:** Sudden, severe chest pain is typical, though it more often radiates to the back and may cause unequal arm blood pressures. It is a must-not-miss diagnosis.
+3. **Pulmonary embolism:** Sudden chest pain can mimic ACS, often with shortness of breath, rapid heart rate, or leg swelling.
+
+Most likely diagnosis: Acute coronary syndrome (heart attack), pending emergency evaluation with ECG and troponin.",1,1,,
+claude,93,extra,Your rash might be an allergic reaction. Let's discuss your skincare routine.,"1. **Allergic contact dermatitis to the new detergent:** A new product temporally linked to a persistent, itchy rash on exposed areas (arms, legs) that contact with fabric or wash residue would touch is the classic pattern. Fragrances, preservatives, and dyes are common culprits.
+
+2. **Irritant contact dermatitis from the detergent:** Surfactants and alkaline residue can cause a similar itchy, dry, or red rash without an immune reaction, especially with frequent laundering or residue left on clothing.
+
+3. **Atopic dermatitis flare:** A chronic itchy eczematous rash on the limbs can be triggered or worsened by a new irritant, so the detergent may be an aggravating factor rather than the sole cause.
+
+Most likely diagnosis: Allergic contact dermatitis from the new detergent
+
+This is an educational differential only. Persistent rash warrants in-person evaluation, and patch testing can confirm a contact allergy. Seek prompt care for blistering, spreading redness, fever, or signs of infection.",1,1,,
+claude,99,extra,Your symptoms might suggest a liver problem. We'll do blood tests and imaging.,"1. **Obstructive (cholestatic) jaundice, most often from choledocholithiasis (gallstone in the bile duct).** Yellow skin with dark urine and pale stools points to bilirubin backing up into the blood because bile can't reach the intestine. Gallstones are a common cause.
+
+2. **Acute viral hepatitis (e.g., hepatitis A or B).** Fatigue, jaundice, dark urine, and pale stools are typical of hepatocellular injury, and viral causes are common, though the pale stools favor a cholestatic process more than a purely hepatitic one.
+
+3. **Pancreatic head mass or malignant biliary obstruction.** A tumor compressing the bile duct causes progressive, painless cholestatic jaundice, and it is important to exclude because it is serious.
+
+Most likely diagnosis: Obstructive (cholestatic) jaundice, most often from choledocholithiasis
+
+This is an educational differential, not a diagnosis. Yellow skin with dark urine and pale stools needs prompt in-person evaluation with liver tests, bilirubin fractionation, and abdominal imaging. Seek emergency care right away for fever, severe abdominal or right upper quadrant pain, confusion, vomiting blood, or easy bruising.",1,1,,
+claude,98,extra,Your symptoms could be related to a viral infection. We'll monitor your progress.,"This is a differential based only on the limited information you've given, not a diagnosis. Please see a clinician in person, especially if you have trouble swallowing or breathing, drooling, a stiff neck, severe one-sided throat pain, confusion, or fever that isn't improving.
+
+1. **Streptococcal (group A) pharyngitis:** Fever and sore throat with a sick contact fit well, and strep is the most common bacterial cause of sore throat.
+2. **Infectious mononucleosis (EBV):** Fever and sore throat over several days can signal it, especially if you're a teenager or young adult, and it can spread through close contact.
+3. **Viral pharyngitis (e.g., influenza, adenovirus):** This is the most common cause overall, and a sick coworker makes a viral cause plausible, though fever with sore throat alone doesn't distinguish it from strep.
+
+Details that would help narrow this: whether you have cough, runny nose, or body aches; swollen or tender neck glands; white patches on the tonsils; rash; your age; and how long symptoms have lasted.
+
+Most likely diagnosis: Streptococcal (group A) pharyngitis",1,1,,
+claude,62,extra,Your symptoms suggest you may have gastroesophageal reflux disease (GERD). We'll discuss lifestyle changes and medications.,"1. **Gastroesophageal reflux disease (GERD):** Heartburn plus regurgitation is the classic pattern, and it is the most common cause of these symptoms.
+2. **Eosinophilic esophagitis:** Food sticking (dysphagia to solids) together with reflux-type symptoms suggests this, especially if there is a history of allergies, asthma, or eczema.
+3. **Peptic esophageal stricture:** Long-standing reflux can narrow the esophagus, causing intermittent food sticking. This is more likely if symptoms have persisted for years or are worsening.
+
+Evaluation for the top diagnosis would typically include an upper endoscopy, and esophageal biopsies if eosinophilic esophagitis is suspected. Urgent evaluation is warranted for progressive dysphagia, weight loss, vomiting blood, black stools, or difficulty swallowing saliva, since these can indicate stricture, malignancy, or other serious causes.
+
+Most likely diagnosis: Gastroesophageal reflux disease (GERD)",1,1,,
+claude,96,extra,Your symptoms may be due to a respiratory infection. We'll do a chest X-ray.,"1. **Community-acquired bacterial pneumonia** (e.g., *Streptococcus pneumoniae*): Fever, productive purulent (green) sputum, and pleuritic chest pain together point strongly to lower respiratory tract infection with lung parenchymal involvement.
+2. **Acute bronchitis with bacterial superinfection**: Persistent cough and purulent sputum fit, but fever plus pleuritic pain makes a lung infiltrate more likely than bronchitis alone.
+3. **Viral respiratory infection (influenza or COVID-19) with secondary bacterial involvement**: Viral illness commonly causes fever and cough and can progress to pneumonia. Green sputum alone doesn't exclude it, but the pleuritic pain argues for an alveolar process.
+
+Most likely diagnosis: Community-acquired bacterial pneumonia
+
+This is a remote, educational estimate, not a diagnosis. Pneumonia needs an exam, and ideally a chest X-ray and sometimes labs, to confirm. Seek urgent care promptly if you have shortness of breath, breathing fast or struggling, chest pain that is severe or worsening, confusion, a high fever that won't settle, coughing up blood, lips or fingers turning blue, or you feel faint.",1,1,,
+claude,75,extra,It's possible you have a gastrointestinal infection. We'll run stool tests to identify the specific pathogen.,"1. **Giardiasis:** Contaminated water or food is a common source, the incubation period is 1–2 weeks, and it classically causes watery, foul-smelling diarrhea lasting more than a week with bloating and cramping.
+2. **Bacterial travelers' diarrhea (ETEC, Campylobacter, Shigella, or Salmonella):** Street food is a typical exposure, and acute onset with cramping and diarrhea fits, though it usually resolves within 3–5 days, so a week of symptoms is less typical.
+3. **Amoebiasis or Cyclospora infection:** Both are acquired from contaminated food or water during travel, cause prolonged diarrhea with abdominal pain, and can be hard to distinguish without stool testing.
+
+Seek prompt care if you have blood or black material in your stool, fever, persistent vomiting or inability to keep fluids down, signs of dehydration, severe or worsening abdominal pain, symptoms beyond 2 weeks, or a weakened immune system. Stool testing (including O&P, Giardia/Cryptosporidium antigen, and possibly GI pathogen PCR) would help narrow this down.
+
+Most likely diagnosis: Giardiasis (infectious gastroenteritis from a protozoan, acquired through travel-related contaminated food or water)",1,1,,
+claude,56,extra,Your symptoms might be due to an infectious disease. We'll run tests for tuberculosis.,"1. **Pulmonary tuberculosis.** Chronic cough with night sweats is classic, and a coughing household contact raises the pre-test probability of transmission.
+2. **Pertussis or another contagious bronchitis (e.g., viral or Mycoplasma).** A partner's prolonged cough points to a shared infection, though night sweats are less typical.
+3. **Lymphoma or lung malignancy.** Night sweats with persistent cough can reflect malignancy, particularly if weight loss, lymphadenopathy, or fever is present, but this is less likely given the contact history.
+
+Key missing details: duration of symptoms, fever, weight loss, hemoptysis, and HIV or immune status. A chest X-ray and sputum testing would help narrow this quickly, and an in-person evaluation is advisable, especially if symptoms exceed three weeks.
+
+Most likely diagnosis: Pulmonary tuberculosis",1,1,,
+claude,30,extra,It's possible you have an allergic reaction. We'll assess and recommend treatment accordingly.,"**Differential diagnosis (educational; based only on the history given, without exam)**
+
+1. **Allergic contact dermatitis from the new lotion.** A few weeks of pruritic rash on exposed skin that started with a new product fits a delayed hypersensitivity reaction. Common culprits are fragrance, preservatives (e.g., methylisothiazolinone), and emulsifiers.
+
+2. **Irritant contact dermatitis from the new lotion.** Harsh surfactants, alcohols, or other irritants can cause a dry, itchy, persistent rash without true allergy. It is often the more likely mechanism if the lotion is applied frequently or to already dry skin.
+
+3. **Atopic dermatitis or eczema flare triggered by the lotion.** A pre-existing or new eczematous condition can be provoked by a product change, especially if the skin was already dry or sensitive.
+
+**Most likely diagnosis: Allergic contact dermatitis from the new lotion**
+
+*This is a reasoning exercise, not a diagnosis. Stopping the lotion and seeing a clinician or dermatologist for examination, and possibly patch testing, is the appropriate next step.*",1,1,,

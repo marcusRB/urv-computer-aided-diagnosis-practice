@@ -1,0 +1,25 @@
+{
+ "created": "2026-11-27T08:45:32",
+ "judge": "openai/gpt-4o-mini",
+ "mode": "single",
+ "apply_draft": true,
+ "rows": 143,
+ "labelled_rows": {
+  "top1": 43,
+  "top3": 43
+ },
+ "agreement": [
+  {
+   "label": "top1",
+   "n_labelled": 43,
+   "agree_%": 100.0,
+   "kappa": 1.0
+  },
+  {
+   "label": "top3",
+   "n_labelled": 43,
+   "agree_%": 97.7,
+   "kappa": 0.927
+  }
+ ]
+}

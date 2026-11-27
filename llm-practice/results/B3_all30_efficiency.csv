@@ -1,0 +1,5 @@
+bot,latency_mean_s,latency_median_s,completion_tokens_mean,refusal_rate
+chatgpt,2.483,2.347,116.367,0.0
+claude,4.649,4.627,359.867,0.0
+deepseek,3.833,2.686,99.5,0.0
+gemini,1.414,1.178,138.367,0.0

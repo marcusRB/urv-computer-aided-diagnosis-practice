@@ -1,0 +1,11 @@
+A,B,A_only_correct,B_only_correct,p_raw,p_holm
+chatgpt,claude,1,1,1.0,1.0
+chatgpt,deepseek,0,1,1.0,1.0
+chatgpt,gemini,1,0,1.0,1.0
+chatgpt,local-qwen2.5-1.5b,4,0,0.125,1.0
+claude,deepseek,0,1,1.0,1.0
+claude,gemini,1,0,1.0,1.0
+claude,local-qwen2.5-1.5b,4,0,0.125,1.0
+deepseek,gemini,2,0,0.5,1.0
+deepseek,local-qwen2.5-1.5b,5,0,0.0625,0.625
+gemini,local-qwen2.5-1.5b,3,0,0.25,1.0

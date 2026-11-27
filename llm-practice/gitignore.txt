@@ -1,0 +1,19 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# local backups and scratch
+results/runs_backup_*.jsonl
+results_backup/
+*.bak
+
+# OS
+.DS_Store

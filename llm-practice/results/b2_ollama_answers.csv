@@ -1,0 +1,87 @@
+bot,vignette_id,latency_s,prompt_tokens,completion_tokens,final_text,top1_line
+llama2-13b-ollama,15,99.47211360931396,139,264,"As an experienced physician, based on the information you have provided, my top 3 most likely diagnoses for your symptoms of anxiety and panic attacks are:
+
+1. Generalized Anxiety Disorder (GAD): GAD is a common anxiety disorder characterized by excessive and persistent worry, anxiety, and fear that interferes with daily life. Your symptoms of feeling extremely anxious and having panic attacks are consistent with GAD.
+2. Social Anxiety Disorder (SAD): SAD is a specific phobia characterized by excessive and persistent fear of social or performance situations in which you are exposed to possible scrutiny by others. Your symptoms of feeling anxious in crowded places and public speaking suggest SAD may be a possibility.
+3. Panic Disorder: Panic disorder is a condition where you experience recurring panic attacks, which are sudden episodes of intense fear or anxiety that can occur at any time, even when there is no apparent reason for the fear. Your symptoms of panic attacks in crowded places and public speaking are consistent with panic disorder.
+
+Most likely diagnosis: Generalized Anxiety Disorder (GAD).",Generalized Anxiety Disorder (GAD).
+llama2-7b-ollama,15,54.13561987876892,139,295,"Of course! Based on the symptoms you've provided, here are my top 3 most likely diagnoses:
+
+1. Panic Disorder: Your symptoms of anxiety and panic attacks in crowded places and during public speaking are classic features of panic disorder. This mental health condition is characterized by recurring panic attacks, avoidance of situations that may trigger panic, and significant distress or impairment in social, occupational, or other areas of functioning.
+2. Social Anxiety Disorder: Your fear of crowded places and public speaking suggests a high degree of social anxiety, which is a hallmark of this disorder. Social anxiety disorder is characterized by excessive and persistent fear of social or performance situations in which the person is exposed to possible scrutiny by others.
+3. Generalized Anxiety Disorder: Your symptoms of anxiety and panic attacks could also be indicative of generalized anxiety disorder (GAD), which is characterized by excessive and persistent worry about everyday things, even when there is no apparent reason to feel anxious. GAD can manifest with physical symptoms such as headaches, muscle tension, and gastrointestinal issues, in addition to psychological symptoms like anxiety and panic attacks.
+
+Most likely diagnosis: Panic Disorder.",Panic Disorder.
+llama2-13b-ollama,40,84.45573496818542,143,249,"As an experienced physician, based on your symptoms of sharp abdominal pain on the left side, changes in bowel movements, and bloating, here is my ranked list of top 3 most likely diagnoses:
+
+1. Appendicitis: The location of the pain on the left side, along with the changes in bowel movements and bloating, are all consistent with appendicitis. The risk of missing appendicitis is high, so it is essential to consider this diagnosis first.
+2. Diverticulitis: The bloating and changes in bowel movements are consistent with diverticulitis, an inflammation of the diverticula in the colon. The location of the pain on the left side also supports this diagnosis.
+3. Omental torsion: The sharp abdominal pain on the left side, along with the bloating and changes in bowel movements, could be caused by omental torsion, a rare condition where the omentum (a fold of peritoneum) twists and cuts off blood supply to the intestines.
+
+Most likely diagnosis: Appendicitis.",Appendicitis.
+llama2-7b-ollama,40,57.047502756118774,143,307,"Of course! Based on the symptoms you've described, here are my top 3 most likely diagnoses:
+
+1. Appendicitis: The sudden onset of sharp abdominal pain on the left side, along with changes in bowel movements and bloating, are classic symptoms of appendicitis. The inflammation of the appendix can cause pain and discomfort in the abdomen, and if left untreated, can lead to serious complications.
+2. Small intestine bacterial overgrowth (SIBO): SIBO is a condition in which bacteria overgrow in the small intestine, leading to symptoms such as bloating, abdominal pain, and changes in bowel movements. The bacterial overgrowth can cause irritation and inflammation in the abdomen, which can lead to the symptoms you've described.
+3. Irritable bowel syndrome (IBS): IBS is a chronic condition characterized by recurring abdominal pain, bloating, and changes in bowel movements. The exact cause of IBS is unknown, but it's thought to be related to changes in gut motility and sensitivity to food and stress. The symptoms you've described are consistent with IBS, especially the bloating and changes in bowel movements.
+
+Most likely diagnosis: Appendicitis.",Appendicitis.
+llama2-13b-ollama,64,61.48257303237915,146,190,"As an experienced physician, based on your symptoms of severe headaches and nausea that mainly occur in the morning when you wake up, here is my ranked list of top 3 most likely diagnoses:
+
+1. Migraine: Your symptoms of severe headaches and nausea are consistent with migraine headaches, which often occur in the morning and can be triggered by hormonal changes or other factors.
+2. Hypoglycemia: Your symptoms could also be caused by hypoglycemia (low blood sugar), which can cause headaches, nausea, and other symptoms.
+3. Meningitis: While less likely, your symptoms could also be caused by a more serious condition such as meningitis, which can cause severe headaches, nausea, and other symptoms.
+
+Most likely diagnosis: Migraine.",Migraine.
+llama2-7b-ollama,64,63.813462018966675,146,378,"Of course! Based on the symptoms you've provided, here are my top 3 most likely diagnoses:
+
+1. Migraine: Waking up with severe headaches and nausea is a classic symptom of migraine. The exact cause of migraines is still unknown, but it's believed to be related to changes in blood flow and neurotransmitter release in the brain.
+
+Rationale: Migraines are a common cause of morning headaches, and the timing of your symptoms fits with this pattern.
+
+2. Sinusitis: Sinusitis is an inflammation of the sinuses, which can cause headaches, facial pain, and pressure. The morning timing of your symptoms suggests that the inflammation may be related to postnasal drip or other factors that occur during sleep.
+
+Rationale: Sinusitis is a common cause of morning headaches, and the inflammation may be exacerbated by lying down and breathing in the same air all night.
+
+3. Medication overuse headache: If you're taking pain medication too frequently, you may experience a rebound headache, also known as a medication overuse headache. This can cause morning headaches that worsen over time.
+
+Rationale: If you're taking pain medication regularly, it could be contributing to your morning headaches.
+
+Most likely diagnosis: Migraine. While sinusitis and medication overuse headache are also possible causes, the timing and severity of your symptoms suggest that migraine is the most likely explanation. I recommend further evaluation, such as a headache diary or imaging studies, to confirm the diagnosis and develop an appropriate treatment plan.","Migraine. While sinusitis and medication overuse headache are also possible causes, the timing and severity of your symptoms suggest that migraine is the most likely explanation. I recommend further evaluation, such as a headache diary or imaging studies, to confirm the diagnosis and develop an appropriate treatment plan."
+llama2-13b-ollama,65,62.168641805648804,152,192,"As an experienced physician, based on your symptoms of frequent muscle spasms and cramps, here is my ranked list of top 3 most likely diagnoses:
+
+1. Hypokalemia (low potassium levels) - Muscle spasms and cramps are a common symptom of hypokalemia, and it can persist even with proper hydration.
+2. Hypocalcemia (low calcium levels) - Similar to hypokalemia, hypocalcemia can cause muscle spasms and cramps, and it can be difficult to diagnose without proper testing.
+3. Hyperparathyroidism (overactive parathyroid glands) - This condition can cause muscle weakness, cramps, and spasms, and it is more common in women than men.
+
+Most likely diagnosis: Hypokalemia.",Hypokalemia.
+llama2-7b-ollama,65,74.39637517929077,152,438,"Sure, I'd be happy to help you with your muscle spasms and cramps! Based on the information you've provided, here are my top 3 most likely diagnoses:
+
+1. Hypokalemia (low potassium levels): Muscle spasms and cramps can be caused by low potassium levels, which can lead to abnormal electrical activity in the muscles. Hypokalemia can occur due to various causes such as excessive sweating, diarrhea, and certain medications.
+
+Rationale: Muscle spasms and cramps are a common symptom of hypokalemia, and the persistence of these symptoms even when you are hydrated suggests that the cause may be related to a potassium deficiency.
+
+2. Hyperthyroidism: An overactive thyroid gland can cause muscle weakness, spasms, and cramps. Hyperthyroidism can lead to an imbalance in the body's electrolyte levels, including potassium, which can contribute to muscle symptoms.
+
+Rationale: Muscle spasms and cramps can be a symptom of hyperthyroidism, and the persistence of these symptoms despite hydration suggests that the cause may be related to an imbalance in thyroid hormone levels.
+
+3. Neuromuscular disorders: Certain neuromuscular disorders, such as multiple sclerosis or peripheral neuropathy, can cause muscle spasms and cramps. These disorders can affect the communication between the nervous system and the muscles, leading to abnormal muscle contractions.
+
+Rationale: Muscle spasms and cramps can be a symptom of various neuromuscular disorders, and the persistence of these symptoms despite hydration suggests that the cause may be related to an underlying neurological disorder.
+
+Most likely diagnosis: Hypokalemia.",Hypokalemia.
+llama2-13b-ollama,82,66.34668517112732,153,205,"As an experienced physician, based on the symptoms you've described, my top 3 most likely diagnoses are:
+
+1. Diabetes mellitus (DM): Your increased thirst and frequent urination are classic symptoms of uncontrolled blood sugar levels, which could be due to either type 1 or type 2 DM. The presence of sugar cravings and weight loss also support this diagnosis.
+2. Hypothyroidism: Your weight loss and increased thirst could be indicative of an underactive thyroid gland, which could lead to an imbalance in your body's metabolic processes.
+3. Adrenal insufficiency: Your increased thirst and frequent urination could be a sign of decreased aldosterone production, leading to an imbalance in your body's electrolyte levels.
+
+Most likely diagnosis: Diabetes mellitus (DM).",Diabetes mellitus (DM).
+llama2-7b-ollama,82,37.34106636047363,153,216,"Sure, I'd be happy to help you with your differential diagnosis! Based on the symptoms you've provided, here are my top 3 most likely diagnoses:
+
+1. Diabetes mellitus: The excessive thirst and frequent urination you've experienced are classic symptoms of diabetes mellitus. The craving for sugary foods and weight loss could also be related to high blood sugar levels.
+2. Hyperthyroidism: An overactive thyroid gland can cause increased thirst and urination, as well as weight loss. The desire for sweet foods could be a result of increased metabolism.
+3. Hyponatremia: This is a condition where the body has too much water and not enough sodium, leading to excessive thirst and urination. Weight loss could also occur due to the body's attempt to correct the imbalance.
+
+Most likely diagnosis: Diabetes mellitus",Diabetes mellitus

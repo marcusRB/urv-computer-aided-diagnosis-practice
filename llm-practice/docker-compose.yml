@@ -1,0 +1,18 @@
+services:
+  lab:
+    build: .
+    container_name: llm-practice-lab
+    ports:
+      - "127.0.0.1:8888:8888"
+    env_file: .env
+    environment:
+      - JUPYTER_TOKEN=${JUPYTER_TOKEN:?set JUPYTER_TOKEN in .env}
+    volumes:
+      - ./:/home/jovyan/work
+      - "/Volumes/HHD_iMac_Storage/URV/COMPUTER-AIDED-DIAGNOSIS/Practice Testing LLMs as diagnostic tools/hf_cache:/home/jovyan/.cache/huggingface"
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    mem_limit: 32g
+    shm_size: "2gb"

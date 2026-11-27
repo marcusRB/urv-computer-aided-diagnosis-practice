@@ -1,0 +1,3 @@
+bot,latency_mean_s,latency_median_s,completion_tokens_mean,refusal_rate
+llama2-13b,8.502,7.379,0.0,0.0
+llama2-7b,9.764,10.395,0.0,0.0
