@@ -5,6 +5,7 @@
 - **E-Mail:** marco.russo@estudiants.urv.cat
 - **Delivery deadline:** 27 November 2026
 
+- **GitHub repository:** https://github.com/marcusRB/urv-computer-aided-diagnosis-practice 
 ---
 
 ## 1. Setup and methods
@@ -73,13 +74,13 @@ The first Space attempt failed (wrong endpoint name, `/chat` instead of `/genera
 
 ### 3.1 Ollama (complete, n = 5 per model)
 
-| Vignette | Reference | Llama-2 7B top-1 | ✓ | Llama-2 13B top-1 | ✓ |
+| Vignette | Reference | Llama-2 7B top-1 | [x] | Llama-2 13B top-1 | [x] |
 |---|---|---|---|---|---|
-| 15 | Social anxiety disorder | Panic disorder | ✗ | Generalized anxiety disorder | ✗ |
-| 40 | Diverticulitis | Appendicitis | ✗ | Appendicitis | ✗ |
-| 64 | Increased intracranial pressure | Migraine | ✗ | Migraine | ✗ |
-| 65 | Electrolyte imbalance | Hypokalemia | ✓ | Hypokalemia | ✓ |
-| 82 | Type 1 diabetes | Diabetes mellitus | ✓* | Diabetes mellitus (type 1 or 2) | ✓* |
+| 15 | Social anxiety disorder | Panic disorder | [ ] | Generalized anxiety disorder | [ ] |
+| 40 | Diverticulitis | Appendicitis | [ ] | Appendicitis | [ ] |
+| 64 | Increased intracranial pressure | Migraine | [ ] | Migraine | [ ] |
+| 65 | Electrolyte imbalance | Hypokalemia | [x] | Hypokalemia | [x] |
+| 82 | Type 1 diabetes | Diabetes mellitus | [x]* | Diabetes mellitus (type 1 or 2) | [x]* |
 
 \* Counted as correct because the right condition is named without specifying the type; a strict "type 1" reading would give each model 1/5 at top-1.
 
@@ -89,13 +90,13 @@ Reference in the top-3: **7B** 15 (2nd), 65, 82 → 3/5; **13B** 15 (2nd), 40 (2
 
 The 7B was run through the API for all five vignettes. The 13B was run through the API for vignettes 15, 40 and 64, and manually in the Space's chat UI for 65 and 82 after the API quota ran out.
 
-| Vignette | Reference | Llama-2 7B-chat top-1 | ✓ | Llama-2 13B-chat top-1 | ✓ |
+| Vignette | Reference | Llama-2 7B-chat top-1 | [x] | Llama-2 13B-chat top-1 | [x] |
 |---|---|---|---|---|---|
-| 15 | Social anxiety disorder | Social anxiety disorder | ✓ | Generalized anxiety disorder | ✗ |
-| 40 | Diverticulitis | Irritable bowel syndrome | ✗ | Appendicitis | ✗ |
-| 64 | Increased intracranial pressure | Migraine headache | ✗ | Migraine | ✗ |
-| 65 | Electrolyte imbalance | Hypothyroidism | ✗ | Hypokalemia (manual UI) | ✓ |
-| 82 | Type 1 diabetes | Type 1 diabetes | ✓ | Diabetes mellitus (manual UI) | ✓* |
+| 15 | Social anxiety disorder | Social anxiety disorder | [x] | Generalized anxiety disorder | [ ] |
+| 40 | Diverticulitis | Irritable bowel syndrome | [ ] | Appendicitis | [ ] |
+| 64 | Increased intracranial pressure | Migraine headache | [ ] | Migraine | [ ] |
+| 65 | Electrolyte imbalance | Hypothyroidism | [ ] | Hypokalemia (manual UI) | [x] |
+| 82 | Type 1 diabetes | Type 1 diabetes | [x] | Diabetes mellitus (manual UI) | [x]* |
 
 \* Counted as correct under the labelling rule above (right condition, type not specified). A strict "type 1" reading gives the 13B 1/5 at top-1; the 7B stays at 2/5.
 
@@ -127,15 +128,15 @@ With 3–5 vignettes no significance test is meaningful, so the comparison is de
 
 ### 4.1 Core vignettes (ids 15, 40, 64, 65, 82): top-1 diagnosis of each bot
 
-✓ = matches the reference, ✗ = does not. Labels were read from the answers; they agree with the judge's totals for every bot.
+[x] = matches the reference, [ ] = does not. Labels were read from the answers; they agree with the judge's totals for every bot.
 
 | Vignette (reference) | ChatGPT | Claude | DeepSeek | Gemini | Local Qwen2.5-1.5B |
 |---|---|---|---|---|---|
-| 15 (social anxiety disorder) | Social anxiety ✓ | Panic disorder with agoraphobia ✗ | Social anxiety ✓ | Panic disorder with agoraphobia ✗ | Generalized anxiety ✗ |
-| 40 (diverticulitis) | Diverticulitis ✓ | ✓ | ✓ | ✓ | Appendicitis ✗ |
-| 64 (increased intracranial pressure) | Migraine ✗ | Increased ICP ✓ | Increased ICP ✓ | Migraine ✗ | Hypertensive crisis ✗ |
-| 65 (electrolyte imbalance) | ✓ | ✓ | ✓ | ✓ | Muscle strain ✗ |
-| 82 (type 1 diabetes) | Diabetes mellitus (type 1 or 2) ✓* | Diabetes mellitus ✓* | Diabetes mellitus ✓* | Type 1 diabetes ✓ | Type 2 diabetes ✗ |
+| 15 (social anxiety disorder) | Social anxiety [x] | Panic disorder with agoraphobia [ ] | Social anxiety [x] | Panic disorder with agoraphobia [ ] | Generalized anxiety [ ] |
+| 40 (diverticulitis) | Diverticulitis [x] | [x] | [x] | [x] | Appendicitis [ ] |
+| 64 (increased intracranial pressure) | Migraine [ ] | Increased ICP [x] | Increased ICP [x] | Migraine [ ] | Hypertensive crisis [ ] |
+| 65 (electrolyte imbalance) | [x] | [x] | [x] | [x] | Muscle strain [ ] |
+| 82 (type 1 diabetes) | Diabetes mellitus (type 1 or 2) [x]* | Diabetes mellitus [x]* | Diabetes mellitus [x]* | Type 1 diabetes [x] | Type 2 diabetes [ ] |
 | **Top-1 correct** | **4/5** | **4/5** | **5/5** | **3/5** | **0/5** |
 | **Reference in top-3** | 5/5 | 5/5 | 5/5 | 4/5 | 2/5 |
 
@@ -218,7 +219,7 @@ Claude's answers were longer over the 30 vignettes (about 360 completion tokens 
 
 The judge's labels were compared with manual labels on **43 rows**: the 25 core rows of the five B3 bots and the 18 Llama-2 rows (Ollama and Space API). The manual labels were assigned by reading each answer against the reference line and were drafted with the help of an AI assistant (Claude); the notebook lists every row where they differ from the judge.
 
-| Label | Rows labelled | Agreement | Cohen's κ |
+| Label | Rows labelled | Agreement | Cohen's $\kappa$ |
 |---|---|---|---|
 | Top-1 | 43 | 100% (43/43) | 1.00 |
 | Top-3 | 43 | 97.7% (42/43) | 0.93 |
